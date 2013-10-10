@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://tommysqueak.github.io/sitemap.xml 
