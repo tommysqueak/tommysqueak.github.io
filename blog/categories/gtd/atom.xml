@@ -4,7 +4,7 @@
   <title><![CDATA[Category: GTD | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tommysqueak.github.io/blog/categories/gtd/atom.xml" rel="self"/>
   <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-10-18T23:47:24+02:00</updated>
+  <updated>2013-10-20T23:50:40+02:00</updated>
   <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -18,15 +18,18 @@
     <link href="http://tommysqueak.github.io/blog/2011/11/21/gtd-app-review-producteev/"/>
     <updated>2011-11-21T00:00:00+01:00</updated>
     <id>http://tommysqueak.github.io/blog/2011/11/21/gtd-app-review-producteev</id>
-    <content type="html"><![CDATA[<p><img class="alignnone size-full wp-image-536" title="Producteev" src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev.png" alt="Producteev Mac app" width="640" height="385" /></p>
-
-<p><a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&rsquo;s a pure joy to use. You can&rsquo;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.</p>
+    <content type="html"><![CDATA[<p><a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&rsquo;s a pure joy to use. You can&rsquo;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.</p>
 
 <p>Adding new tasks is easy. Called up with a hotkey from within any app. It allows extra options (labelling, deadlines, starring etc) to be set too without it being an unwieldy dialog.</p>
 
 <p>Task organisation is easy too, by clicking on the obvious icons to pop-up simple focused dialogs for each property of a task you wish to set (see Setting a Deadline screenshot).</p>
 
 <p><a title="GTD App Review – Astrid" href="http://tomphilip.me/index.php/gtd-app-review-astrid/">Astrid</a> would be the Android client in this trusted system but if their soon to be released Android app is anywhere as good as its Mac app, then I can&rsquo;t wait to see that.</p>
+
+<!--more-->
+
+
+
 
 <h2>How it Scored</h2>
 
@@ -93,11 +96,6 @@
 </table>
 
 
-
-
-<!--more-->
-
-
 <p>I put <em>no</em> for contexts/tags but you can assign multiple labels to task, so labels could be used for both projects and contexts. Not as nice as separate but a workaround. Another approach is to use Workspaces as projects and labels as contexts. The problem with this is labels belong to a workspace, so it wouldn&rsquo;t be possible to see all tasks for a certain context. Also Google Calendar integration is per workspace, so for each workspace you&rsquo;d get a separate calendar and need to connect this to Google.   <strong>I&rsquo;d be interested to here from anyone who&rsquo;s using/tried either approach and the pros/cons of each.</strong></p>
 
 <h2>Downsides</h2>
@@ -120,18 +118,18 @@
 
 
 <ul>
-    <li>Import tasks from Remember the Milk.</li>
-    <li>Multiple notes per task.</li>
-    <li>Attach a file with each note. Multiple notes mean you can attach multiple files. 100mb file storage limit for free accounts.</li>
-    <li>Workspaces for top level partitioning of tasks. Eg Work, Home etc.</li>
-    <li>Enhanced for OSX Lion.</li>
-    <li>Global hot key to bring up new task box.</li>
-    <li>Audit trail. So you can see the history of what's happened to a task.</li>
-    <li>Assign tasks to other people.</li>
-    <li>Collaborate on Workspaces.</li>
-    <li>You can create your own filters using quite an extensive criteria and remove the default ones to.</li>
-    <li>Smart task entry. Eg ** walk the dog tomorrow, adds a task with 2 stars and a deadline of tomorrow</li>
-    <li>All items (labels and Filters) in the left menu can be dragged and dropped to re-order them.</li>
+  <li>Import tasks from Remember the Milk.</li>
+  <li>Multiple notes per task.</li>
+  <li>Attach a file with each note. Multiple notes mean you can attach multiple files. 100mb file storage limit for free accounts.</li>
+  <li>Workspaces for top level partitioning of tasks. Eg Work, Home etc.</li>
+  <li>Enhanced for OSX Lion.</li>
+  <li>Global hot key to bring up new task box.</li>
+  <li>Audit trail. So you can see the history of what's happened to a task.</li>
+  <li>Assign tasks to other people.</li>
+  <li>Collaborate on Workspaces.</li>
+  <li>You can create your own filters using quite an extensive criteria and remove the default ones to.</li>
+  <li>Smart task entry. Eg ** walk the dog tomorrow, adds a task with 2 stars and a deadline of tomorrow</li>
+  <li>All items (labels and Filters) in the left menu can be dragged and dropped to re-order them.</li>
 </ul>
 
 
@@ -166,13 +164,16 @@
     <link href="http://tommysqueak.github.io/blog/2011/11/07/gtd-app-review-astrid/"/>
     <updated>2011-11-07T00:00:00+01:00</updated>
     <id>http://tommysqueak.github.io/blog/2011/11/07/gtd-app-review-astrid</id>
-    <content type="html"><![CDATA[<p><img class="alignnone size-full wp-image-514" title="Astrid" src="http://tomphilip.me/wp-content/uploads/2011/11/Astrid.png" alt="Astrid" width="640" height="312" /></p>
-
-<p><a href="http://astrid.com">Astrid</a> is <strong>popular task list app for Android</strong>, that is easy to use and comes with a <strong>host of syncing options</strong>. Incredibly simple and straight forward to use with a pleasant <strong>clean UI</strong>.</p>
+    <content type="html"><![CDATA[<p><a href="http://astrid.com">Astrid</a> is <strong>popular task list app for Android</strong>, that is easy to use and comes with a <strong>host of syncing options</strong>. Incredibly simple and straight forward to use with a pleasant <strong>clean UI</strong>.</p>
 
 <p>It stands out from other task list apps, with some unique features such as backups, random notifications for overdue tasks and encouragements.</p>
 
 <p>Used with Producteev syncing, means I can use the Producteev Mac app as the desktop client for my GTD system. That review is coming soon.</p>
+
+<!--more-->
+
+
+
 
 <h2>How it Scored</h2>
 
@@ -239,11 +240,6 @@
 </table>
 
 
-
-
-<!--more-->
-
-
 <p>&nbsp;</p>
 
 <h2>Downsides</h2>
@@ -264,19 +260,19 @@
 
 
 <ul>
-    <li>Time how long it takes to perform a task.</li>
-    <li>Workspaces for top level partitioning of tasks. Eg Work, Home etc. When used with Producteev sync.</li>
-    <li>Assign tasks to other people and collaborate on lists too.</li>
-    <li>Randomly <del>remind</del> nag you of overdue tasks.</li>
-    <li>Limited smart task entry. Eg add to list #listname would add the task to <em>listname</em></li>
-    <li>Power packs for more widgets, notifications based on location and voice integration.</li>
-    <li>Widget for any list/view of tasks.</li>
-    <li>Add limited filters.</li>
-    <li>Reminders come with encouragements to complete overdue tasks and a host of other reminder settings.</li>
-    <li>Specify defaults for tasks.</li>
-    <li>Automated backups, should anything go wrong.</li>
-    <li>The app is <a href="https://github.com/todoroo/astrid">open source</a>.</li>
-    <li>Syncs with <a href="http://www.producteev.com/">Producteev</a>, <a href="http://mail.google.com/tasks">Google Tasks</a> and it's own new <a href="http://astrid.com/features">Web app</a>.</li>
+  <li>Time how long it takes to perform a task.</li>
+  <li>Workspaces for top level partitioning of tasks. Eg Work, Home etc. When used with Producteev sync.</li>
+  <li>Assign tasks to other people and collaborate on lists too.</li>
+  <li>Randomly <del>remind</del> nag you of overdue tasks.</li>
+  <li>Limited smart task entry. Eg add to list #listname would add the task to <em>listname</em></li>
+  <li>Power packs for more widgets, notifications based on location and voice integration.</li>
+  <li>Widget for any list/view of tasks.</li>
+  <li>Add limited filters.</li>
+  <li>Reminders come with encouragements to complete overdue tasks and a host of other reminder settings.</li>
+  <li>Specify defaults for tasks.</li>
+  <li>Automated backups, should anything go wrong.</li>
+  <li>The app is <a href="https://github.com/todoroo/astrid">open source</a>.</li>
+  <li>Syncs with <a href="http://www.producteev.com/">Producteev</a>, <a href="http://mail.google.com/tasks">Google Tasks</a> and it's own new <a href="http://astrid.com/features">Web app</a>.</li>
 </ul>
 
 
@@ -309,15 +305,18 @@
     <link href="http://tommysqueak.github.io/blog/2011/10/25/gtd-app-review-wunderlist/"/>
     <updated>2011-10-25T00:00:00+02:00</updated>
     <id>http://tommysqueak.github.io/blog/2011/10/25/gtd-app-review-wunderlist</id>
-    <content type="html"><![CDATA[<p><img class="alignnone size-full wp-image-465" title="Wunderlist" src="http://tomphilip.me/wp-content/uploads/2011/10/Wunderlist.png" alt="" width="640" height="481" /></p>
-
-<p><a href="http://www.wunderlist.com/">Wunderlist</a> is a beautiful looking free app that is unbelievably simple to use. Providing that same experience across all the major platforms and devices. There&rsquo;s no need to re-learn or adapt for which platform you&rsquo;re on.</p>
+    <content type="html"><![CDATA[<p><a href="http://www.wunderlist.com/">Wunderlist</a> is a beautiful looking free app that is unbelievably simple to use. Providing that same experience across all the major platforms and devices. There&rsquo;s no need to re-learn or adapt for which platform you&rsquo;re on.</p>
 
 <p>It lacks some GTD-esque features but what it does with the features it has, it does very well. It has a lot of potential for a GTD system, should they take note of the <a href="http://wunderlist.uservoice.com/forums/136230-general/filters/top">top most requested features</a>. It also looks like <a href="http://www.wunderkit.com/hAWLdo">Wunderkit</a>, a kind of Wunderlist Pro, is just round the corner which looks like it could be the real GTD deal. Looking forward to seeing that (hint hint).</p>
 
 <p>One little thing I did notice that stood out above all Android apps I use (non task management apps included) is the lack of add button next to where you add a task (No matter what app you use to add something, there&rsquo;s an add button next to it). You simply tap &lsquo;done&rsquo; on the keyboard and the task gets added. It&rsquo;s a nice little touch, as your fingers are already on the keyboard.</p>
 
 <p>If you&rsquo;ve tried the Android app before and had a terrible time of it, they have released a native Android which is quicker and reliable.</p>
+
+<!--more-->
+
+
+
 
 <h2>How it Scored</h2>
 
@@ -384,11 +383,6 @@
 </table>
 
 
-
-
-<!--more-->
-
-
 <p>&nbsp;</p>
 
 <h2>Downsides</h2>
@@ -407,13 +401,13 @@
 
 
 <ul>
-    <li>The app is <a href="https://github.com/6wunderkinder/wunderlist">open source</a></li>
-    <li>Smart task adding. Eg Include a * to add a starred task. Include the word 'tomorrow' to add a task due tomorrow.</li>
-    <li>Choice of app backgrounds. The wood is my favourite.</li>
-    <li>You can share individual lists with people to collaborate on.</li>
-    <li>You can share all your lists on <a href="http://getcloudapp.com/">CloudApp</a> and then give anyone the secret url.</li>
-    <li>You can show all tasks (or starred ones or completed ones) on one screen grouped by list.</li>
-    <li>Overdue tasks appear as a badge on the dock icon</li>
+  <li>The app is <a href="https://github.com/6wunderkinder/wunderlist">open source</a></li>
+  <li>Smart task adding. Eg Include a * to add a starred task. Include the word 'tomorrow' to add a task due tomorrow.</li>
+  <li>Choice of app backgrounds. The wood is my favourite.</li>
+  <li>You can share individual lists with people to collaborate on.</li>
+  <li>You can share all your lists on <a href="http://getcloudapp.com/">CloudApp</a> and then give anyone the secret url.</li>
+  <li>You can show all tasks (or starred ones or completed ones) on one screen grouped by list.</li>
+  <li>Overdue tasks appear as a badge on the dock icon</li>
 </ul>
 
 
@@ -448,11 +442,14 @@
     <link href="http://tommysqueak.github.io/blog/2011/10/13/gtd-app-review-doit-im/"/>
     <updated>2011-10-13T00:00:00+02:00</updated>
     <id>http://tommysqueak.github.io/blog/2011/10/13/gtd-app-review-doit-im</id>
-    <content type="html"><![CDATA[<p><img class="alignnone size-full wp-image-413" title="Doit-im" src="http://tomphilip.me/wp-content/uploads/2011/10/Doit-im.png" alt="Doit.im" width="600" height="300" /></p>
-
-<p><a href="http://www.doit.im">Doit.im</a> is a fantastic multi-platform free service, designed specifically for GTD. It has a pleasant simplicity about it, that looks great and makes it easy to use.</p>
+    <content type="html"><![CDATA[<p><a href="http://www.doit.im">Doit.im</a> is a fantastic multi-platform free service, designed specifically for GTD. It has a pleasant simplicity about it, that looks great and makes it easy to use.</p>
 
 <p>Because it is <a href="https://i.doit.im/features">made for GTD</a>, it isn&rsquo;t bloated with features and focuses on the key principles of GTD. It has GTD specific lists (Eg someday, next, waiting for etc), filters which make sense (eg contexts, projects etc) and an ever present &lsquo;Create Task&rsquo; button for collecting those thoughts. All of which help you through the <a href="http://www.lifehack.org/articles/lifehack/gtd-workflow-chart.html">GTD process</a>.</p>
+
+<!--more-->
+
+
+
 
 <h2>How it Scored</h2>
 
@@ -537,22 +534,17 @@
 
 <p>The mini app is totally unaware of the statues of Tomorrow, Next and Waiting For. Setting a task to any of these doesn&rsquo;t sync that change to the mini app therefore showing the task to have the wrong status. Any tasks added with these statuses don&rsquo;t even show up in the mini app after a sync, not that there is a way to see a view of these lists anyway.</p>
 
-<!--more-->
-
-
-
-
 <h2>Useful Extras</h2>
 
 
 <ul>
-    <li>Projects or special lists can be set as the first screen to open when the app starts up (Android).</li>
-    <li>Calendar and list widgets (Android).</li>
-    <li>Assign tasks to other people.</li>
-    <li>Special lists specific to GTD, such as Next, Scheduled, Waiting for, Someday</li>
-    <li>Smart add, so you can add tasks with details. Eg Buy Flour  #Bake a cake ^Someday, would put task into 'Bake a cake' project and classify as 'someday maybe'.</li>
-    <li>You can create your own filters, based on an extensive criteria and add these to the menu underneath the special lists.</li>
-    <li>Global hot key to bring up new task box (Mac Mini).</li>
+  <li>Projects or special lists can be set as the first screen to open when the app starts up (Android).</li>
+  <li>Calendar and list widgets (Android).</li>
+  <li>Assign tasks to other people.</li>
+  <li>Special lists specific to GTD, such as Next, Scheduled, Waiting for, Someday</li>
+  <li>Smart add, so you can add tasks with details. Eg Buy Flour  #Bake a cake ^Someday, would put task into 'Bake a cake' project and classify as 'someday maybe'.</li>
+  <li>You can create your own filters, based on an extensive criteria and add these to the menu underneath the special lists.</li>
+  <li>Global hot key to bring up new task box (Mac Mini).</li>
 </ul>
 
 

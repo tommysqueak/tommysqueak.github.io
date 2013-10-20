@@ -90,46 +90,45 @@
 
 
 
-<div class="post__content"><img class="alignnone size-full wp-image-656" title="Backbone and Jasmine and Sinon" src="http://tomphilip.me/wp-content/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon" width="640" height="282" />
-
-This is based on an <strong><a href="http://xkcd.com">XKCD</a> leanback web app</strong> I&#8217;m working on that will form part of a html5 <a title="Boxee app developer" href="http://www.greatboxee.com">Boxee app</a>. Think sitting on your couch, remote control in hand flicking through XKCD comics on the TV.
+<div class="post__content">This is based on an <strong><a href="http://xkcd.com">XKCD</a> leanback web app</strong> I&#8217;m working on that will form part of a html5 <a title="Boxee app developer" href="http://www.greatboxee.com">Boxee app</a>. Think sitting on your couch, remote control in hand flicking through XKCD comics on the TV.
 
 It brings together quite a few technologies and techniques. The end results is something that is separated out nicely (no spaghetti code) that is simple, testable, documented and maintainable.
+
+<!--more-->
+
 <h2>The Specs</h2>
 [codesyntax lang=&#8221;javascript&#8221; tab_width=&#8221;1&#8221;]
 <pre>describe("Comic Navigator", function(){
 
-	var nav = new Xkcd.ComicNavigator();
-	var latestComic = new Xkcd.Comic({id: 101});
+  var nav = new Xkcd.ComicNavigator();
+  var latestComic = new Xkcd.Comic({id: 101});
 
-	describe("when navigating to the latest xkcd comic", function(){
+  describe("when navigating to the latest xkcd comic", function(){
 
-		beforeEach(function(){
-			this.fetchStub = sinon.stub(Xkcd.Comic.prototype, 'fetch').yieldsTo('success', latestComic);
+    beforeEach(function(){
+      this.fetchStub = sinon.stub(Xkcd.Comic.prototype, 'fetch').yieldsTo('success', latestComic);
 
-			nav.toLatest();
-		});
+      nav.toLatest();
+    });
 
-		afterEach(function(){
-			this.fetchStub.restore();
-		});
+    afterEach(function(){
+      this.fetchStub.restore();
+    });
 
-		it("should fetch the latest comic. NB requests without a comic number get the latest comic.", function(){
-			expect(this.fetchStub.thisValues[0].get("id")).toBeFalsy();
-		});
+    it("should fetch the latest comic. NB requests without a comic number get the latest comic.", function(){
+      expect(this.fetchStub.thisValues[0].get("id")).toBeFalsy();
+    });
 
-		it("should navigate to the latest comic", function(){
-			expect(nav.get("current")).toBe(latestComic);
-		});
+    it("should navigate to the latest comic", function(){
+      expect(nav.get("current")).toBe(latestComic);
+    });
 
-		it("should keep track of what the latest comic is", function(){
-			expect(nav.get("latest")).toBe(latestComic);
-		});
-	});
+    it("should keep track of what the latest comic is", function(){
+      expect(nav.get("latest")).toBe(latestComic);
+    });
+  });
 });</pre>
 [/codesyntax]
-
-<!--more-->
 
 <h3>So what&#8217;s going on?</h3>
 <strong><a title="Jasmine BDD Framework for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> is the BDD framework</strong> that is giving us that familiar &#8216;describe/it&#8217; way of defining the behaviour and at the code level the expect-ations. It&#8217;s easy to understand and get started with. It doesn&#8217;t have to be run in the browser as it has no dependency on the DOM, so is CI friendly too.
@@ -139,41 +138,41 @@ It brings together quite a few technologies and techniques. The end results is s
 [codesyntax lang=&#8221;javascript&#8221; tab_width=&#8221;1&#8221;]
 <pre>var Xkcd = (function(){
 
-	var ComicNavigator = Backbone.Model.extend({
+  var ComicNavigator = Backbone.Model.extend({
 
-			toLatest: function(){
-				var comic = new Comic()
-				var nav = this;
-				comic.fetch({
-					success: function(model){
-						nav.set({"current": model});
-						nav.set({"latest": model});
-					}
-				});
-			}
-		}
-	);
+      toLatest: function(){
+        var comic = new Comic()
+        var nav = this;
+        comic.fetch({
+          success: function(model){
+            nav.set({"current": model});
+            nav.set({"latest": model});
+          }
+        });
+      }
+    }
+  );
 
-	var Comic = Backbone.Model.extend({
-		url: function(){
-			return 'http://dynamic.xkcd.com/api-0/jsonp/comic/' + (this.id || "") + '?callback=?'
-		},
+  var Comic = Backbone.Model.extend({
+    url: function(){
+      return 'http://dynamic.xkcd.com/api-0/jsonp/comic/' + (this.id || "") + '?callback=?'
+    },
 
-		initialize: function(){
-	    	this.backbone_fetch = this.fetch;
-			this.fetch = function(options)
-			{
-				options || (options = {});
-				options.jsonpCallback = 'comicIncoming';
-				return this.backbone_fetch(options);
-			}
-		}
-	});
+    initialize: function(){
+        this.backbone_fetch = this.fetch;
+      this.fetch = function(options)
+      {
+        options || (options = {});
+        options.jsonpCallback = 'comicIncoming';
+        return this.backbone_fetch(options);
+      }
+    }
+  });
 
-	return {
-		ComicNavigator: ComicNavigator,
-		Comic: Comic
-	};
+  return {
+    ComicNavigator: ComicNavigator,
+    Comic: Comic
+  };
 
 })();</pre>
 [/codesyntax]
@@ -193,11 +192,11 @@ I&#8217;m also not happy with the 1st spec, I think it&#8217;s highlighting a sm
 What I&#8217;ve shown is a small slice of the app, to show off some of the techniques and tools. Clearly there&#8217;s more, I just haven&#8217;t written it yet. Once the app is complete, it will show how the other parts come into play, specifically the routes and the view.
 <h2>To Recap</h2>
 <ul>
-	<li><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module Pattern</a> for namespacing and keeping things private</li>
-	<li><a href="http://pivotal.github.com/jasmine/">Jasmine</a> for BDD style testing ala RSpec</li>
-	<li><a href="http://sinonjs.org/">Sinon</a> for test doubles (mocks, stubs etc if you care about the terms which cause more confusion than their worth)</li>
-	<li><a href="http://documentcloud.github.com/backbone/">Backbone</a> for separating code into different concerns</li>
-	<li><a href="http://en.wikipedia.org/wiki/JSONP">Jsonp</a> with Backbone to fetch data from a different domain</li>
+  <li><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module Pattern</a> for namespacing and keeping things private</li>
+  <li><a href="http://pivotal.github.com/jasmine/">Jasmine</a> for BDD style testing ala RSpec</li>
+  <li><a href="http://sinonjs.org/">Sinon</a> for test doubles (mocks, stubs etc if you care about the terms which cause more confusion than their worth)</li>
+  <li><a href="http://documentcloud.github.com/backbone/">Backbone</a> for separating code into different concerns</li>
+  <li><a href="http://en.wikipedia.org/wiki/JSONP">Jsonp</a> with Backbone to fetch data from a different domain</li>
 </ul>
 <strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="http://tomphilip.me/index.php/introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="http://tomphilip.me/index.php/backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.
 

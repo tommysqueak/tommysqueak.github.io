@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tommysqueak.github.io/atom.xml" rel="self"/>
   <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-10-18T23:47:24+02:00</updated>
+  <updated>2013-10-20T23:50:40+02:00</updated>
   <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -18,15 +18,10 @@
     <link href="http://tommysqueak.github.io/blog/2013/10/13/a-test-post-so-we-can-design-the-home-page/"/>
     <updated>2013-10-13T17:38:00+02:00</updated>
     <id>http://tommysqueak.github.io/blog/2013/10/13/a-test-post-so-we-can-design-the-home-page</id>
-    <content type="html"><![CDATA[<h2>This is a dummy h2</h2>
-
-<p>Chuck ipsum. Chuck Norris built a time machine and went back in time to stop the JFK assassination. As Oswald shot, Chuck Norris met all three bullets with his beard, deflecting them. JFK&rsquo;s head exploded out of sheer amazement.
+    <content type="html"><![CDATA[<p>Chuck ipsum. Chuck Norris built a time machine and went back in time to stop the JFK assassination. As Oswald shot, Chuck Norris met all three bullets with his beard, deflecting them. JFK&rsquo;s head exploded out of sheer amazement.
  Chuck Norris frequently donates blood to the Red Cross. Just never his own.
  Scientists used to believe that diamond was the world’s hardest substance. But then they met Chuck Norris, who gave them a roundhouse kick to the face so hard, and with so much heat and pressure, that the scientists turned into artificial Chuck Norris.
- Chuck Norris never cries, because of this when he&rsquo;s sad he roundhouse kicks himself and it makes him feel better since he knows he is the only one who can survive the roundhouse.
- Chuck Norris isn’t lactose intolerant. He just doesn’t put up with lactose’s sh<em>t.
- Chuck Norris won &lsquo;Jumanji&rsquo; without ever saying the word. He simply beat the living sh</em>t out of everything that was thrown at him, and the game forfeited.
- Chuck Norris&#8217; iPod came with a real charger instead of just a USB cord</p>
+ Chuck Norris never cries, because of this when he&rsquo;s sad he roundhouse kicks himself and it makes him feel better since he knows he is the only one who can survive the roundhouse.</p>
 
 <p> <!--more--></p>
 
@@ -135,46 +130,45 @@
     <link href="http://tommysqueak.github.io/blog/2011/12/23/testing-backbone-with-jasmine-and-sinon/"/>
     <updated>2011-12-23T00:00:00+01:00</updated>
     <id>http://tommysqueak.github.io/blog/2011/12/23/testing-backbone-with-jasmine-and-sinon</id>
-    <content type="html"><![CDATA[<img class="alignnone size-full wp-image-656" title="Backbone and Jasmine and Sinon" src="http://tomphilip.me/wp-content/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon" width="640" height="282" />
-
-This is based on an <strong><a href="http://xkcd.com">XKCD</a> leanback web app</strong> I&#8217;m working on that will form part of a html5 <a title="Boxee app developer" href="http://www.greatboxee.com">Boxee app</a>. Think sitting on your couch, remote control in hand flicking through XKCD comics on the TV.
+    <content type="html"><![CDATA[This is based on an <strong><a href="http://xkcd.com">XKCD</a> leanback web app</strong> I&#8217;m working on that will form part of a html5 <a title="Boxee app developer" href="http://www.greatboxee.com">Boxee app</a>. Think sitting on your couch, remote control in hand flicking through XKCD comics on the TV.
 
 It brings together quite a few technologies and techniques. The end results is something that is separated out nicely (no spaghetti code) that is simple, testable, documented and maintainable.
+
+<!--more-->
+
 <h2>The Specs</h2>
 [codesyntax lang=&#8221;javascript&#8221; tab_width=&#8221;1&#8221;]
 <pre>describe("Comic Navigator", function(){
 
-	var nav = new Xkcd.ComicNavigator();
-	var latestComic = new Xkcd.Comic({id: 101});
+  var nav = new Xkcd.ComicNavigator();
+  var latestComic = new Xkcd.Comic({id: 101});
 
-	describe("when navigating to the latest xkcd comic", function(){
+  describe("when navigating to the latest xkcd comic", function(){
 
-		beforeEach(function(){
-			this.fetchStub = sinon.stub(Xkcd.Comic.prototype, 'fetch').yieldsTo('success', latestComic);
+    beforeEach(function(){
+      this.fetchStub = sinon.stub(Xkcd.Comic.prototype, 'fetch').yieldsTo('success', latestComic);
 
-			nav.toLatest();
-		});
+      nav.toLatest();
+    });
 
-		afterEach(function(){
-			this.fetchStub.restore();
-		});
+    afterEach(function(){
+      this.fetchStub.restore();
+    });
 
-		it("should fetch the latest comic. NB requests without a comic number get the latest comic.", function(){
-			expect(this.fetchStub.thisValues[0].get("id")).toBeFalsy();
-		});
+    it("should fetch the latest comic. NB requests without a comic number get the latest comic.", function(){
+      expect(this.fetchStub.thisValues[0].get("id")).toBeFalsy();
+    });
 
-		it("should navigate to the latest comic", function(){
-			expect(nav.get("current")).toBe(latestComic);
-		});
+    it("should navigate to the latest comic", function(){
+      expect(nav.get("current")).toBe(latestComic);
+    });
 
-		it("should keep track of what the latest comic is", function(){
-			expect(nav.get("latest")).toBe(latestComic);
-		});
-	});
+    it("should keep track of what the latest comic is", function(){
+      expect(nav.get("latest")).toBe(latestComic);
+    });
+  });
 });</pre>
 [/codesyntax]
-
-<!--more-->
 
 <h3>So what&#8217;s going on?</h3>
 <strong><a title="Jasmine BDD Framework for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> is the BDD framework</strong> that is giving us that familiar &#8216;describe/it&#8217; way of defining the behaviour and at the code level the expect-ations. It&#8217;s easy to understand and get started with. It doesn&#8217;t have to be run in the browser as it has no dependency on the DOM, so is CI friendly too.
@@ -184,41 +178,41 @@ It brings together quite a few technologies and techniques. The end results is s
 [codesyntax lang=&#8221;javascript&#8221; tab_width=&#8221;1&#8221;]
 <pre>var Xkcd = (function(){
 
-	var ComicNavigator = Backbone.Model.extend({
+  var ComicNavigator = Backbone.Model.extend({
 
-			toLatest: function(){
-				var comic = new Comic()
-				var nav = this;
-				comic.fetch({
-					success: function(model){
-						nav.set({"current": model});
-						nav.set({"latest": model});
-					}
-				});
-			}
-		}
-	);
+      toLatest: function(){
+        var comic = new Comic()
+        var nav = this;
+        comic.fetch({
+          success: function(model){
+            nav.set({"current": model});
+            nav.set({"latest": model});
+          }
+        });
+      }
+    }
+  );
 
-	var Comic = Backbone.Model.extend({
-		url: function(){
-			return 'http://dynamic.xkcd.com/api-0/jsonp/comic/' + (this.id || "") + '?callback=?'
-		},
+  var Comic = Backbone.Model.extend({
+    url: function(){
+      return 'http://dynamic.xkcd.com/api-0/jsonp/comic/' + (this.id || "") + '?callback=?'
+    },
 
-		initialize: function(){
-	    	this.backbone_fetch = this.fetch;
-			this.fetch = function(options)
-			{
-				options || (options = {});
-				options.jsonpCallback = 'comicIncoming';
-				return this.backbone_fetch(options);
-			}
-		}
-	});
+    initialize: function(){
+        this.backbone_fetch = this.fetch;
+      this.fetch = function(options)
+      {
+        options || (options = {});
+        options.jsonpCallback = 'comicIncoming';
+        return this.backbone_fetch(options);
+      }
+    }
+  });
 
-	return {
-		ComicNavigator: ComicNavigator,
-		Comic: Comic
-	};
+  return {
+    ComicNavigator: ComicNavigator,
+    Comic: Comic
+  };
 
 })();</pre>
 [/codesyntax]
@@ -238,11 +232,11 @@ I&#8217;m also not happy with the 1st spec, I think it&#8217;s highlighting a sm
 What I&#8217;ve shown is a small slice of the app, to show off some of the techniques and tools. Clearly there&#8217;s more, I just haven&#8217;t written it yet. Once the app is complete, it will show how the other parts come into play, specifically the routes and the view.
 <h2>To Recap</h2>
 <ul>
-	<li><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module Pattern</a> for namespacing and keeping things private</li>
-	<li><a href="http://pivotal.github.com/jasmine/">Jasmine</a> for BDD style testing ala RSpec</li>
-	<li><a href="http://sinonjs.org/">Sinon</a> for test doubles (mocks, stubs etc if you care about the terms which cause more confusion than their worth)</li>
-	<li><a href="http://documentcloud.github.com/backbone/">Backbone</a> for separating code into different concerns</li>
-	<li><a href="http://en.wikipedia.org/wiki/JSONP">Jsonp</a> with Backbone to fetch data from a different domain</li>
+  <li><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module Pattern</a> for namespacing and keeping things private</li>
+  <li><a href="http://pivotal.github.com/jasmine/">Jasmine</a> for BDD style testing ala RSpec</li>
+  <li><a href="http://sinonjs.org/">Sinon</a> for test doubles (mocks, stubs etc if you care about the terms which cause more confusion than their worth)</li>
+  <li><a href="http://documentcloud.github.com/backbone/">Backbone</a> for separating code into different concerns</li>
+  <li><a href="http://en.wikipedia.org/wiki/JSONP">Jsonp</a> with Backbone to fetch data from a different domain</li>
 </ul>
 <strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="http://tomphilip.me/index.php/introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="http://tomphilip.me/index.php/backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.
 
@@ -255,15 +249,16 @@ What I&#8217;ve shown is a small slice of the app, to show off some of the techn
     <link href="http://tommysqueak.github.io/blog/2011/11/21/gtd-app-review-producteev/"/>
     <updated>2011-11-21T00:00:00+01:00</updated>
     <id>http://tommysqueak.github.io/blog/2011/11/21/gtd-app-review-producteev</id>
-    <content type="html"><![CDATA[<img class="alignnone size-full wp-image-536" title="Producteev" src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev.png" alt="Producteev Mac app" width="640" height="385" />
-
-<a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&#8217;s a pure joy to use. You can&#8217;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.
+    <content type="html"><![CDATA[<a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&#8217;s a pure joy to use. You can&#8217;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.
 
 Adding new tasks is easy. Called up with a hotkey from within any app. It allows extra options (labelling, deadlines, starring etc) to be set too without it being an unwieldy dialog.
 
 Task organisation is easy too, by clicking on the obvious icons to pop-up simple focused dialogs for each property of a task you wish to set (see Setting a Deadline screenshot).
 
 <a title="GTD App Review – Astrid" href="http://tomphilip.me/index.php/gtd-app-review-astrid/">Astrid</a> would be the Android client in this trusted system but if their soon to be released Android app is anywhere as good as its Mac app, then I can&#8217;t wait to see that.
+
+<!--more-->
+
 <h2>How it Scored</h2>
 This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me/index.php/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.
 <table class="gtd-results">
@@ -325,8 +320,6 @@ This is how it scored against <a title="My GTD App Criteria" href="http://tomphi
 </tbody>
 </table>
 
-<!--more-->
-
 I put <em>no</em> for contexts/tags but you can assign multiple labels to task, so labels could be used for both projects and contexts. Not as nice as separate but a workaround. Another approach is to use Workspaces as projects and labels as contexts. The problem with this is labels belong to a workspace, so it wouldn&#8217;t be possible to see all tasks for a certain context. Also Google Calendar integration is per workspace, so for each workspace you&#8217;d get a separate calendar and need to connect this to Google.   <strong>I&#8217;d be interested to here from anyone who&#8217;s using/tried either approach and the pros/cons of each.</strong>
 <h2>Downsides</h2>
 Labels not having the option to span Workspaces.
@@ -340,18 +333,18 @@ After 5 labels, you need to expand to see the rest of them (see &#8216;Moving Ho
 Dock badges just seem to be for tasks that you&#8217;ve assigned to others or have has assigned to you (I didn&#8217;t get to verify this with someone, so this is I&#8217;m assuming where dock badges come in). I was expecting to get badges for overdue tasks.
 <h2>Useful Extras</h2>
 <ul>
-	<li>Import tasks from Remember the Milk.</li>
-	<li>Multiple notes per task.</li>
-	<li>Attach a file with each note. Multiple notes mean you can attach multiple files. 100mb file storage limit for free accounts.</li>
-	<li>Workspaces for top level partitioning of tasks. Eg Work, Home etc.</li>
-	<li>Enhanced for OSX Lion.</li>
-	<li>Global hot key to bring up new task box.</li>
-	<li>Audit trail. So you can see the history of what&#8217;s happened to a task.</li>
-	<li>Assign tasks to other people.</li>
-	<li>Collaborate on Workspaces.</li>
-	<li>You can create your own filters using quite an extensive criteria and remove the default ones to.</li>
-	<li>Smart task entry. Eg ** walk the dog tomorrow, adds a task with 2 stars and a deadline of tomorrow</li>
-	<li>All items (labels and Filters) in the left menu can be dragged and dropped to re-order them.</li>
+  <li>Import tasks from Remember the Milk.</li>
+  <li>Multiple notes per task.</li>
+  <li>Attach a file with each note. Multiple notes mean you can attach multiple files. 100mb file storage limit for free accounts.</li>
+  <li>Workspaces for top level partitioning of tasks. Eg Work, Home etc.</li>
+  <li>Enhanced for OSX Lion.</li>
+  <li>Global hot key to bring up new task box.</li>
+  <li>Audit trail. So you can see the history of what&#8217;s happened to a task.</li>
+  <li>Assign tasks to other people.</li>
+  <li>Collaborate on Workspaces.</li>
+  <li>You can create your own filters using quite an extensive criteria and remove the default ones to.</li>
+  <li>Smart task entry. Eg ** walk the dog tomorrow, adds a task with 2 stars and a deadline of tomorrow</li>
+  <li>All items (labels and Filters) in the left menu can be dragged and dropped to re-order them.</li>
 </ul>
 <h2>How it Looks</h2>
 [gallery link=&#8221;file&#8221; exclude=&#8221;535,536&#8221;]
@@ -373,13 +366,14 @@ Free for up to 2 users in any Workspace plus 100MB limit. Unlimited Workspaces. 
     <link href="http://tommysqueak.github.io/blog/2011/11/07/gtd-app-review-astrid/"/>
     <updated>2011-11-07T00:00:00+01:00</updated>
     <id>http://tommysqueak.github.io/blog/2011/11/07/gtd-app-review-astrid</id>
-    <content type="html"><![CDATA[<img class="alignnone size-full wp-image-514" title="Astrid" src="http://tomphilip.me/wp-content/uploads/2011/11/Astrid.png" alt="Astrid" width="640" height="312" />
-
-<a href="http://astrid.com">Astrid</a> is <strong>popular task list app for Android</strong>, that is easy to use and comes with a <strong>host of syncing options</strong>. Incredibly simple and straight forward to use with a pleasant <strong>clean UI</strong>.
+    <content type="html"><![CDATA[<a href="http://astrid.com">Astrid</a> is <strong>popular task list app for Android</strong>, that is easy to use and comes with a <strong>host of syncing options</strong>. Incredibly simple and straight forward to use with a pleasant <strong>clean UI</strong>.
 
 It stands out from other task list apps, with some unique features such as backups, random notifications for overdue tasks and encouragements.
 
 Used with Producteev syncing, means I can use the Producteev Mac app as the desktop client for my GTD system. That review is coming soon.
+
+<!--more-->
+
 <h2>How it Scored</h2>
 This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me/index.php/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.
 <table class="gtd-results">
@@ -441,8 +435,6 @@ This is how it scored against <a title="My GTD App Criteria" href="http://tomphi
 </tbody>
 </table>
 
-<!--more-->
-
 &nbsp;
 <h2>Downsides</h2>
 It&#8217;s an impressive app but the lack of GTD specific folders and contexts/tags, means it loses out to those that have them. They of course can be replicated with lists (tasks can belong to more than one list).
@@ -454,19 +446,19 @@ You can&#8217;t remove or customise the default filters. Like &#8216;Recently Mo
 Nothing puzzling, just a straight forward task list app.
 <h2>Useful Extras</h2>
 <ul>
-	<li>Time how long it takes to perform a task.</li>
-	<li>Workspaces for top level partitioning of tasks. Eg Work, Home etc. When used with Producteev sync.</li>
-	<li>Assign tasks to other people and collaborate on lists too.</li>
-	<li>Randomly <del>remind</del> nag you of overdue tasks.</li>
-	<li>Limited smart task entry. Eg add to list #listname would add the task to <em>listname</em></li>
-	<li>Power packs for more widgets, notifications based on location and voice integration.</li>
-	<li>Widget for any list/view of tasks.</li>
-	<li>Add limited filters.</li>
-	<li>Reminders come with encouragements to complete overdue tasks and a host of other reminder settings.</li>
-	<li>Specify defaults for tasks.</li>
-	<li>Automated backups, should anything go wrong.</li>
-	<li>The app is <a href="https://github.com/todoroo/astrid">open source</a>.</li>
-	<li>Syncs with <a href="http://www.producteev.com/">Producteev</a>, <a href="http://mail.google.com/tasks">Google Tasks</a> and it&#8217;s own new <a href="http://astrid.com/features">Web app</a>.</li>
+  <li>Time how long it takes to perform a task.</li>
+  <li>Workspaces for top level partitioning of tasks. Eg Work, Home etc. When used with Producteev sync.</li>
+  <li>Assign tasks to other people and collaborate on lists too.</li>
+  <li>Randomly <del>remind</del> nag you of overdue tasks.</li>
+  <li>Limited smart task entry. Eg add to list #listname would add the task to <em>listname</em></li>
+  <li>Power packs for more widgets, notifications based on location and voice integration.</li>
+  <li>Widget for any list/view of tasks.</li>
+  <li>Add limited filters.</li>
+  <li>Reminders come with encouragements to complete overdue tasks and a host of other reminder settings.</li>
+  <li>Specify defaults for tasks.</li>
+  <li>Automated backups, should anything go wrong.</li>
+  <li>The app is <a href="https://github.com/todoroo/astrid">open source</a>.</li>
+  <li>Syncs with <a href="http://www.producteev.com/">Producteev</a>, <a href="http://mail.google.com/tasks">Google Tasks</a> and it&#8217;s own new <a href="http://astrid.com/features">Web app</a>.</li>
 </ul>
 <h2>How it Looks</h2>
 [gallery exclude=&#8221;514,516&#8221; link=&#8221;file&#8221;]
@@ -486,15 +478,16 @@ Free for all platforms.
     <link href="http://tommysqueak.github.io/blog/2011/10/25/gtd-app-review-wunderlist/"/>
     <updated>2011-10-25T00:00:00+02:00</updated>
     <id>http://tommysqueak.github.io/blog/2011/10/25/gtd-app-review-wunderlist</id>
-    <content type="html"><![CDATA[<img class="alignnone size-full wp-image-465" title="Wunderlist" src="http://tomphilip.me/wp-content/uploads/2011/10/Wunderlist.png" alt="" width="640" height="481" />
-
-<a href="http://www.wunderlist.com/">Wunderlist</a> is a beautiful looking free app that is unbelievably simple to use. Providing that same experience across all the major platforms and devices. There&#8217;s no need to re-learn or adapt for which platform you&#8217;re on.
+    <content type="html"><![CDATA[<a href="http://www.wunderlist.com/">Wunderlist</a> is a beautiful looking free app that is unbelievably simple to use. Providing that same experience across all the major platforms and devices. There&#8217;s no need to re-learn or adapt for which platform you&#8217;re on.
 
 It lacks some GTD-esque features but what it does with the features it has, it does very well. It has a lot of potential for a GTD system, should they take note of the <a href="http://wunderlist.uservoice.com/forums/136230-general/filters/top">top most requested features</a>. It also looks like <a href="http://www.wunderkit.com/hAWLdo">Wunderkit</a>, a kind of Wunderlist Pro, is just round the corner which looks like it could be the real GTD deal. Looking forward to seeing that (hint hint).
 
 One little thing I did notice that stood out above all Android apps I use (non task management apps included) is the lack of add button next to where you add a task (No matter what app you use to add something, there&#8217;s an add button next to it). You simply tap &#8216;done&#8217; on the keyboard and the task gets added. It&#8217;s a nice little touch, as your fingers are already on the keyboard.
 
 If you&#8217;ve tried the Android app before and had a terrible time of it, they have released a native Android which is quicker and reliable.
+
+<!--more-->
+
 <h2>How it Scored</h2>
 This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me/index.php/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.
 <table class="gtd-results">
@@ -556,9 +549,6 @@ This is how it scored against <a title="My GTD App Criteria" href="http://tomphi
 </tbody>
 </table>
 
-
-<!--more-->
-
 &nbsp;
 <h2>Downsides</h2>
 It doesn&#8217;t do anything badly, it just lacks some of the features required for a good GTD system. Besides the shortage of features there&#8217;s little wrong with this app. With the features it has, it performs them with beauty and ease.
@@ -568,13 +558,13 @@ You can set reminders on the Android version but not the Mac or Web versions.
 The sync button/notification can often says it&#8217;s  failed (goes red) but then syncs again and all is OK (goes green).
 <h2>Useful Extras</h2>
 <ul>
-	<li>The app is <a href="https://github.com/6wunderkinder/wunderlist">open source</a></li>
-	<li>Smart task adding. Eg Include a * to add a starred task. Include the word &#8216;tomorrow&#8217; to add a task due tomorrow.</li>
-	<li>Choice of app backgrounds. The wood is my favourite.</li>
-	<li>You can share individual lists with people to collaborate on.</li>
-	<li>You can share all your lists on <a href="http://getcloudapp.com/">CloudApp</a> and then give anyone the secret url.</li>
-	<li>You can show all tasks (or starred ones or completed ones) on one screen grouped by list.</li>
-	<li>Overdue tasks appear as a badge on the dock icon</li>
+  <li>The app is <a href="https://github.com/6wunderkinder/wunderlist">open source</a></li>
+  <li>Smart task adding. Eg Include a * to add a starred task. Include the word &#8216;tomorrow&#8217; to add a task due tomorrow.</li>
+  <li>Choice of app backgrounds. The wood is my favourite.</li>
+  <li>You can share individual lists with people to collaborate on.</li>
+  <li>You can share all your lists on <a href="http://getcloudapp.com/">CloudApp</a> and then give anyone the secret url.</li>
+  <li>You can show all tasks (or starred ones or completed ones) on one screen grouped by list.</li>
+  <li>Overdue tasks appear as a badge on the dock icon</li>
 </ul>
 <h2>How it Looks</h2>
 [gallery exclude=&#8221;465,469&#8221; link=&#8221;file&#8221;]
@@ -596,11 +586,12 @@ Free for all platforms.
     <link href="http://tommysqueak.github.io/blog/2011/10/13/gtd-app-review-doit-im/"/>
     <updated>2011-10-13T00:00:00+02:00</updated>
     <id>http://tommysqueak.github.io/blog/2011/10/13/gtd-app-review-doit-im</id>
-    <content type="html"><![CDATA[<img class="alignnone size-full wp-image-413" title="Doit-im" src="http://tomphilip.me/wp-content/uploads/2011/10/Doit-im.png" alt="Doit.im" width="600" height="300" />
-
-<a href="http://www.doit.im">Doit.im</a> is a fantastic multi-platform free service, designed specifically for GTD. It has a pleasant simplicity about it, that looks great and makes it easy to use.
+    <content type="html"><![CDATA[<a href="http://www.doit.im">Doit.im</a> is a fantastic multi-platform free service, designed specifically for GTD. It has a pleasant simplicity about it, that looks great and makes it easy to use.
 
 Because it is <a href="https://i.doit.im/features">made for GTD</a>, it isn&#8217;t bloated with features and focuses on the key principles of GTD. It has GTD specific lists (Eg someday, next, waiting for etc), filters which make sense (eg contexts, projects etc) and an ever present &#8216;Create Task&#8217; button for collecting those thoughts. All of which help you through the <a href="http://www.lifehack.org/articles/lifehack/gtd-workflow-chart.html">GTD process</a>.
+
+<!--more-->
+
 <h2>How it Scored</h2>
 This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me/index.php/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.
 <table class="gtd-results">
@@ -673,17 +664,15 @@ Shame it only has task counts for some of its lists (Inbox and Today) and not th
 <h2>Puzzling</h2>
 The mini app is totally unaware of the statues of Tomorrow, Next and Waiting For. Setting a task to any of these doesn&#8217;t sync that change to the mini app therefore showing the task to have the wrong status. Any tasks added with these statuses don&#8217;t even show up in the mini app after a sync, not that there is a way to see a view of these lists anyway.
 
-<!--more-->
-
 <h2>Useful Extras</h2>
 <ul>
-	<li>Projects or special lists can be set as the first screen to open when the app starts up (Android).</li>
-	<li>Calendar and list widgets (Android).</li>
-	<li>Assign tasks to other people.</li>
-	<li>Special lists specific to GTD, such as Next, Scheduled, Waiting for, Someday</li>
-	<li>Smart add, so you can add tasks with details. Eg Buy Flour  #Bake a cake ^Someday, would put task into &#8216;Bake a cake&#8217; project and classify as &#8216;someday maybe&#8217;.</li>
-	<li>You can create your own filters, based on an extensive criteria and add these to the menu underneath the special lists.</li>
-	<li>Global hot key to bring up new task box (Mac Mini).</li>
+  <li>Projects or special lists can be set as the first screen to open when the app starts up (Android).</li>
+  <li>Calendar and list widgets (Android).</li>
+  <li>Assign tasks to other people.</li>
+  <li>Special lists specific to GTD, such as Next, Scheduled, Waiting for, Someday</li>
+  <li>Smart add, so you can add tasks with details. Eg Buy Flour  #Bake a cake ^Someday, would put task into &#8216;Bake a cake&#8217; project and classify as &#8216;someday maybe&#8217;.</li>
+  <li>You can create your own filters, based on an extensive criteria and add these to the menu underneath the special lists.</li>
+  <li>Global hot key to bring up new task box (Mac Mini).</li>
 </ul>
 <h2>How it Looks</h2>
 [gallery exclude=&#8221;413,451&#8221; link=&#8221;file&#8221;]
