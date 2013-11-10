@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tommysqueak.github.io/atom.xml" rel="self"/>
   <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-10-20T23:50:40+02:00</updated>
+  <updated>2013-11-10T15:22:34+01:00</updated>
   <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -126,7 +126,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Testing Backbone with Jasmine and Sinon]]></title>
+    <title type="html"><![CDATA[Testing Backbone with Jasmine &amp; Sinon]]></title>
     <link href="http://tommysqueak.github.io/blog/2011/12/23/testing-backbone-with-jasmine-and-sinon/"/>
     <updated>2011-12-23T00:00:00+01:00</updated>
     <id>http://tommysqueak.github.io/blog/2011/12/23/testing-backbone-with-jasmine-and-sinon</id>
