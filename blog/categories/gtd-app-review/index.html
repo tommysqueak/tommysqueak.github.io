@@ -26,7 +26,7 @@
   <script src="/javascripts/vendor/modernizr-2.0.js"></script>
 </head>
 
-<body class="">
+<body class="page-post">
 
   <header class="site-header" role="banner">
 <nav class="navbar navbar-fixed-top" role="navigation" data-290-start="background-color[quadratic]:rgb(255, 255, 255)" data-420-start="background-color[quadratic]:rgb(34, 34, 34)">
@@ -45,7 +45,7 @@
 
   <div class="collapse navbar-collapse">
 <ul class="site-navigation site-navigation--header nav navbar-nav navbar-right">
-  <li class="site-navigation__link"><a href="/about" title="About Tom Philip">About</a></li>
+  <li class="site-navigation__link"><a href="/about.html" title="About Tom Philip">About</a></li>
   <li class="site-navigation__link"><a href="/interests" title="Things that interest Tom Philip">Interest</a></li>
   <li class="site-navigation__link"><a href="/contact" title="Contact Tom Philip">Contact</a></li>
   <li class="site-navigation__link"><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS"><span class="icon-rss"></span></a></li>
@@ -55,16 +55,18 @@
 
 </header>
 
-  <div class="site-container">
-     <div>
-<article role="article">
-  
-  <header class="page-header">
-    <h1 class="entry-title">Category: GTD App Review</h1>
-    
-  </header>
-  
-  <div id="blog-archives" class="category">
+  <div id="skrollr-body" class="site-container">
+     <div class="container">
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+      <article role="article">
+        <header>
+          <h1>Category: GTD App Review</h1>
+        </header>
+        
+        
+        <div id="blog-archives" class="category">
   
   
   
@@ -95,94 +97,28 @@
   
 </div>
 
+      </article>
+    </div>
+  </div>
   
-</article>
-
 </div>
-
-<aside class="sidebar">
-  
-    <section class="post-list recent-posts">
-  <h1 class="post-list__title">Recent Posts</h1>
-  <ul class="post-list__list">
-    
-      <li>
-        <a href="/blog/2013/10/13/a-test-post-so-we-can-design-the-home-page/">A test post so we can design the home page</a>
-      </li>
-    
-      <li>
-        <a href="/blog/2011/12/23/testing-backbone-with-jasmine-and-sinon/">Testing Backbone with Jasmine &amp; Sinon</a>
-      </li>
-    
-      <li>
-        <a href="/blog/2011/11/21/gtd-app-review-producteev/">GTD App Review - Producteev</a>
-      </li>
-    
-      <li>
-        <a href="/blog/2011/11/07/gtd-app-review-astrid/">GTD App Review - Astrid</a>
-      </li>
-    
-      <li>
-        <a href="/blog/2011/10/25/gtd-app-review-wunderlist/">GTD App Review - Wunderlist</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/tommysqueak">@tommysqueak</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'tommysqueak',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section class="googleplus googleplus-hidden">
-  <h1>
-    <a href="https://plus.google.com/tommysqueak?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h1>
-</section>
-
-
-
-  
-</aside>
-
-
   </div>
 
-  <footer role="contentinfo" class="site-footer"><div class="container">
+  <footer role="contentinfo" class="site-footer">
+
+<div class="container">
+
+  <p class="footnote footnote--credit">
+    Designed &amp; made by Tom Philip, powered by <a href="http://octopress.org">octopress</a>
+  </p>
+
+  <p class="footnote footnote--copyright">
+    Copyright &copy; 2013 Tom Philip
+  </p>
+
   <div class="row">
     <div class="col-md-4">
-      <p>
-        Copyright &copy; 2013 - Tom Philip -
-        <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-      </p>
+
     </div>
     <div class="col-md-4">
       Some social shit
