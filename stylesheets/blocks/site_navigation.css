@@ -1,5 +1,5 @@
 /*
-Syntax error: Undefined variable: "$gray-light".
+Syntax error: Undefined variable: "$white".
         on line 9 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/site_navigation.sass
 
 Backtrace:
@@ -78,4 +78,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$gray-light\".\A         on line 9 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/site_navigation.sass"; }
+  content: "Syntax error: Undefined variable: \"$white\".\A         on line 9 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/site_navigation.sass"; }

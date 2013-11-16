@@ -28,8 +28,10 @@
 
 <body class="page-post">
 
-  <header class="site-header" role="banner">
-<nav class="navbar navbar-fixed-top" role="navigation" data-290-start="background-color[quadratic]:rgb(255, 255, 255)" data-420-start="background-color[quadratic]:rgb(34, 34, 34)">
+  <header class="site-header" role="banner"><div class="site-header__back" data-200-start="opacity[quadratic]:0.5" data-400-start="opacity[quadratic]:1"></div>
+<div class="site-header__footer" data-400-start="left[cubic]:100%" data-500-start="left[cubic]:0%"></div>
+
+<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation" data-500-start="border-bottom-width[quadratic]:0px" data-540-start="border-bottom-width[quadratic]:4px">
 
   <div class="navbar-header">
     
@@ -360,9 +362,11 @@ Free for all platforms.
 <script type="text/javascript" src="/javascripts/vendor/skrollr.ie.min.js"></script>
 <![endif]-->
 <script type="text/javascript">
-  nav = $('.page-post .navbar').removeAttr('data-290-start data-420-start');
-  nav.attr('data-10-start', 'background-color[quadratic]:rgb(255, 255, 255)');
-  nav.attr('data-50-start', 'background-color[quadratic]:rgb(34, 34, 34)');
+  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
+  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
+
+  //nav.attr('data-10-start', 'background-color[quadratic]:rgb(255, 255, 255)');
+  //nav.attr('data-50-start', 'background-color[quadratic]:rgb(34, 34, 34)');
   
   $('.navbar-collapse').on('show.bs.collapse', function() {
     $('#navToggler').addClass('opened');
@@ -374,7 +378,7 @@ Free for all platforms.
 </script>
 
 <script type="text/javascript">
-  var s = skrollr.init();
+  var s = skrollr.init({forceHeight: false});
 </script>
 
 <script type="text/javascript">

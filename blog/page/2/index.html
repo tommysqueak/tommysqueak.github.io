@@ -12,7 +12,7 @@
   <meta name="author" content="Tom Philip">
 
   
-  <meta name="description" content="Full Stack Web, Frontend, Backend, Ruby on Rails, Backbone.js, C#/.NET, Android, Boxee Developer Business Model Generation, Lean Startup, Metrics &hellip;">
+  <meta name="description" content="Full Stack Web, Frontend, Backend, Ruby on Rails, Backbone.js, C#.NET, Android, Boxee, Agile Developer Business Model Generation / Lean Startup / &hellip;">
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,8 +28,10 @@
 
 <body class="">
 
-  <header class="site-header" role="banner">
-<nav class="navbar navbar-fixed-top" role="navigation" data-290-start="background-color[quadratic]:rgb(255, 255, 255)" data-420-start="background-color[quadratic]:rgb(34, 34, 34)">
+  <header class="site-header" role="banner"><div class="site-header__back" data-200-start="opacity[quadratic]:0.5" data-400-start="opacity[quadratic]:1"></div>
+<div class="site-header__footer" data-400-start="left[cubic]:100%" data-500-start="left[cubic]:0%"></div>
+
+<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation" data-500-start="border-bottom-width[quadratic]:0px" data-540-start="border-bottom-width[quadratic]:4px">
 
   <div class="navbar-header">
     
@@ -61,8 +63,8 @@
 
     <div class="row">
       <div class="col-xs-9">
-        <h2 class="jumbo-feature__title"><span class="rotate">Full Stack Web, Frontend, Backend, Ruby on Rails, Backbone.js, C#/.NET, Android, Boxee</span> Developer</h2>
-        <h3 class="jumbo-feature__title">Business Model Generation, Lean Startup, Metrics Practioner</h3>
+        <h2 class="jumbo-feature__title"><span class="rotate">Full Stack Web, Frontend, Backend, Ruby on Rails, Backbone.js, C#.NET, Android, Boxee, Agile</span> Developer</h2>
+        <h3 class="jumbo-feature__title">Business Model Generation / Lean Startup / Metrics</h3>
       </div>
       <div class="col-xs-3 jumbo-feature__social-buttons" data-64-top="[swing]:50% 50%;" data--300-top="background-position[swing]:50% 70%;">
         <a class="button button--social button--social--twitter" href="http://twitter.com/tommysqueak" title="Tom Philip on Twitter"><span class="hidden-xs hidden-sm">Twitter</span></a>
@@ -283,9 +285,11 @@ Because it is <a href="https://i.doit.im/features">made for GTD</a>, it isn&#821
 <script type="text/javascript" src="/javascripts/vendor/skrollr.ie.min.js"></script>
 <![endif]-->
 <script type="text/javascript">
-  nav = $('.page-post .navbar').removeAttr('data-290-start data-420-start');
-  nav.attr('data-10-start', 'background-color[quadratic]:rgb(255, 255, 255)');
-  nav.attr('data-50-start', 'background-color[quadratic]:rgb(34, 34, 34)');
+  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
+  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
+
+  //nav.attr('data-10-start', 'background-color[quadratic]:rgb(255, 255, 255)');
+  //nav.attr('data-50-start', 'background-color[quadratic]:rgb(34, 34, 34)');
   
   $('.navbar-collapse').on('show.bs.collapse', function() {
     $('#navToggler').addClass('opened');
@@ -297,7 +301,7 @@ Because it is <a href="https://i.doit.im/features">made for GTD</a>, it isn&#821
 </script>
 
 <script type="text/javascript">
-  var s = skrollr.init();
+  var s = skrollr.init({forceHeight: false});
 </script>
 
 <script type="text/javascript">
