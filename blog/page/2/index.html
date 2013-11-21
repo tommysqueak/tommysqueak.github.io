@@ -40,7 +40,7 @@
     </button>
 
     <div class="site-header__identity navbar-brand">
-      <a href="/"><img class="avatar site-header__avatar" src="/images/tomphilip_thumbnail.jpg" alt="Tom Philip"></a>
+      <a href="/"><img class="avatar site-header__avatar" src="/images/tomphilip_thumbnail.jpg" alt="Tom Philip" data-start="height[quadratic]:100px" data-480-start="height[quadratic]:44px"></a>
       <h1 class="site-header__title"><a href="/">Tom Philip</a></h1>
     </div>
   </div>
@@ -52,6 +52,7 @@
   <li class="site-navigation__link"><a href="/contact.html" title="Contact Tom Philip">Contact</a></li>
   <li class="site-navigation__link"><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS"><span class="icon-rss"></span></a></li>
 </ul></div>
+  
 </nav>
 
 
@@ -78,15 +79,16 @@
 
 <div class="site-header__cut"></div>
 
-<div class="post-index">
+<div class="post-list">
    
    
 
      
      
 
-     <div class="post-index__post-box cutout">
-       <div class="container">
+     <div class="post-list__post-box cutout">
+       <div class="container post-list__container">
+         
          <article class="post post--index row">
            <div class="post__media-object col-xs-12 col-sm-5 col-lg-4">
   
@@ -97,7 +99,7 @@
 
 
   
-    <p class="post-metadata" data-100-bottom="right[sqrt]:100%" data--300-bottom="right[sqrt]:0%">
+    <p class="post-metadata">
       
 
 
@@ -114,7 +116,7 @@
       
   
 
-<span class="post-metadata__author"> by <span>Tom Philip</span></span>
+<span class="post-metadata__author"><span>Tom Philip</span></span>
 
       
     </p>
@@ -126,7 +128,7 @@
 
   <header class="post__header">
 
-    <h1 class="post__title" data-100-bottom="left[sqrt]:100%" data--150-bottom="left[sqrt]:0%"><a href="/blog/2011/10/13/gtd-app-review-doit-im/">GTD App Review - Doit.im</a></h1>
+    <h1 class="post__title"><a href="/blog/2011/10/13/gtd-app-review-doit-im/">GTD App Review - Doit.im</a></h1>
 
   </header>
 
@@ -148,22 +150,26 @@ Because it is <a href="https://i.doit.im/features">made for GTD</a>, it isn&#821
 
 
          </article>
+         
+         
+         <div class="navigation-buttons">
+           <a href="/blog/archives" class="button--navigation ">&gt; More posts&#8230;</a>             
+         </div>
+          
+         
        </div>
        <div class="cutout__slice"></div>
      </div>
 
    
 
+
+
+
   <div class="post-more cutout cutout--inverse cutout--footer">
-
-    <div class="container">
-      <ul class="post-index__pagination pager">
-        <li><a href="/blog/archives">More Posts&#8230;</a></li>
-      </ul>
-    </div>
     <div class="cutout__slice"></div>
-
   </div>
+  
 </div>
 
 
@@ -184,15 +190,39 @@ Because it is <a href="https://i.doit.im/features">made for GTD</a>, it isn&#821
   <div class="row">
     <div class="col-md-4">
 
+      <section class="list list--icons">
+        <h1 class="list__title">Social</h1>
+        <ul class="list__list">
+          <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS"><span class="icon-rss"></span></a></li>
+          <li><a href="http://twitter.com/tommysqueak" rel="nofollow" title="Twitter"><span class="icon-twitter-3"></span></a></li>
+          <li><a href="http://www.facebook.com/tommysqueak" rel="nofollow" title="Facebook"><span class="icon-facebook"></span></a></li>
+          <li><a href="https://plus.google.com/114913251697222576781?rel=author" rel="publisher" title="Google+"><span class="icon-google__x2B_"></span></a></li>
+          <li><a href="http://www.linkedin.com/in/tomphilip" rel="nofollow" title="LinkedIn"><span class="icon-linkedin"></span></a></li>
+          <li><a href="http://www.flickr.com/photos/tommysqueak/" rel="nofollow" title="Flickr"><span class="icon-flickr"></span></a></li>
+          <li><a href="http://pinterest.com/tommysqueak/" rel="nofollow" title="PInterest"><span class="icon-pinterest"></span></a></li>
+          <li><a href="http://www.youtube.com/user/MrTommysqueak" rel="nofollow" title="YouTube"><span class="icon-youtube"></span></a></li>
+          <li><a href="http://realworldusability.tumblr.com/" rel="nofollow" title="Tumblr"><span class="icon-tumblr"></span></a></li>
+          <li><a href="http://vimeo.com/greatboxee" rel="nofollow" class="icon-vimeo" title="Vimeo"></a></li>
+          <li><a href="http://foursquare.com/tommysqueak" rel="nofollow" title="FourSquare"><span class="icon-foursquare_1"></span></a></li>
+          <li><a href="https://github.com/tommysqueak" rel="nofollow" title="GitHub"><span class="icon-github-01"></span></a></li>
+          <li><a href="http://open.spotify.com/user/tommysqueak" rel="nofollow" title="Spotify"><span class="icon-spotify"></span></a></li>
+          <li><a href="http://instagram.com/tommysqueak" rel="nofollow" title="Instagram"><span class="icon-instagram"></span></a></li>
+          <li><a href="http://about.me/tomphilip" rel="nofollow" title="about.me">me</a></li>
+        </ul>
+      </section>
+
     </div>
+    
     <div class="col-md-4">
-      Some social shit
+      
+
+      
     </div>
     <div class="col-md-4">
 
-      <section class="post-list recent-posts">
-  <h1 class="post-list__title">Recent Posts</h1>
-  <ul class="post-list__list">
+      <section class="list recent-posts">
+  <h1 class="list__title">Recent Posts</h1>
+  <ul class="list__list">
     
       <li>
         <a href="/blog/2013/10/13/a-test-post-so-we-can-design-the-home-page/">A test post so we can design the home page</a>

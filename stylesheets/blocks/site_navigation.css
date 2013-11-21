@@ -1,22 +1,18 @@
 /*
-Syntax error: Undefined variable: "$white".
-        on line 9 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/site_navigation.sass
+Syntax error: Undefined variable: "$grid-float-breakpoint".
+        on line 5 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/site_navigation.sass
+
+1: /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/site_navigation.sass
 
 Backtrace:
-/Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/site_navigation.sass:9
+/Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/site_navigation.sass:5
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/script/variable.rb:49:in `_perform'
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/script/node.rb:40:in `perform'
-/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
-/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:398:in `block in run_interp_no_strip'
+/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:396:in `map'
+/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:396:in `run_interp_no_strip'
+/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:406:in `run_interp'
+/Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:360:in `visit_media'
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -78,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$white\".\A         on line 9 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/site_navigation.sass"; }
+  content: "Syntax error: Undefined variable: \"$grid-float-breakpoint\".\A         on line 5 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/site_navigation.sass\A \A 1: /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/site_navigation.sass"; }
