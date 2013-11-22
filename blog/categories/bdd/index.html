@@ -236,10 +236,19 @@
   $('.navbar-collapse').on('hide.bs.collapse', function() {
     $('#navToggler').removeClass('opened');
   });
+  
 </script>
 
 <script type="text/javascript">
-  var s = skrollr.init({forceHeight: false});
+
+  function isTouchy(){
+    //  Hacky
+    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera);    
+  }
+
+  if (!isTouchy()){
+    var s = skrollr.init({forceHeight: false});    
+  }
 </script>
 
 <script type="text/javascript">
