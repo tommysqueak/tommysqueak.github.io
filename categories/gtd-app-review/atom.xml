@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: GTD App Review | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
+  <link href="http://tommysqueak.github.io/categories/gtd-app-review/atom.xml" rel="self"/>
+  <link href="http://tommysqueak.github.io/"/>
+  <updated>2013-11-23T19:50:53+01:00</updated>
+  <id>http://tommysqueak.github.io/</id>
+  <author>
+    <name><![CDATA[Tom Philip]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[GTD App Review - Producteev]]></title>
+    <link href="http://tommysqueak.github.io/gtd-app-review-producteev/"/>
+    <updated>2011-11-21T00:00:00+01:00</updated>
+    <id>http://tommysqueak.github.io/gtd-app-review-producteev</id>
+    <content type="html"><![CDATA[<p><a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&rsquo;s a pure joy to use. You can&rsquo;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.</p>
+
+<p>Adding new tasks is easy. Called up with a hotkey from within any app. It allows extra options (labelling, deadlines, starring etc) to be set too without it being an unwieldy dialog.</p>
+
+<p>Task organisation is easy too, by clicking on the obvious icons to pop-up simple focused dialogs for each property of a task you wish to set (see Setting a Deadline screenshot).</p>
+
+<p><a title="GTD App Review – Astrid" href="http://tomphilip.me/index.php/gtd-app-review-astrid/">Astrid</a> would be the Android client in this trusted system but if their soon to be released Android app is anywhere as good as its Mac app, then I can&rsquo;t wait to see that.</p>
+
+<!--more-->
+
+
+
+
+<h2>How it Scored</h2>
+
+
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me/index.php/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+
+<table class="gtd-results">
+<thead>
+<tr>
+<th>Criteria</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quick add</td>
+<td>Yes. There's an inbox but I think tasks that people asign to you land in here.</td>
+</tr>
+<tr>
+<td>Projects/Sub-tasks</td>
+<td>Yes, labels</td>
+</tr>
+<tr>
+<td>Contexts/tags</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Order tasks</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Yes, multiple notes</td>
+</tr>
+<tr>
+<td>Highlight/star</td>
+<td>Yes, importance stars 1-5</td>
+</tr>
+<tr>
+<td>Search</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Deadline</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Reminder</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Recurring tasks</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Sync with Google Calendar</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>User Experience</td>
+<td>5/5</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>I put <em>no</em> for contexts/tags but you can assign multiple labels to task, so labels could be used for both projects and contexts. Not as nice as separate but a workaround. Another approach is to use Workspaces as projects and labels as contexts. The problem with this is labels belong to a workspace, so it wouldn&rsquo;t be possible to see all tasks for a certain context. Also Google Calendar integration is per workspace, so for each workspace you&rsquo;d get a separate calendar and need to connect this to Google.   <strong>I&rsquo;d be interested to here from anyone who&rsquo;s using/tried either approach and the pros/cons of each.</strong></p>
+
+<h2>Downsides</h2>
+
+
+<p>Labels not having the option to span Workspaces.</p>
+
+<p>Having to manually connect each workspace to Google Calendar, thus creating a calendar in Google Calendar per workspace.</p>
+
+<h2>Puzzling</h2>
+
+
+<p>After 5 labels, you need to expand to see the rest of them (see &lsquo;Moving House&rsquo; in the Main Screen screenshot). Shame it just doesn&rsquo;t show them all or allow you to choose how many to show, there&rsquo;s space.</p>
+
+<p><strong>Update 12/9/2012</strong> &ndash; You can actually manually order the lists, by dragging and dropping them into the top half (above the <em>more</em>). So this puzzler goes away.</p>
+
+<p>Dock badges just seem to be for tasks that you&rsquo;ve assigned to others or have has assigned to you (I didn&rsquo;t get to verify this with someone, so this is I&rsquo;m assuming where dock badges come in). I was expecting to get badges for overdue tasks.</p>
+
+<h2>Useful Extras</h2>
+
+
+<ul>
+  <li>Import tasks from Remember the Milk.</li>
+  <li>Multiple notes per task.</li>
+  <li>Attach a file with each note. Multiple notes mean you can attach multiple files. 100mb file storage limit for free accounts.</li>
+  <li>Workspaces for top level partitioning of tasks. Eg Work, Home etc.</li>
+  <li>Enhanced for OSX Lion.</li>
+  <li>Global hot key to bring up new task box.</li>
+  <li>Audit trail. So you can see the history of what's happened to a task.</li>
+  <li>Assign tasks to other people.</li>
+  <li>Collaborate on Workspaces.</li>
+  <li>You can create your own filters using quite an extensive criteria and remove the default ones to.</li>
+  <li>Smart task entry. Eg ** walk the dog tomorrow, adds a task with 2 stars and a deadline of tomorrow</li>
+  <li>All items (labels and Filters) in the left menu can be dragged and dropped to re-order them.</li>
+</ul>
+
+
+<h2>How it Looks</h2>
+
+
+<p>[gallery link=&ldquo;file&rdquo; exclude=&ldquo;535,536&rdquo;]</p>
+
+<p>&nbsp;</p>
+
+<h2>Platforms</h2>
+
+
+<p>Web, iPhone, Mac and <a href="http://blog.producteev.com/exclusive-sneak-peek-at-producteev-for-window">Windows (coming soon)</a>.</p>
+
+<h2>Support</h2>
+
+
+<p>They have a good support setup and are listening to customers, with a <a href="http://support.producteev.com/home">support site</a> and <a href="http://producteev2.uservoice.com/">feedback forum</a>.</p>
+
+<h2>Price</h2>
+
+
+<p>Free for up to 2 users in any Workspace plus 100MB limit. Unlimited Workspaces. Then <a href="https://www.producteev.com/#pricing">tiered pricing</a> for more users, storage and others.</p>
+
+<p><a href="http://tomphilip.me/index.php/feed/">Subscribe to the feed</a> to follow the rest of the GTD App Review series.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GTD App Review - Astrid]]></title>
+    <link href="http://tommysqueak.github.io/gtd-app-review-astrid/"/>
+    <updated>2011-11-07T00:00:00+01:00</updated>
+    <id>http://tommysqueak.github.io/gtd-app-review-astrid</id>
+    <content type="html"><![CDATA[<p><a href="http://astrid.com">Astrid</a> is <strong>popular task list app for Android</strong>, that is easy to use and comes with a <strong>host of syncing options</strong>. Incredibly simple and straight forward to use with a pleasant <strong>clean UI</strong>.</p>
+
+<p>It stands out from other task list apps, with some unique features such as backups, random notifications for overdue tasks and encouragements.</p>
+
+<p>Used with Producteev syncing, means I can use the Producteev Mac app as the desktop client for my GTD system. That review is coming soon.</p>
+
+<!--more-->
+
+
+
+
+<h2>How it Scored</h2>
+
+
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me/index.php/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+
+<table class="gtd-results">
+<thead>
+<tr>
+<th>Criteria</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quick add</td>
+<td>Yes. But it has no inbox</td>
+</tr>
+<tr>
+<td>Projects/Sub-tasks</td>
+<td>Yes, lists.</td>
+</tr>
+<tr>
+<td>Contexts/tags</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Order tasks</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Highlight/star</td>
+<td>Yes. Importance stars 1-5</td>
+</tr>
+<tr>
+<td>Search</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Deadline</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Reminder</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Recurring tasks</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Sync with Google Calendar</td>
+<td>Kind of. You can add a calendar entry that is connected to the task</td>
+</tr>
+<tr>
+<td>User Experience</td>
+<td>4/5</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>&nbsp;</p>
+
+<h2>Downsides</h2>
+
+
+<p>It&rsquo;s an impressive app but the lack of GTD specific folders and contexts/tags, means it loses out to those that have them. They of course can be replicated with lists (tasks can belong to more than one list).</p>
+
+<p>You can&rsquo;t add a task from the lists home page and you can&rsquo;t set the lists page as your <em>home screen</em>.</p>
+
+<p>You can&rsquo;t remove or customise the default filters. Like &lsquo;Recently Modified&rsquo; which doesn&rsquo;t feel like a useful filter.</p>
+
+<h2>Puzzling</h2>
+
+
+<p>Nothing puzzling, just a straight forward task list app.</p>
+
+<h2>Useful Extras</h2>
+
+
+<ul>
+  <li>Time how long it takes to perform a task.</li>
+  <li>Workspaces for top level partitioning of tasks. Eg Work, Home etc. When used with Producteev sync.</li>
+  <li>Assign tasks to other people and collaborate on lists too.</li>
+  <li>Randomly <del>remind</del> nag you of overdue tasks.</li>
+  <li>Limited smart task entry. Eg add to list #listname would add the task to <em>listname</em></li>
+  <li>Power packs for more widgets, notifications based on location and voice integration.</li>
+  <li>Widget for any list/view of tasks.</li>
+  <li>Add limited filters.</li>
+  <li>Reminders come with encouragements to complete overdue tasks and a host of other reminder settings.</li>
+  <li>Specify defaults for tasks.</li>
+  <li>Automated backups, should anything go wrong.</li>
+  <li>The app is <a href="https://github.com/todoroo/astrid">open source</a>.</li>
+  <li>Syncs with <a href="http://www.producteev.com/">Producteev</a>, <a href="http://mail.google.com/tasks">Google Tasks</a> and it's own new <a href="http://astrid.com/features">Web app</a>.</li>
+</ul>
+
+
+<h2>How it Looks</h2>
+
+
+<p>[gallery exclude=&ldquo;514,516&rdquo; link=&ldquo;file&rdquo;]</p>
+
+<h2>Platforms</h2>
+
+
+<p><a href="https://market.android.com/details?id=com.timsu.astrid">Android</a>, <a href="http://itunes.apple.com/us/app/astrid-todo/id453396855">iPhone</a> (new) and <a href="http://astrid.com">Web</a>.</p>
+
+<h2>Support</h2>
+
+
+<p>They have a <a href="http://feedback.astrid.com/">feedback forum</a> where employees are active. I&rsquo;ve been using the Android app for a long time, as an &lsquo;on the go inbox&rsquo; and they are always improving the app.</p>
+
+<h2>Price</h2>
+
+
+<p>Free for all platforms.</p>
+
+<p><a href="http://tomphilip.me/index.php/feed/">Subscribe to the feed</a> to follow the rest of the GTD App Review series.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GTD App Review - Wunderlist]]></title>
+    <link href="http://tommysqueak.github.io/gtd-app-review-wunderlist/"/>
+    <updated>2011-10-25T00:00:00+02:00</updated>
+    <id>http://tommysqueak.github.io/gtd-app-review-wunderlist</id>
+    <content type="html"><![CDATA[<p><a href="http://www.wunderlist.com/">Wunderlist</a> is a beautiful looking free app that is unbelievably simple to use. Providing that same experience across all the major platforms and devices. There&rsquo;s no need to re-learn or adapt for which platform you&rsquo;re on.</p>
+
+<p>It lacks some GTD-esque features but what it does with the features it has, it does very well. It has a lot of potential for a GTD system, should they take note of the <a href="http://wunderlist.uservoice.com/forums/136230-general/filters/top">top most requested features</a>. It also looks like <a href="http://www.wunderkit.com/hAWLdo">Wunderkit</a>, a kind of Wunderlist Pro, is just round the corner which looks like it could be the real GTD deal. Looking forward to seeing that (hint hint).</p>
+
+<p>One little thing I did notice that stood out above all Android apps I use (non task management apps included) is the lack of add button next to where you add a task (No matter what app you use to add something, there&rsquo;s an add button next to it). You simply tap &lsquo;done&rsquo; on the keyboard and the task gets added. It&rsquo;s a nice little touch, as your fingers are already on the keyboard.</p>
+
+<p>If you&rsquo;ve tried the Android app before and had a terrible time of it, they have released a native Android which is quicker and reliable.</p>
+
+<!--more-->
+
+
+
+
+<h2>How it Scored</h2>
+
+
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me/index.php/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+
+<table class="gtd-results">
+<thead>
+<tr>
+<th>Criteria</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quick add</td>
+<td>Yes. Into any list incl an Inbox.</td>
+</tr>
+<tr>
+<td>Projects/Sub-tasks</td>
+<td>Yes. Lists.</td>
+</tr>
+<tr>
+<td>Contexts/tags</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Order tasks</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Highlight/star</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Search</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Deadline</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Reminder</td>
+<td>No (Yes - on Android)</td>
+</tr>
+<tr>
+<td>Recurring tasks</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Sync with Google Calendar</td>
+<td>No</td>
+</tr>
+<tr>
+<td>User Experience</td>
+<td>5/5</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>&nbsp;</p>
+
+<h2>Downsides</h2>
+
+
+<p>It doesn&rsquo;t do anything badly, it just lacks some of the features required for a good GTD system. Besides the shortage of features there&rsquo;s little wrong with this app. With the features it has, it performs them with beauty and ease.</p>
+
+<h2>Puzzling</h2>
+
+
+<p>You can set reminders on the Android version but not the Mac or Web versions.</p>
+
+<p>The sync button/notification can often says it's  failed (goes red) but then syncs again and all is OK (goes green).</p>
+
+<h2>Useful Extras</h2>
+
+
+<ul>
+  <li>The app is <a href="https://github.com/6wunderkinder/wunderlist">open source</a></li>
+  <li>Smart task adding. Eg Include a * to add a starred task. Include the word 'tomorrow' to add a task due tomorrow.</li>
+  <li>Choice of app backgrounds. The wood is my favourite.</li>
+  <li>You can share individual lists with people to collaborate on.</li>
+  <li>You can share all your lists on <a href="http://getcloudapp.com/">CloudApp</a> and then give anyone the secret url.</li>
+  <li>You can show all tasks (or starred ones or completed ones) on one screen grouped by list.</li>
+  <li>Overdue tasks appear as a badge on the dock icon</li>
+</ul>
+
+
+<h2>How it Looks</h2>
+
+
+<p>[gallery exclude=&ldquo;465,469&rdquo; link=&ldquo;file&rdquo;]</p>
+
+<p>&nbsp;</p>
+
+<h2>Platforms</h2>
+
+
+<p>Available on Mac, Android, Windows, iPad, iPhone and Linux.</p>
+
+<h2>Support</h2>
+
+
+<p>There&rsquo;s a comprehensive <a href="http://support.wunderlist.com/">support area</a> and you can <a href="http://wunderlist.uservoice.com/">vote for and request new features</a>.</p>
+
+<h2>Price</h2>
+
+
+<p>Free for all platforms.</p>
+
+<p><a href="http://tomphilip.me/index.php/feed/">Subscribe to the feed</a> to follow the rest of the GTD App Review series.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GTD App Review - Doit.im]]></title>
+    <link href="http://tommysqueak.github.io/gtd-app-review-doit-im/"/>
+    <updated>2011-10-13T00:00:00+02:00</updated>
+    <id>http://tommysqueak.github.io/gtd-app-review-doit-im</id>
+    <content type="html"><![CDATA[<p><a href="http://www.doit.im">Doit.im</a> is a fantastic multi-platform free service, designed specifically for GTD. It has a pleasant simplicity about it, that looks great and makes it easy to use.</p>
+
+<p>Because it is <a href="https://i.doit.im/features">made for GTD</a>, it isn&rsquo;t bloated with features and focuses on the key principles of GTD. It has GTD specific lists (Eg someday, next, waiting for etc), filters which make sense (eg contexts, projects etc) and an ever present &lsquo;Create Task&rsquo; button for collecting those thoughts. All of which help you through the <a href="http://www.lifehack.org/articles/lifehack/gtd-workflow-chart.html">GTD process</a>.</p>
+
+<!--more-->
+
+
+
+
+<h2>How it Scored</h2>
+
+
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me/index.php/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+
+<table class="gtd-results">
+<thead>
+<tr>
+<th>Criteria</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quick add</td>
+<td>Yes. Into inbox or you can change when adding.</td>
+</tr>
+<tr>
+<td>Projects/Sub-tasks</td>
+<td>Yes, projects.</td>
+</tr>
+<tr>
+<td>Contexts/tags</td>
+<td>Yes, both.</td>
+</tr>
+<tr>
+<td>Order tasks</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Highlight/star</td>
+<td>Yes. Starred tasks go into special 'Today' folder</td>
+</tr>
+<tr>
+<td>Search</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Deadline</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Reminder</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Recurring tasks</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Sync with Google Calendar</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>User Experience</td>
+<td>4/5</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>&nbsp;</p>
+
+<h2>Downsides</h2>
+
+
+<p>From the web app, it&rsquo;s quite often slow to perform tasks.</p>
+
+<p>The Mini app for Mac, is in need of an update. Key functionality is missing (see puzzling) and missing also are tags, contexts, priorities, recurrences and a project view.</p>
+
+<p>Because of the layout (in web app) I can&rsquo;t &lsquo;sit&rsquo; in the inbox and organise tasks into projects via drag and drop.</p>
+
+<p>Shame it only has task counts for some of its lists (Inbox and Today) and not the others.</p>
+
+<h2>Puzzling</h2>
+
+
+<p>The mini app is totally unaware of the statues of Tomorrow, Next and Waiting For. Setting a task to any of these doesn&rsquo;t sync that change to the mini app therefore showing the task to have the wrong status. Any tasks added with these statuses don&rsquo;t even show up in the mini app after a sync, not that there is a way to see a view of these lists anyway.</p>
+
+<h2>Useful Extras</h2>
+
+
+<ul>
+  <li>Projects or special lists can be set as the first screen to open when the app starts up (Android).</li>
+  <li>Calendar and list widgets (Android).</li>
+  <li>Assign tasks to other people.</li>
+  <li>Special lists specific to GTD, such as Next, Scheduled, Waiting for, Someday</li>
+  <li>Smart add, so you can add tasks with details. Eg Buy Flour  #Bake a cake ^Someday, would put task into 'Bake a cake' project and classify as 'someday maybe'.</li>
+  <li>You can create your own filters, based on an extensive criteria and add these to the menu underneath the special lists.</li>
+  <li>Global hot key to bring up new task box (Mac Mini).</li>
+</ul>
+
+
+<h2>How it Looks</h2>
+
+
+<p>[gallery exclude=&ldquo;413,451&rdquo; link=&ldquo;file&rdquo;]</p>
+
+<h2>Platforms</h2>
+
+
+<p><a href="https://market.android.com/details?id=im.doit.android">Android</a>, <a href="http://itunes.apple.com/us/app/doit.im-mini/id426005879">Mac</a>, <a title="itunes" href="http://itunes.apple.com/us/app/doit.im-hd/id454182500">iPhone/iPad</a>, Windows and Web.</p>
+
+<h2>Support</h2>
+
+
+<p>There&rsquo;s a <a href="http://support.doit.im/home">support forum</a> for features requests and bugs. Although many requests and bug reports seem to go unanswered by the company.</p>
+
+<h2>Price</h2>
+
+
+<p>Free for all platforms, except the Mac mini app which is only £0.69.</p>
+
+<p><a href="http://tomphilip.me/index.php/feed/">Subscribe to the feed</a> to follow the rest of the GTD App Review series.</p>
+]]></content>
+  </entry>
+  
+</feed>

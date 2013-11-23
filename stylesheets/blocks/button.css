@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined variable: "$white".
-        on line 2 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/button.sass
+        on line 3 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/button.sass
 
 1: /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/button.sass
 
 Backtrace:
-/Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/button.sass:2
+/Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/button.sass:3
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/script/variable.rb:49:in `_perform'
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/script/node.rb:40:in `perform'
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
@@ -60,4 +60,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$white\".\A         on line 2 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/button.sass\A \A 1: /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/button.sass"; }
+  content: "Syntax error: Undefined variable: \"$white\".\A         on line 3 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/button.sass\A \A 1: /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/button.sass"; }

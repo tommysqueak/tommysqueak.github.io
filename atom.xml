@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tommysqueak.github.io/atom.xml" rel="self"/>
   <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-11-22T10:11:51+01:00</updated>
+  <updated>2013-11-23T19:50:53+01:00</updated>
   <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A test post so we can design the home page]]></title>
-    <link href="http://tommysqueak.github.io/blog/2013/10/13/a-test-post-so-we-can-design-the-home-page/"/>
+    <link href="http://tommysqueak.github.io/a-test-post-so-we-can-design-the-home-page/"/>
     <updated>2013-10-13T17:38:00+02:00</updated>
-    <id>http://tommysqueak.github.io/blog/2013/10/13/a-test-post-so-we-can-design-the-home-page</id>
+    <id>http://tommysqueak.github.io/a-test-post-so-we-can-design-the-home-page</id>
     <content type="html"><![CDATA[<p>Chuck ipsum. Chuck Norris built a time machine and went back in time to stop the JFK assassination. As Oswald shot, Chuck Norris met all three bullets with his beard, deflecting them. JFK&rsquo;s head exploded out of sheer amazement.
  Chuck Norris frequently donates blood to the Red Cross. Just never his own.
  Scientists used to believe that diamond was the world’s hardest substance. But then they met Chuck Norris, who gave them a roundhouse kick to the face so hard, and with so much heat and pressure, that the scientists turned into artificial Chuck Norris.
@@ -127,9 +127,9 @@
   
   <entry>
     <title type="html"><![CDATA[Testing Backbone with Jasmine &amp; Sinon]]></title>
-    <link href="http://tommysqueak.github.io/blog/2011/12/23/testing-backbone-with-jasmine-and-sinon/"/>
+    <link href="http://tommysqueak.github.io/testing-backbone-with-jasmine-and-sinon/"/>
     <updated>2011-12-23T00:00:00+01:00</updated>
-    <id>http://tommysqueak.github.io/blog/2011/12/23/testing-backbone-with-jasmine-and-sinon</id>
+    <id>http://tommysqueak.github.io/testing-backbone-with-jasmine-and-sinon</id>
     <content type="html"><![CDATA[This is based on an <strong><a href="http://xkcd.com">XKCD</a> leanback web app</strong> I&#8217;m working on that will form part of a html5 <a title="Boxee app developer" href="http://www.greatboxee.com">Boxee app</a>. Think sitting on your couch, remote control in hand flicking through XKCD comics on the TV.
 
 It brings together quite a few technologies and techniques. The end results is something that is separated out nicely (no spaghetti code) that is simple, testable, documented and maintainable.
@@ -246,9 +246,9 @@ What I&#8217;ve shown is a small slice of the app, to show off some of the techn
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Producteev]]></title>
-    <link href="http://tommysqueak.github.io/blog/2011/11/21/gtd-app-review-producteev/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-producteev/"/>
     <updated>2011-11-21T00:00:00+01:00</updated>
-    <id>http://tommysqueak.github.io/blog/2011/11/21/gtd-app-review-producteev</id>
+    <id>http://tommysqueak.github.io/gtd-app-review-producteev</id>
     <content type="html"><![CDATA[<a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&#8217;s a pure joy to use. You can&#8217;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.
 
 Adding new tasks is easy. Called up with a hotkey from within any app. It allows extra options (labelling, deadlines, starring etc) to be set too without it being an unwieldy dialog.
@@ -363,9 +363,9 @@ Free for up to 2 users in any Workspace plus 100MB limit. Unlimited Workspaces. 
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Astrid]]></title>
-    <link href="http://tommysqueak.github.io/blog/2011/11/07/gtd-app-review-astrid/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-astrid/"/>
     <updated>2011-11-07T00:00:00+01:00</updated>
-    <id>http://tommysqueak.github.io/blog/2011/11/07/gtd-app-review-astrid</id>
+    <id>http://tommysqueak.github.io/gtd-app-review-astrid</id>
     <content type="html"><![CDATA[<a href="http://astrid.com">Astrid</a> is <strong>popular task list app for Android</strong>, that is easy to use and comes with a <strong>host of syncing options</strong>. Incredibly simple and straight forward to use with a pleasant <strong>clean UI</strong>.
 
 It stands out from other task list apps, with some unique features such as backups, random notifications for overdue tasks and encouragements.
@@ -475,9 +475,9 @@ Free for all platforms.
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Wunderlist]]></title>
-    <link href="http://tommysqueak.github.io/blog/2011/10/25/gtd-app-review-wunderlist/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-wunderlist/"/>
     <updated>2011-10-25T00:00:00+02:00</updated>
-    <id>http://tommysqueak.github.io/blog/2011/10/25/gtd-app-review-wunderlist</id>
+    <id>http://tommysqueak.github.io/gtd-app-review-wunderlist</id>
     <content type="html"><![CDATA[<a href="http://www.wunderlist.com/">Wunderlist</a> is a beautiful looking free app that is unbelievably simple to use. Providing that same experience across all the major platforms and devices. There&#8217;s no need to re-learn or adapt for which platform you&#8217;re on.
 
 It lacks some GTD-esque features but what it does with the features it has, it does very well. It has a lot of potential for a GTD system, should they take note of the <a href="http://wunderlist.uservoice.com/forums/136230-general/filters/top">top most requested features</a>. It also looks like <a href="http://www.wunderkit.com/hAWLdo">Wunderkit</a>, a kind of Wunderlist Pro, is just round the corner which looks like it could be the real GTD deal. Looking forward to seeing that (hint hint).
@@ -583,9 +583,9 @@ Free for all platforms.
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Doit.im]]></title>
-    <link href="http://tommysqueak.github.io/blog/2011/10/13/gtd-app-review-doit-im/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-doit-im/"/>
     <updated>2011-10-13T00:00:00+02:00</updated>
-    <id>http://tommysqueak.github.io/blog/2011/10/13/gtd-app-review-doit-im</id>
+    <id>http://tommysqueak.github.io/gtd-app-review-doit-im</id>
     <content type="html"><![CDATA[<a href="http://www.doit.im">Doit.im</a> is a fantastic multi-platform free service, designed specifically for GTD. It has a pleasant simplicity about it, that looks great and makes it easy to use.
 
 Because it is <a href="https://i.doit.im/features">made for GTD</a>, it isn&#8217;t bloated with features and focuses on the key principles of GTD. It has GTD specific lists (Eg someday, next, waiting for etc), filters which make sense (eg contexts, projects etc) and an ever present &#8216;Create Task&#8217; button for collecting those thoughts. All of which help you through the <a href="http://www.lifehack.org/articles/lifehack/gtd-workflow-chart.html">GTD process</a>.
