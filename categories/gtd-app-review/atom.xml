@@ -4,7 +4,7 @@
   <title><![CDATA[Category: GTD App Review | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tommysqueak.github.io/categories/gtd-app-review/atom.xml" rel="self"/>
   <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-11-23T19:50:53+01:00</updated>
+  <updated>2013-11-26T00:20:30+01:00</updated>
   <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -18,7 +18,9 @@
     <link href="http://tommysqueak.github.io/gtd-app-review-producteev/"/>
     <updated>2011-11-21T00:00:00+01:00</updated>
     <id>http://tommysqueak.github.io/gtd-app-review-producteev</id>
-    <content type="html"><![CDATA[<p><a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&rsquo;s a pure joy to use. You can&rsquo;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.</p>
+    <content type="html"><![CDATA[<p><img class="img-responsive" title="Producteev" src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev.png" alt="Producteev Mac app"></p>
+
+<p><a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&rsquo;s a pure joy to use. You can&rsquo;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.</p>
 
 <p>Adding new tasks is easy. Called up with a hotkey from within any app. It allows extra options (labelling, deadlines, starring etc) to be set too without it being an unwieldy dialog.</p>
 
@@ -136,9 +138,39 @@
 <h2>How it Looks</h2>
 
 
-<p>[gallery link=&ldquo;file&rdquo; exclude=&ldquo;535,536&rdquo;]</p>
 
-<p>&nbsp;</p>
+
+<div class='slider swipeshow' style="width: 100%; height: 400px">
+   <div class='slides'>
+     <figure class="slide">
+       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Main.png">
+       <figcaption>Producteev - Main Screen</figcaption>
+     </figure>
+     <figure class="slide">
+       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Empty-Workspace.png">
+       <figcaption>Producteev - Empty Workspace</figcaption>
+     </figure>
+     <figure class="slide">
+       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Task-Entry.png">
+       <figcaption>Producteev - Task Entry</figcaption>
+     </figure>
+     <figure class="slide">
+       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Setting-a-Deadline.png">
+       <figcaption>Producteev - Setting a Deadline</figcaption>
+     </figure>
+     <figure class="slide">
+       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Multiple-Notes.png">
+       <figcaption>Producteev - Multiple Notes</figcaption>
+     </figure>
+     <figure class="slide">
+       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-History-Expanded.png">
+       <figcaption>Producteev - History</figcaption>
+     </figure>
+   </div>
+ </div>
+
+
+<p> <div class='dots slider-indicators'></div></p>
 
 <h2>Platforms</h2>
 
