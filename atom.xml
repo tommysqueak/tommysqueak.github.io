@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tommysqueak.github.io/atom.xml" rel="self"/>
   <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-11-26T00:20:30+01:00</updated>
+  <updated>2013-11-26T10:28:53+01:00</updated>
   <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -350,36 +350,78 @@ Dock badges just seem to be for tasks that you&#8217;ve assigned to others or ha
 </ul>
 <h2>How it Looks</h2>
 
-<div class='slider swipeshow' style="width: 100%; height: 400px">
-   <div class='slides'>
-     <figure class="slide">
+<div class='slider swipeshow'>
+   <div class='slides slider__slides'>
+     <figure class="slider__slide slide">
        <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Main.png">
        <figcaption>Producteev - Main Screen</figcaption>
      </figure>
-     <figure class="slide">
+     <figure class="slider__slide slide">
        <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Empty-Workspace.png">
        <figcaption>Producteev - Empty Workspace</figcaption>
      </figure>
-     <figure class="slide">
+     <figure class="slider__slide slide">
        <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Task-Entry.png">
        <figcaption>Producteev - Task Entry</figcaption>
      </figure>
-     <figure class="slide">
+     <figure class="slider__slide slide">
        <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Setting-a-Deadline.png">
        <figcaption>Producteev - Setting a Deadline</figcaption>
      </figure>
-     <figure class="slide">
+     <figure class="slider__slide slide">
        <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Multiple-Notes.png">
        <figcaption>Producteev - Multiple Notes</figcaption>
      </figure>
-     <figure class="slide">
+     <figure class="slider__slide slide">
        <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-History-Expanded.png">
        <figcaption>Producteev - History</figcaption>
      </figure>
    </div>
  </div>
 
- <div class='dots slider-indicators'></div>
+ <div class='dots slider-indicators sliders'></div>
+ 
+ 
+<div id="slider" class="slider swipe">
+  <div class='swipe-wrap slider__slides'>
+    <figure class="slider__slide">
+      <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Main.png">
+      <figcaption>Producteev - Main Screen</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Empty-Workspace.png">
+      <figcaption>Producteev - Empty Workspace</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Task-Entry.png">
+      <figcaption>Producteev - Task Entry</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Setting-a-Deadline.png">
+      <figcaption>Producteev - Setting a Deadline</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Multiple-Notes.png">
+      <figcaption>Producteev - Multiple Notes</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-History-Expanded.png">
+      <figcaption>Producteev - History</figcaption>
+    </figure>
+  </div>
+</div>
+
+<div id="slider_nav" class='dots slider-indicators'>
+  <ul>
+    <li class="dot-item"></li>
+    <li class="dot-item"></li>
+    <li class="dot-item"></li>
+    <li class="dot-item"></li>
+    <li class="dot-item"></li>
+    <li class="dot-item"></li>
+  </ul>
+</div>
+
 
 <h2>Platforms</h2>
 Web, iPhone, Mac and <a href="http://blog.producteev.com/exclusive-sneak-peek-at-producteev-for-window">Windows (coming soon)</a>.

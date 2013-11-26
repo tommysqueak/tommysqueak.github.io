@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined variable: "$inverse-color".
-        on line 4 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/slider.sass
+        on line 5 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/slider.sass
 
 1: /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/slider.sass
 
 Backtrace:
-/Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/slider.sass:4
+/Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/slider.sass:5
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/script/variable.rb:49:in `_perform'
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/script/node.rb:40:in `perform'
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
@@ -60,4 +60,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$inverse-color\".\A         on line 4 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/slider.sass\A \A 1: /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/slider.sass"; }
+  content: "Syntax error: Undefined variable: \"$inverse-color\".\A         on line 5 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/slider.sass\A \A 1: /Users/tommysqueek/Dev/Source/tommysqueak/sass/blocks/slider.sass"; }
