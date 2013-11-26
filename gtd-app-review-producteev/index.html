@@ -219,79 +219,37 @@ Dock badges just seem to be for tasks that you&#8217;ve assigned to others or ha
   <li>All items (labels and Filters) in the left menu can be dragged and dropped to re-order them.</li>
 </ul>
 <h2>How it Looks</h2>
-
-<div class='slider swipeshow'>
-   <div class='slides slider__slides'>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Main.png">
-       <figcaption>Producteev - Main Screen</figcaption>
-     </figure>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Empty-Workspace.png">
-       <figcaption>Producteev - Empty Workspace</figcaption>
-     </figure>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Task-Entry.png">
-       <figcaption>Producteev - Task Entry</figcaption>
-     </figure>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Setting-a-Deadline.png">
-       <figcaption>Producteev - Setting a Deadline</figcaption>
-     </figure>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Multiple-Notes.png">
-       <figcaption>Producteev - Multiple Notes</figcaption>
-     </figure>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-History-Expanded.png">
-       <figcaption>Producteev - History</figcaption>
-     </figure>
-   </div>
- </div>
-
- <div class='dots slider-indicators sliders'></div>
- 
  
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Main.png">
-      <figcaption>Producteev - Main Screen</figcaption>
+      <figcaption>Main Screen</figcaption>
     </figure>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Empty-Workspace.png">
-      <figcaption>Producteev - Empty Workspace</figcaption>
+      <figcaption>Empty Workspace</figcaption>
     </figure>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Task-Entry.png">
-      <figcaption>Producteev - Task Entry</figcaption>
+      <figcaption>Task Entry</figcaption>
     </figure>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Setting-a-Deadline.png">
-      <figcaption>Producteev - Setting a Deadline</figcaption>
+      <figcaption>Setting a Deadline</figcaption>
     </figure>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Multiple-Notes.png">
-      <figcaption>Producteev - Multiple Notes</figcaption>
+      <figcaption>Multiple Notes</figcaption>
     </figure>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-History-Expanded.png">
-      <figcaption>Producteev - History</figcaption>
+      <figcaption>History</figcaption>
     </figure>
   </div>
 </div>
 
-<div id="slider_nav" class='dots slider-indicators'>
-  <ul>
-    <li class="dot-item"></li>
-    <li class="dot-item"></li>
-    <li class="dot-item"></li>
-    <li class="dot-item"></li>
-    <li class="dot-item"></li>
-    <li class="dot-item"></li>
-  </ul>
-</div>
-
+<ul id="slider_nav" class='slider-indicators'></ul>
 
 <h2>Platforms</h2>
 Web, iPhone, Mac and <a href="http://blog.producteev.com/exclusive-sneak-peek-at-producteev-for-window">Windows (coming soon)</a>.
@@ -493,7 +451,7 @@ Free for up to 2 users in any Workspace plus 100MB limit. Unlimited Workspaces. 
 <script type="text/javascript" src="/javascripts/vendor/skrollr.min.js"></script>
 <script type="text/javascript" src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
 <script type="text/javascript" src="/javascripts/vendor/swipe.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/swipeshow.min.js"></script>
+<script type="text/javascript" src="/javascripts/slider.js"></script>
 <!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 
 <!--[if lt IE 9]>
@@ -513,27 +471,8 @@ Free for up to 2 users in any Workspace plus 100MB limit. Unlimited Workspaces. 
   $('.navbar-collapse').on('hide.bs.collapse', function() {
     $('#navToggler').removeClass('opened');
   });
-  
-  $(".slider").swipeshow({autostart: false, $dots: $(".slider-indicators.sliders")});
 
-  var slider =
-    Swipe(document.getElementById('slider'), {
-      auto: 3000,
-      speed: 700,
-      continuous: true,
-      callback: function(pos) {
-
-        var i = bullets.length;
-        while (i--) {
-          bullets[i].className = 'dot-item';
-        }
-        bullets[pos].className = 'dot-item active';
-
-      }
-    });
-
-  var bullets = document.getElementById('slider_nav').getElementsByTagName('li');
-
+  slider.slidify('#slider', '#slider_nav');
   
 </script>
 

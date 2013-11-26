@@ -289,7 +289,7 @@ CSS, JQuery, SQL, Ruby, Python and many more.
 <script type="text/javascript" src="/javascripts/vendor/skrollr.min.js"></script>
 <script type="text/javascript" src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
 <script type="text/javascript" src="/javascripts/vendor/swipe.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/swipeshow.min.js"></script>
+<script type="text/javascript" src="/javascripts/slider.js"></script>
 <!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 
 <!--[if lt IE 9]>
@@ -309,27 +309,8 @@ CSS, JQuery, SQL, Ruby, Python and many more.
   $('.navbar-collapse').on('hide.bs.collapse', function() {
     $('#navToggler').removeClass('opened');
   });
-  
-  $(".slider").swipeshow({autostart: false, $dots: $(".slider-indicators.sliders")});
 
-  var slider =
-    Swipe(document.getElementById('slider'), {
-      auto: 3000,
-      speed: 700,
-      continuous: true,
-      callback: function(pos) {
-
-        var i = bullets.length;
-        while (i--) {
-          bullets[i].className = 'dot-item';
-        }
-        bullets[pos].className = 'dot-item active';
-
-      }
-    });
-
-  var bullets = document.getElementById('slider_nav').getElementsByTagName('li');
-
+  slider.slidify('#slider', '#slider_nav');
   
 </script>
 

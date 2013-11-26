@@ -4,7 +4,7 @@
   <title><![CDATA[Category: GTD | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tommysqueak.github.io/categories/gtd/atom.xml" rel="self"/>
   <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-11-26T10:28:53+01:00</updated>
+  <updated>2013-11-26T22:14:10+01:00</updated>
   <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -140,63 +140,31 @@
 
 
 
-<div class='slider swipeshow'>
-   <div class='slides slider__slides'>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Main.png">
-       <figcaption>Producteev - Main Screen</figcaption>
-     </figure>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Empty-Workspace.png">
-       <figcaption>Producteev - Empty Workspace</figcaption>
-     </figure>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Task-Entry.png">
-       <figcaption>Producteev - Task Entry</figcaption>
-     </figure>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Setting-a-Deadline.png">
-       <figcaption>Producteev - Setting a Deadline</figcaption>
-     </figure>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Multiple-Notes.png">
-       <figcaption>Producteev - Multiple Notes</figcaption>
-     </figure>
-     <figure class="slider__slide slide">
-       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-History-Expanded.png">
-       <figcaption>Producteev - History</figcaption>
-     </figure>
-   </div>
- </div>
-
-
-<p> <div class='dots slider-indicators sliders'></div></p>
-
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Main.png">
-      <figcaption>Producteev - Main Screen</figcaption>
+      <figcaption>Main Screen</figcaption>
     </figure>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Empty-Workspace.png">
-      <figcaption>Producteev - Empty Workspace</figcaption>
+      <figcaption>Empty Workspace</figcaption>
     </figure>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Task-Entry.png">
-      <figcaption>Producteev - Task Entry</figcaption>
+      <figcaption>Task Entry</figcaption>
     </figure>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Setting-a-Deadline.png">
-      <figcaption>Producteev - Setting a Deadline</figcaption>
+      <figcaption>Setting a Deadline</figcaption>
     </figure>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-Multiple-Notes.png">
-      <figcaption>Producteev - Multiple Notes</figcaption>
+      <figcaption>Multiple Notes</figcaption>
     </figure>
     <figure class="slider__slide">
       <img src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev-History-Expanded.png">
-      <figcaption>Producteev - History</figcaption>
+      <figcaption>History</figcaption>
     </figure>
   </div>
 </div>
@@ -204,16 +172,7 @@
 
 
 
-<div id="slider_nav" class='dots slider-indicators'>
-  <ul>
-    <li class="dot-item"></li>
-    <li class="dot-item"></li>
-    <li class="dot-item"></li>
-    <li class="dot-item"></li>
-    <li class="dot-item"></li>
-    <li class="dot-item"></li>
-  </ul>
-</div>
+<ul id="slider_nav" class='slider-indicators'></ul>
 
 
 
