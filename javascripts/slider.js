@@ -34,7 +34,6 @@ var slider = (function($){
       
 
       var bullets = buildBullets(slider, bullet_holder);
-      console.log(slider.getPos())
       bullets.eq(slider.getPos()).addClass('is-active');
     };
     
