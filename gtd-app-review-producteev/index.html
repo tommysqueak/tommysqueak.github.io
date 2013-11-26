@@ -480,7 +480,7 @@ Free for up to 2 users in any Workspace plus 100MB limit. Unlimited Workspaces. 
 
   function isTouchy(){
     //  Hacky
-    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera);    
+    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;    
   }
 
   if (!isTouchy()){

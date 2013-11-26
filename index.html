@@ -683,7 +683,7 @@ If you&#8217;ve tried the Android app before and had a terrible time of it, they
 
   function isTouchy(){
     //  Hacky
-    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera);    
+    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;    
   }
 
   if (!isTouchy()){

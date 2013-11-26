@@ -312,7 +312,7 @@ The following are my interests too, I&#8217;ve just not got round to writing the
 
   function isTouchy(){
     //  Hacky
-    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera);    
+    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;    
   }
 
   if (!isTouchy()){

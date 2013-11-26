@@ -444,7 +444,7 @@ Free for all platforms.
 
   function isTouchy(){
     //  Hacky
-    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera);    
+    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;    
   }
 
   if (!isTouchy()){

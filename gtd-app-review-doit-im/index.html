@@ -436,7 +436,7 @@ Free for all platforms, except the Mac mini app which is only £0.69.
 
   function isTouchy(){
     //  Hacky
-    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera);    
+    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;    
   }
 
   if (!isTouchy()){
