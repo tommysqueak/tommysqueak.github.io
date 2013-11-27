@@ -1,4 +1,5 @@
 User-agent: *
-Disallow: 
+Disallow: /categories/
+Disallow: /page/
 
 Sitemap: http://tommysqueak.github.io/sitemap.xml 
