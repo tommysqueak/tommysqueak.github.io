@@ -82,7 +82,7 @@
     <section class="boxed">
         <ul class="tag-list">
           <li class="tag-list__tag"><a href="/archive">all <span class="badge">&nbsp;</span></a></li>
-          <li class='tag-list__tag'><a href='/tags/backbone/'>backbone <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/bdd/'>bdd <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/gtd/'>gtd <span class='badge'>4</span></a></li><li class='tag-list__tag'><a href='/tags/gtd-app-review/'>gtd app review <span class='badge'>4</span></a></li>    
+          <li class='tag-list__tag'><a href='/tags/android/'>android <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/app/'>app <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/asp-dot-net/'>asp.net <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/backbone/'>backbone <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/bdd/'>bdd <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/bdd/'>bdd <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/business-model-generation/'>business model generation <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/ci/'>ci <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/couchdb/'>couchdb <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/gtd/'>gtd <span class='badge'>11</span></a></li><li class='tag-list__tag'><a href='/tags/gtd-app-review/'>gtd app review <span class='badge'>11</span></a></li><li class='tag-list__tag'><a href='/tags/kanban/'>kanban <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/laters/'>laters <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/lean-startup/'>lean startup <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/lean-startup/'>lean startup <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/nosql/'>nosql <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/software-design/'>software design <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/talk/'>talk <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/usability/'>usability <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/ux/'>ux <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/wordpress/'>wordpress <span class='badge'>1</span></a></li>    
         </ul>
     </section>
   
@@ -97,9 +97,121 @@
              <article class="post post--item post--compact">
                <div class="post__media-object col-xs-12 col-sm-5 col-lg-4">
   
-    <a rel="full-article" href="/testing-backbone-with-jasmine-and-sinon/">
-      <img class="post__image" src="http://tomphilip.me/wp-content/uploads/2011/12/Backbone_Jasmine_Sinon.png">
-    </a>
+
+  
+    <p class="post-metadata">
+      
+
+
+
+
+
+
+
+
+
+
+
+<time class="post__published" datetime="2012-01-30T00:00:00+01:00" pubdate data-updated="true">Jan 30<span>th</span>, 2012</time>
+      
+  
+
+<span class="post-metadata__author"><span>Tom Philip</span></span>
+
+      
+    </p>
+  
+
+</div>
+
+<div class="post__media-body col-xs-12 col-sm-7 col-lg-8">
+
+  <header class="post__header">
+
+    <h1 class="post__title"><a href="/backbone-on-the-couch/">Backbone on the Couch</a></h1>
+
+  </header>
+
+  <div class="post__content"><img class="alignnone size-full wp-image-706" title="Backbone-on-the-Couch" src="http://tomphilip.me/wp-content/uploads/2012/01/Backbone-on-the-Couch.png" alt="Backbone on the Couch" width="640" height="302" />
+
+A simple <a href="http://documentcloud.github.com/backbone">Backbone.js</a> plugin for use in leanback apps, where someone is sat on the couch using a remote control to use your app. It's open source. You can get it and fork it at <strong><a title="Backbone on the Couch source code" href="https://github.com/tommysqueak/Backbone-On-The-Couch">Backbone on the Couch on github</a></strong>
+
+Gives you something even your mum can understand
+
+[codesyntax lang="javascript"]
+
+keypad.bind("key:left", doSomething);
+
+[/codesyntax]
+
+<strong>vs</strong>
+
+What does the magic number 37 mean?
+
+[codesyntax lang="javascript"]
+switch(e.which)
+{
+case: 37
+doSomething();
+break;
+etc:
+etc:
+andsoon:
+}
+[/codesyntax]
+<h2>Usages</h2>
+In its simplest form you can do the following:
+
+[codesyntax lang="javascript"]
+var keypad = new Backbone.OnTheCouch.KeyEvents();
+
+// listen for any of the commonly used d-pad keys (left, right, up, down, enter, space and escape)
+keypad.bind("key:up", function(){//do something on up});
+[/codesyntax]
+
+If you're using an event aggregator or something else. You can have the events trigger on that instead:
+
+[codesyntax lang="javascript"]
+var eventAggregator = _.extend({}, Backbone.Events);
+var keypad = new Backbone.OnTheCouch.KeyEvents({triggerOn: eventAggregator});
+
+eventAggregator.bind("key:up", function(){//do something on up});
+[/codesyntax]
+
+You can also replace the d-pad key defaults and provide your own keys that you want to listen for:
+
+[codesyntax lang="javascript"]
+var keypad = new Backbone.OnTheCouch.KeyEvents({keyMaps: [
+new Backbone.OnTheCouch.KeyEvent(188, "key:comma"),
+new Backbone.OnTheCouch.KeyEvent(190, "key:fullstop")
+]});
+
+keypad.bind("key:comma", function(){//do something odd});
+[/codesyntax]
+<h2>Example</h2>
+The plugin came out of the development of the <a href="http://tomphilip.me/index.php/introducing-xkcd-couch/">XKCD Couch app</a>, which is also a <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 Boxee app</a>. You can see this plugin at work on <a href="http://xkcd.greatboxee.com">XKCD Couch app</a>.
+
+<strong><a title="Backbone on the Couch source code" href="https://github.com/tommysqueak/Backbone-On-The-Couch">Backbone on the Couch on github</a></strong>
+</div>
+  
+  
+
+</div>
+
+
+
+
+             </article>
+         </div>
+
+       
+
+         
+         
+
+         <div class="post-list__container col-xs-12 col-md-6">
+             <article class="post post--item post--compact">
+               <div class="post__media-object col-xs-12 col-sm-5 col-lg-4">
   
 
   
@@ -132,20 +244,121 @@
 
   <header class="post__header">
 
-    <h1 class="post__title"><a href="/testing-backbone-with-jasmine-and-sinon/">Testing Backbone with Jasmine &amp; Sinon</a></h1>
+    <h1 class="post__title"><a href="/testing-backbone-with-jasmine-and-sinon/">Testing Backbone with Jasmine and Sinon</a></h1>
 
   </header>
 
-  <div class="post__content">This is based on an <strong><a href="http://xkcd.com">XKCD</a> leanback web app</strong> I'm working on that will form part of a html5 <a title="Boxee app developer" href="http://www.greatboxee.com">Boxee app</a>. Think sitting on your couch, remote control in hand flicking through XKCD comics on the TV.
+  <div class="post__content"><img class="alignnone size-full wp-image-656" title="Backbone and Jasmine and Sinon" src="http://tomphilip.me/wp-content/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon" width="640" height="282" />
+
+This is based on an <strong><a href="http://xkcd.com">XKCD</a> leanback web app</strong> I'm working on that will form part of a html5 <a title="Boxee app developer" href="http://www.greatboxee.com">Boxee app</a>. Think sitting on your couch, remote control in hand flicking through XKCD comics on the TV.
 
 It brings together quite a few technologies and techniques. The end results is something that is separated out nicely (no spaghetti code) that is simple, testable, documented and maintainable.
+<h2>The Specs</h2>
+[codesyntax lang="javascript" tab_width="1"]
+<pre>describe("Comic Navigator", function(){
 
+	var nav = new Xkcd.ComicNavigator();
+	var latestComic = new Xkcd.Comic({id: 101});
+
+	describe("when navigating to the latest xkcd comic", function(){
+
+		beforeEach(function(){
+			this.fetchStub = sinon.stub(Xkcd.Comic.prototype, 'fetch').yieldsTo('success', latestComic);
+
+			nav.toLatest();
+		});
+
+		afterEach(function(){
+			this.fetchStub.restore();
+		});
+
+		it("should fetch the latest comic. NB requests without a comic number get the latest comic.", function(){
+			expect(this.fetchStub.thisValues[0].get("id")).toBeFalsy();
+		});
+
+		it("should navigate to the latest comic", function(){
+			expect(nav.get("current")).toBe(latestComic);
+		});
+
+		it("should keep track of what the latest comic is", function(){
+			expect(nav.get("latest")).toBe(latestComic);
+		});
+	});
+});</pre>
+[/codesyntax]
+<h3>So what's going on?</h3>
+<strong><a title="Jasmine BDD Framework for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> is the BDD framework</strong> that is giving us that familiar 'describe/it' way of defining the behaviour and at the code level the expect-ations. It's easy to understand and get started with. It doesn't have to be run in the browser as it has no dependency on the DOM, so is CI friendly too.
+
+<strong><a title="Mocking, stubbing, spying framework for Javascript" href="http://sinonjs.org/">Sinon.JS</a> is the mocking framework</strong>. It's only being used here to stub out the fetch call, which would otherwise make a call to the server. It  also keeps the call synchronous and gives us a canned answer that we can later observe. It's framework independent, so can be used with your favourite Javascript testing framework.
+<h2>The Feature</h2>
+[codesyntax lang="javascript" tab_width="1"]
+<pre>var Xkcd = (function(){
+
+	var ComicNavigator = Backbone.Model.extend({
+
+			toLatest: function(){
+				var comic = new Comic()
+				var nav = this;
+				comic.fetch({
+					success: function(model){
+						nav.set({"current": model});
+						nav.set({"latest": model});
+					}
+				});
+			}
+		}
+	);
+
+	var Comic = Backbone.Model.extend({
+		url: function(){
+			return 'http://dynamic.xkcd.com/api-0/jsonp/comic/' + (this.id || "") + '?callback=?'
+		},
+
+		initialize: function(){
+	    	this.backbone_fetch = this.fetch;
+			this.fetch = function(options)
+			{
+				options || (options = {});
+				options.jsonpCallback = 'comicIncoming';
+				return this.backbone_fetch(options);
+			}
+		}
+	});
+
+	return {
+		ComicNavigator: ComicNavigator,
+		Comic: Comic
+	};
+
+})();</pre>
+[/codesyntax]
+<h3>So what's going on?</h3>
+First of all, I'm using the <strong><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript">Revealing Module Pattern</a> to namespace the models</strong> into 'Xkcd'. The return statement at the end is effectively publicly exposing the ComicNavigator and Comic. Anything I want to keep private I can, I just don't expose it. This particular version of the <a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module Pattern</a> is quite neat as it clearly shows what's public and you can use consistent function definitions regardless of whether the function is public or private.
+
+<strong><a title="Backbone" href="http://documentcloud.github.com/backbone/">Backbone.js</a> is a lightweight MVC-like framework</strong> that allows you to structure your code, specifically separating your data from its presentation. I'm doing it an injustice, it actually does a lot more and is very useful in keeping everything in sync with a RESTful backend, not to mention routing, eventing and validation.
+
+In the above example I have 2 models. The rest of the code uses <a title="Backbone Router" href="http://documentcloud.github.com/backbone/#Router">routes</a> for bookmarking specific comics and possibly navigation to (I've yet to decide on that). There's also a <a title="Backbone View" href="http://documentcloud.github.com/backbone/#View">view</a> which will bind to the current comic on the navigator. As the navigator changes the current comic the UI will automatically reflect this. You'll be able to see all this in the finished app (coming soon!).
+
+For the Comic model, Backbone has a <a title="Backbone Model fetch method" href="http://documentcloud.github.com/backbone/#Model-fetch">fetch</a> method that will automatically populate the model, given a url. I'm overriding the url property in order to add a <a href="http://en.wikipedia.org/wiki/JSONP">jsonp</a> callback (the XKCD service is on a different domain to the app). <strong>Just by adding "?callback=?" means backbone will switch to jsonp</strong>. Backbone just defers to jQuery's $.ajax (or <a title="Zepto.JS" href="http://zeptojs.com/">Zeptos</a>) method, which automatically detects the  presence of =? and switches from json to jsonp. If there's no comic id the service returns the latest comic. I'm also intercepting the fetch function to specify 'comicIncoming' as the callback, normally this isn't necessary but the XKCD service doesn't like jQuerys automatically generated callback.
+
+At this stage, I'm not certain that the Navigator should be a Backbone model. It makes sense in a typical MVC app and has some characteristics of a Backbone model but then doesn't have the persistence/entity behaviours.
+
+I'm also not happy with the 1st spec, I think it's highlighting a smell around newing up a comic. My static mind says inject a factory but that doesn't feel right in a dynamic language. Thoughts?
+
+What I've shown is a small slice of the app, to show off some of the techniques and tools. Clearly there's more, I just haven't written it yet. Once the app is complete, it will show how the other parts come into play, specifically the routes and the view.
+<h2>To Recap</h2>
+<ul>
+	<li><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module Pattern</a> for namespacing and keeping things private</li>
+	<li><a href="http://pivotal.github.com/jasmine/">Jasmine</a> for BDD style testing ala RSpec</li>
+	<li><a href="http://sinonjs.org/">Sinon</a> for test doubles (mocks, stubs etc if you care about the terms which cause more confusion than their worth)</li>
+	<li><a href="http://documentcloud.github.com/backbone/">Backbone</a> for separating code into different concerns</li>
+	<li><a href="http://en.wikipedia.org/wiki/JSONP">Jsonp</a> with Backbone to fetch data from a different domain</li>
+</ul>
+<strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="http://tomphilip.me/index.php/introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="http://tomphilip.me/index.php/backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.
+
+&nbsp;
 </div>
   
-  
-    <footer>
-      <a rel="full-article" href="/testing-backbone-with-jasmine-and-sinon/">Read...</a>
-    </footer>
   
 
 </div>
@@ -214,23 +427,23 @@ It brings together quite a few technologies and techniques. The end results is s
   <ul class="list__list">
     
       <li>
-        <a href="/a-test-post-so-we-can-design-the-home-page/">A test post so we can design the home page</a>
+        <a href="/dependency-inversion-principle/">Dependency Inversion Principle</a>
       </li>
     
       <li>
-        <a href="/testing-backbone-with-jasmine-and-sinon/">Testing Backbone with Jasmine &amp; Sinon</a>
+        <a href="/great-software-design-slides/">Great Software Design Slides</a>
       </li>
     
       <li>
-        <a href="/gtd-app-review-producteev/">GTD App Review - Producteev</a>
+        <a href="/sociable-software-delivery-an-introduction-to-bdd/">Sociable Software Delivery - An Introduction to BDD</a>
       </li>
     
       <li>
-        <a href="/gtd-app-review-astrid/">GTD App Review - Astrid</a>
+        <a href="/best-gtd-app/">The Best GTD App</a>
       </li>
     
       <li>
-        <a href="/gtd-app-review-wunderlist/">GTD App Review - Wunderlist</a>
+        <a href="/gtd-app-review-conqu/">GTD App Review - Conqu</a>
       </li>
     
     <li><a href="/archive">More...</a></li>
@@ -314,6 +527,7 @@ It brings together quite a few technologies and techniques. The end results is s
 <script type="text/javascript" src="/javascripts/vendor/skrollr.min.js"></script>
 <script type="text/javascript" src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
 <script type="text/javascript" src="/javascripts/vendor/swipe.js"></script>
+<script type="text/javascript" src="/javascripts/vendor/jquery.swipebox.min.js"></script>
 <script type="text/javascript" src="/javascripts/slider.js"></script>
 <!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 
@@ -323,9 +537,6 @@ It brings together quite a few technologies and techniques. The end results is s
 <script type="text/javascript">
   nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
   $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
-
-  //nav.attr('data-10-start', 'background-color[quadratic]:rgb(255, 255, 255)');
-  //nav.attr('data-50-start', 'background-color[quadratic]:rgb(34, 34, 34)');
   
   $('.navbar-collapse').on('show.bs.collapse', function() {
     $('#navToggler').addClass('opened');
@@ -335,7 +546,13 @@ It brings together quite a few technologies and techniques. The end results is s
     $('#navToggler').removeClass('opened');
   });
 
-  slider.slidify('#slider', '#slider_nav');
+  if($('#slider').length > 0){
+    slider.slidify('#slider', '#slider_nav');    
+  }
+  
+  $(function() {
+  	$('.swipebox').swipebox();
+  });
   
 </script>
 

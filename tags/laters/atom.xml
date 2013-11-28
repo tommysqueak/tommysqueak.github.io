@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[laters | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
+  <link href="http://tommysqueak.github.io/tags/laters/atom.xml" rel="self"/>
+  <link href="http://tommysqueak.github.io/"/>
+  <updated>2013-11-28T23:57:38+01:00</updated>
+  <id>http://tommysqueak.github.io/</id>
+  <author>
+    <name><![CDATA[Tom Philip]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Lean Startup on a Mobile Phone]]></title>
+    <link href="http://tommysqueak.github.io/lean-startup-on-a-mobile-phone/"/>
+    <updated>2011-03-03T00:00:00+01:00</updated>
+    <id>http://tommysqueak.github.io/lean-startup-on-a-mobile-phone</id>
+    <content type="html"><![CDATA[<h2>How I Got Started</h2>
+
+
+<p>
+  When I started out with <a title="Laters for Android, Read it Later client" href="http://laters.mobi">Laters</a> 
+  (an Android app for <a href="http://readitlaterlist.com/">Read it Later</a>), 
+  it was a <a title="What's a Play Project?" href="http://www.screwworkletsplay.com/2010/10/the-power-of-a-play-project/">play project</a>, 
+  it was something I developed on the tube on a small underpowered netbook to and from work. 
+  I'd read about <a href="http://en.wikipedia.org/wiki/Lean_Startup">lean startups</a> 
+  (much of it via Read it Later!) and <strong>it never occured to me that this could be applied to an Android app</strong>. 
+  So I got a bit ahead of myself in terms of a 
+  <a href="http://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html">Minimal Viable Product</a> 
+  (I realise now I could have released even earlier) but it forced me to release it early, rather then wait until feature rich, 
+  so I could learn<strong> </strong>from this <a href="http://en.wikipedia.org/wiki/Minimum_viable_product">MVP</a>.
+</p>
+
+
+
+
+<h2>My Fears</h2>
+
+
+<p>
+  Most written examples about Lean Startups revolve around the Web. So this is an experiment in itself, 
+  to see if I could apply the techniques in an mobile phone app environment. 
+  My biggest fear with a minimal app, is people will <strong>1 star it in the Android Market</strong> 
+  and leave unhelpful comments like "Rubbish, does nothing". 
+  Thus putting off other people from installing it. 
+  The Android Market is poor for constructive feedback, there's no place to open up a dialog and find out 
+  why it was rubbish and how it could be improved. There's no way for someone to ask for something and get 
+  notified that it's now in the app. Community or social it's not. 
+</p>
+
+
+
+
+<h2>How I'm doing it</h2>
+
+
+<p>
+  <img src="http://laters.mobi/wp-content/uploads/2011/03/Build-Measure-Learn-245x300.png" alt="Build Measure Learn">
+</p>
+
+
+
+
+<h3>Build</h3>
+
+
+<p>
+  I've got my MVP. So my first release has <strong>just enough features, to make it usable</strong> 
+  and allow me to learn what people would like from the app. My ideas (or guesses) 
+  for cool features that haven't been built but need verifying, come in the form of 'Not Yet Made' feature dialogs.
+</p>
+
+
+
+
+<p>
+  <img alt="Not Yet Made - Night Mode" src="http://laters.mobi/wp-content/uploads/2011/03/Not-Yet-Made-Night-Mode-200x300.png">
+  <img alt="Not Yet Made - Share Article" src="http://laters.mobi/wp-content/uploads/2011/03/Not-Yet-Made-Share-Article-200x300.png">
+</p>
+
+
+
+
+<h3>Measure</h3>
+
+
+<p>
+  I've incorporated <a href="http://www.flurry.com">Flurry Analytics</a> to measure how people are using 
+  the app and whether they are trying to use the <strong>'Not Yet Made' features</strong>. 
+  In combination with those, I have links through to the <strong><a title="Feedback Forum - Suggest Features and Get Help" href="http://laters.userecho.com/">Feedback Forum</a></strong> 
+  provided by <a href="http://www.userecho.com">UserEcho</a>. 
+  Here people can discuss new features or problems and vote on features they would like. 
+  <a href="https://market.android.com/">Android Market</a> gives me some feedback through comments, ratings and usage but this not very useful.
+</p>
+
+
+
+
+<p>
+  I'm not sure I could apply <a href="http://en.wikipedia.org/wiki/A/B_testing">split A/B testing</a>? Any thoughts?
+</p>
+
+
+
+
+<h3>Learn</h3>
+
+
+<p>
+  By taking the <strong>data from Analytics and the Feedback forum</strong>, 
+  I should be able to decide which features to make, which to ditch and how current features are being used.
+</p>
+
+
+
+
+<p>
+  I'm no lean startup expert. I've applied lean principles to software development in the past and 
+  to this project but this was new for me. Another chance to learn, a 
+  <a href="http://en.wikipedia.org/wiki/Lean_software_development#Amplify_learning">core principle of Lean</a>. 
+  So whether it's actually lean startup, I'm not sure. I'd be interested to get some feedback from people who have some experience.
+</p>
+
+
+
+
+<p>
+  If anyone would like to get involved, 
+  <a title="Get Laters on your phone" href="https://market.android.com/details?id=com.conker.laters.free">Laters is in the Android Market</a>. 
+  Give your feedback and shape the app. Atypically I'll be moving through the build-measure-learn loop quickly, 
+  so expect some cool stuff on the way. An impending baby might put the brakes on this but bear with me and 
+  I'm sure lack of sleep will mean nothing to me and I'll back making those features.
+</p>
+
+
+
+
+<p>
+  Laters
+</p>
+
+
+
+
+<p>
+  <strong>UPDATE:</strong> 
+  The <a title="Lessons Learnt from Applying Lean Startup on a Mobile Phone" href="http://tommysqueak.github.io/lessons-learnt-from-applying-lean-startup-on-a-mobile-phone">second part of this article</a> 
+  is now available.
+</p>
+
+
+
+
+<p>
+  <strong>NB</strong> This post was originally posted on my <a title="original article" href="http://laters.mobi/index.php/lean-startup-on-mobile-phone/">Laters.mobi</a> website.
+</p>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[talk | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
+  <link href="http://tommysqueak.github.io/tags/talk/atom.xml" rel="self"/>
+  <link href="http://tommysqueak.github.io/"/>
+  <updated>2013-11-28T23:57:38+01:00</updated>
+  <id>http://tommysqueak.github.io/</id>
+  <author>
+    <name><![CDATA[Tom Philip]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[BDD Talk]]></title>
+    <link href="http://tommysqueak.github.io/bdd-talk/"/>
+    <updated>2010-11-25T00:00:00+01:00</updated>
+    <id>http://tommysqueak.github.io/bdd-talk</id>
+    <content type="html"><![CDATA[<p>
+  <iframe src="http://prezi.com/embed/4bklhiavc5qp/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" width="100%" height="400" frameBorder="0"></iframe>
+</p>
+
+
+
+
+<p>
+  Gave a talk about <strong>BDD </strong>to the guys at work, about how we use it and could do more of it. 
+  <strong>Not Business Driven Development</strong>, as I'd got into my head and kept referring to it as. 
+  It was a bit embarrassing when, towards the end, somebody said that they'd heard about something like this called <strong>Behaviour Driven Development</strong>.
+</p>
+
+
+
+
+<p class="prezi-player-links">
+  <a href="http://prezi.com/4bklhiavc5qp/bdd/">BDD</a> on <a href="http://prezi.com">Prezi</a>
+</p>
+
+]]></content>
+  </entry>
+  
+</feed>

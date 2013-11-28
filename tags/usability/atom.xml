@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Usability | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
+  <link href="http://tommysqueak.github.io/tags/usability/atom.xml" rel="self"/>
+  <link href="http://tommysqueak.github.io/"/>
+  <updated>2013-11-28T23:57:38+01:00</updated>
+  <id>http://tommysqueak.github.io/</id>
+  <author>
+    <name><![CDATA[Tom Philip]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Santander Login Translations]]></title>
+    <link href="http://tommysqueak.github.io/santander-login-translations/"/>
+    <updated>2011-12-21T00:00:00+01:00</updated>
+    <id>http://tommysqueak.github.io/santander-login-translations</id>
+    <content type="html"><![CDATA[<p>From the immortal words of Steve Krugs usability book <a href="http://www.sensible.com/dmmt.html">Don&rsquo;t Make me Think</a>, Santander makes me think every time I have to login to their <a title="Santander Online Banking" href="https://retail.santander.co.uk/LOGSUK_NS_ENS/BtoChannelDriver.ssobto?dse_operationName=LOGON">online banking site</a>. So here&rsquo;s a handy translation guide to what they&rsquo;re really asking you to enter to login.</p>
+
+<h2>Step 1</h2>
+
+
+<p><img class="alignnone size-full wp-image-611" title="Santander Login Screen 1" src="http://tomphilip.me/wp-content/uploads/2011/12/Santander-Login-Screen-1.png" alt="First page for the Santander Online Banking Login" width="625" height="263" /></p>
+
+<h3><strong>Personal ID = Username</strong>.</h3>
+
+
+<p>Like what everybody else asks for and not to be confused with the other code/id they give you, the Registration Number (see step 2).</p>
+
+<h2>Step 2</h2>
+
+
+<p><img class="alignnone size-full wp-image-613" title="Santander Login Screen 2" src="http://tomphilip.me/wp-content/uploads/2011/12/Santander-Login-Screen-2.png" alt="Second page for the Santander Online Banking Login" width="619" height="343" /></p>
+
+<h3><strong>Passcode = Password</strong>.</h3>
+
+
+<p>&nbsp;</p>
+
+<p>Beyond just the bad labelling, the Back and Submit buttons are the same. I have to read each one to know what to click. What&rsquo;s up with &lsquo;login&rsquo; or &lsquo;signin&rsquo;? What am I submitting?</p>
+
+<p>Nice friendly memorable url too, well done. <a href="https://retail.santander.co.uk/LOGSUK_NS_ENS/BtoChannelDriver.ssobto?dse_operationName=LOGON"><a href="https://retail.santander.co.uk/LOGSUK_NS_ENS/BtoChannelDriver.ssobto?dse_operationName=LOGON">https://retail.santander.co.uk/LOGSUK_NS_ENS/BtoChannelDriver.ssobto?dse_operationName=LOGON</a></a></p>
+
+<p>&nbsp;</p>
+]]></content>
+  </entry>
+  
+</feed>

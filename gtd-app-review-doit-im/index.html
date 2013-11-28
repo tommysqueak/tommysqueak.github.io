@@ -119,12 +119,11 @@
 
 
 
-<div class="post__content"><a href="http://www.doit.im">Doit.im</a> is a fantastic multi-platform free service, designed specifically for GTD. It has a pleasant simplicity about it, that looks great and makes it easy to use.
+<div class="post__content"><img class="alignnone size-full wp-image-413" title="Doit-im" src="http://tomphilip.me/wp-content/uploads/2011/10/Doit-im.png" alt="Doit.im" width="600" height="300" />
+
+<a href="http://www.doit.im">Doit.im</a> is a fantastic multi-platform free service, designed specifically for GTD. It has a pleasant simplicity about it, that looks great and makes it easy to use.
 
 Because it is <a href="https://i.doit.im/features">made for GTD</a>, it isn&#8217;t bloated with features and focuses on the key principles of GTD. It has GTD specific lists (Eg someday, next, waiting for etc), filters which make sense (eg contexts, projects etc) and an ever present &#8216;Create Task&#8217; button for collecting those thoughts. All of which help you through the <a href="http://www.lifehack.org/articles/lifehack/gtd-workflow-chart.html">GTD process</a>.
-
-<!--more-->
-
 <h2>How it Scored</h2>
 This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me/index.php/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.
 <table class="gtd-results">
@@ -196,16 +195,15 @@ Because of the layout (in web app) I can&#8217;t &#8216;sit&#8217; in the inbox 
 Shame it only has task counts for some of its lists (Inbox and Today) and not the others.
 <h2>Puzzling</h2>
 The mini app is totally unaware of the statues of Tomorrow, Next and Waiting For. Setting a task to any of these doesn&#8217;t sync that change to the mini app therefore showing the task to have the wrong status. Any tasks added with these statuses don&#8217;t even show up in the mini app after a sync, not that there is a way to see a view of these lists anyway.
-
 <h2>Useful Extras</h2>
 <ul>
-  <li>Projects or special lists can be set as the first screen to open when the app starts up (Android).</li>
-  <li>Calendar and list widgets (Android).</li>
-  <li>Assign tasks to other people.</li>
-  <li>Special lists specific to GTD, such as Next, Scheduled, Waiting for, Someday</li>
-  <li>Smart add, so you can add tasks with details. Eg Buy Flour  #Bake a cake ^Someday, would put task into &#8216;Bake a cake&#8217; project and classify as &#8216;someday maybe&#8217;.</li>
-  <li>You can create your own filters, based on an extensive criteria and add these to the menu underneath the special lists.</li>
-  <li>Global hot key to bring up new task box (Mac Mini).</li>
+	<li>Projects or special lists can be set as the first screen to open when the app starts up (Android).</li>
+	<li>Calendar and list widgets (Android).</li>
+	<li>Assign tasks to other people.</li>
+	<li>Special lists specific to GTD, such as Next, Scheduled, Waiting for, Someday</li>
+	<li>Smart add, so you can add tasks with details. Eg Buy Flour  #Bake a cake ^Someday, would put task into &#8216;Bake a cake&#8217; project and classify as &#8216;someday maybe&#8217;.</li>
+	<li>You can create your own filters, based on an extensive criteria and add these to the menu underneath the special lists.</li>
+	<li>Global hot key to bring up new task box (Mac Mini).</li>
 </ul>
 <h2>How it Looks</h2>
 [gallery exclude=&#8221;413,451&#8221; link=&#8221;file&#8221;]
@@ -244,6 +242,8 @@ Free for all platforms, except the Mac mini app which is only £0.69.
       </article>
 
       <div class="post-navigation">
+        
+          <a class="button button--navigation" href="/gtd-app-review-toodledo/" title="Previous Post: GTD App Review - Toodledo">&lt; GTD App Review - Toodledo</a>
         
         
           <a class="button button--navigation" href="/gtd-app-review-wunderlist/" title="Next Post: GTD App Review - Wunderlist">&gt GTD App Review - Wunderlist</a>
@@ -307,23 +307,23 @@ Free for all platforms, except the Mac mini app which is only £0.69.
   <ul class="list__list">
     
       <li>
-        <a href="/a-test-post-so-we-can-design-the-home-page/">A test post so we can design the home page</a>
+        <a href="/dependency-inversion-principle/">Dependency Inversion Principle</a>
       </li>
     
       <li>
-        <a href="/testing-backbone-with-jasmine-and-sinon/">Testing Backbone with Jasmine &amp; Sinon</a>
+        <a href="/great-software-design-slides/">Great Software Design Slides</a>
       </li>
     
       <li>
-        <a href="/gtd-app-review-producteev/">GTD App Review - Producteev</a>
+        <a href="/sociable-software-delivery-an-introduction-to-bdd/">Sociable Software Delivery - An Introduction to BDD</a>
       </li>
     
       <li>
-        <a href="/gtd-app-review-astrid/">GTD App Review - Astrid</a>
+        <a href="/best-gtd-app/">The Best GTD App</a>
       </li>
     
       <li>
-        <a href="/gtd-app-review-wunderlist/">GTD App Review - Wunderlist</a>
+        <a href="/gtd-app-review-conqu/">GTD App Review - Conqu</a>
       </li>
     
     <li><a href="/archive">More...</a></li>
@@ -407,6 +407,7 @@ Free for all platforms, except the Mac mini app which is only £0.69.
 <script type="text/javascript" src="/javascripts/vendor/skrollr.min.js"></script>
 <script type="text/javascript" src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
 <script type="text/javascript" src="/javascripts/vendor/swipe.js"></script>
+<script type="text/javascript" src="/javascripts/vendor/jquery.swipebox.min.js"></script>
 <script type="text/javascript" src="/javascripts/slider.js"></script>
 <!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 
@@ -416,9 +417,6 @@ Free for all platforms, except the Mac mini app which is only £0.69.
 <script type="text/javascript">
   nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
   $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
-
-  //nav.attr('data-10-start', 'background-color[quadratic]:rgb(255, 255, 255)');
-  //nav.attr('data-50-start', 'background-color[quadratic]:rgb(34, 34, 34)');
   
   $('.navbar-collapse').on('show.bs.collapse', function() {
     $('#navToggler').addClass('opened');
@@ -428,7 +426,13 @@ Free for all platforms, except the Mac mini app which is only £0.69.
     $('#navToggler').removeClass('opened');
   });
 
-  slider.slidify('#slider', '#slider_nav');
+  if($('#slider').length > 0){
+    slider.slidify('#slider', '#slider_nav');    
+  }
+  
+  $(function() {
+  	$('.swipebox').swipebox();
+  });
   
 </script>
 

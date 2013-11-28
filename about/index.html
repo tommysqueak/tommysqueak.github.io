@@ -189,23 +189,23 @@ CSS, JQuery, SQL, Ruby, Python and many more.
   <ul class="list__list">
     
       <li>
-        <a href="/a-test-post-so-we-can-design-the-home-page/">A test post so we can design the home page</a>
+        <a href="/dependency-inversion-principle/">Dependency Inversion Principle</a>
       </li>
     
       <li>
-        <a href="/testing-backbone-with-jasmine-and-sinon/">Testing Backbone with Jasmine &amp; Sinon</a>
+        <a href="/great-software-design-slides/">Great Software Design Slides</a>
       </li>
     
       <li>
-        <a href="/gtd-app-review-producteev/">GTD App Review - Producteev</a>
+        <a href="/sociable-software-delivery-an-introduction-to-bdd/">Sociable Software Delivery - An Introduction to BDD</a>
       </li>
     
       <li>
-        <a href="/gtd-app-review-astrid/">GTD App Review - Astrid</a>
+        <a href="/best-gtd-app/">The Best GTD App</a>
       </li>
     
       <li>
-        <a href="/gtd-app-review-wunderlist/">GTD App Review - Wunderlist</a>
+        <a href="/gtd-app-review-conqu/">GTD App Review - Conqu</a>
       </li>
     
     <li><a href="/archive">More...</a></li>
@@ -289,6 +289,7 @@ CSS, JQuery, SQL, Ruby, Python and many more.
 <script type="text/javascript" src="/javascripts/vendor/skrollr.min.js"></script>
 <script type="text/javascript" src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
 <script type="text/javascript" src="/javascripts/vendor/swipe.js"></script>
+<script type="text/javascript" src="/javascripts/vendor/jquery.swipebox.min.js"></script>
 <script type="text/javascript" src="/javascripts/slider.js"></script>
 <!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 
@@ -298,9 +299,6 @@ CSS, JQuery, SQL, Ruby, Python and many more.
 <script type="text/javascript">
   nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
   $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
-
-  //nav.attr('data-10-start', 'background-color[quadratic]:rgb(255, 255, 255)');
-  //nav.attr('data-50-start', 'background-color[quadratic]:rgb(34, 34, 34)');
   
   $('.navbar-collapse').on('show.bs.collapse', function() {
     $('#navToggler').addClass('opened');
@@ -310,7 +308,13 @@ CSS, JQuery, SQL, Ruby, Python and many more.
     $('#navToggler').removeClass('opened');
   });
 
-  slider.slidify('#slider', '#slider_nav');
+  if($('#slider').length > 0){
+    slider.slidify('#slider', '#slider_nav');    
+  }
+  
+  $(function() {
+  	$('.swipebox').swipebox();
+  });
   
 </script>
 

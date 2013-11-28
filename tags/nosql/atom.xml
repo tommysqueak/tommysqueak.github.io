@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[nosql | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
+  <link href="http://tommysqueak.github.io/tags/nosql/atom.xml" rel="self"/>
+  <link href="http://tommysqueak.github.io/"/>
+  <updated>2013-11-28T23:57:38+01:00</updated>
+  <id>http://tommysqueak.github.io/</id>
+  <author>
+    <name><![CDATA[Tom Philip]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CouchDB. It's too easy]]></title>
+    <link href="http://tommysqueak.github.io/couchdb-its-too-easy/"/>
+    <updated>2010-10-29T00:00:00+02:00</updated>
+    <id>http://tommysqueak.github.io/couchdb-its-too-easy</id>
+    <content type="html"><![CDATA[<p>
+  <img src="http://tommysqueak.github.io/images/uploads/2011/09/couchdb.jpg" alt="CouchDB Logo">
+</p>
+
+
+
+
+<p>
+  Giving <a href="http://couchdb.apache.org/">CouchDB</a> a spin was an experience that was way <strong>too easy</strong>. 
+  The hardest part installing CouchDB was probably unzipping the files. This is how it went on Windows PC:
+</p>
+
+
+
+
+<ol>
+    <li>Download from here: <a title="Download CouchDB for Windows" href="http://www.couchone.com/get#win">http://www.couchone.com/get#win</a></li>
+    <li>Unzip the files</li>
+    <li>Run bin\couchdb.bat from the unzipped location</li>
+    <li>There isn't one, that's it</li>
+</ol>
+
+
+
+
+<p>
+  I then pointed my browser at <a href="http://127.0.0.1:5984/_utils">http://127.0.0.1:5984/_utils</a> and I got this, CouchDBs admin, 
+  <strong>Futon</strong>.
+</p>
+
+
+
+
+<p>
+  <figure>
+    <a href="http://tommysqueak.github.io/images/uploads/2011/07/Futon.png" class="swipebox" title="Futon"><img src="http://tommysqueak.github.io/images/uploads/2011/07/Futon.png" alt="Futon Screenshot"></a>
+    <figcaption>click image to see full size image</figcaption>
+  </figure>
+
+</p>
+
+
+
+
+<p>
+  The Futon UX was a dream. It's slick, every action is simple, you're never lost, it looks great and is sprinked with a little humour (check out the 'Admin Party'). 
+  It even comes with it own set of <a href="http://en.wikipedia.org/wiki/Smoke_testing#Smoke_testing_in_software_development">smoke tests</a>, 
+  that you can run with ease from within Futon with a simple click. How cool is that.  
+</p>
+
+
+
+
+<p>
+And then once you use it, it couldn't be simpler. A RESTful JSON api over http.
+</p>
+
+
+
+
+<p>
+  First impressions are important and CouchDB has left a great one. It's still early days but may the love affair blossom.
+</p>
+
+]]></content>
+  </entry>
+  
+</feed>
