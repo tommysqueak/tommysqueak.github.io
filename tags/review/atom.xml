@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[review | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
+  <link href="http://tommysqueak.github.io/tags/review/atom.xml" rel="self"/>
+  <link href="http://tommysqueak.github.io/"/>
+  <updated>2013-12-01T18:12:39+01:00</updated>
+  <id>http://tommysqueak.github.io/</id>
+  <author>
+    <name><![CDATA[Tom Philip]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[GTD App Review - Due Today]]></title>
+    <link href="http://tommysqueak.github.io/gtd-app-review-due-today/"/>
+    <updated>2011-09-30T00:00:00+02:00</updated>
+    <id>http://tommysqueak.github.io/gtd-app-review-due-today</id>
+    <content type="html"><![CDATA[<p><img alt="Due Today" src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today.jpg"></p>
+
+
+
+
+<p><a href="http://www.lakeridgesoftware.com/products/android/DueToday/">Due Today</a> is <strong>great looking app</strong>, that is <strong>easy to navigate and manage tasks on a small screen</strong>. Each task is highly configurable with many properties to tweak (or not, if you turn them off). Yet when viewing a list of tasks it makes great use of colour, contrast and icons to visually communicate all that information about a task, without it feeling cramped or overwhelming.</p>
+
+
+
+
+<p>It has large number of filtering options and special folders that allow to splice and dice your tasks in anyway you see fit.</p>
+
+
+
+
+<p>The add task button is always at hand to add any tasks that come to mind, no matter which list your in.</p>
+
+
+
+
+<h2>How it Scored</h2>
+
+
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tommysqueak.github.io/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+
+
+
+
+<table class="gtd-results">
+<thead>
+<tr>
+<th>Criteria</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quick add</td>
+<td>Yes. Into an inbox if on home screen or into the list that you currently happen to be in.</td>
+</tr>
+<tr>
+<td>Projects/Sub-tasks</td>
+<td>Yes. Projects, Sub projects and sub tasks.</td>
+</tr>
+<tr>
+<td>Contexts/tags</td>
+<td>Yes, both.</td>
+</tr>
+<tr>
+<td>Order tasks</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Highlight/star</td>
+<td>Yes. In paid version.</td>
+</tr>
+<tr>
+<td>Search</td>
+<td>Yes. In paid version.</td>
+</tr>
+<tr>
+<td>Deadline</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Reminder</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Recurring tasks</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Sync with Google Calendar</td>
+<td>Yes. via Toodledo.</td>
+</tr>
+<tr>
+<td>User Experience</td>
+<td>4/5</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+<h2>Downsides</h2>
+
+
+<p>See puzzling.</p>
+
+
+
+
+<h2>Puzzling</h2>
+
+
+<p>Floating tasks? I was very confused about what this setting was on a task and never got to figure it out. Setting it on a task in the inbox took it out of the inbox, was all I could learn.</p>
+
+
+
+
+<p>Some tasks that had tags in Toodledo, showed that they had tags (with a tag icon next to it) but when opened didn't show any.</p>
+
+
+
+
+<p>Tasks that didn't have due dates would show up in the special Today folder.</p>
+
+
+
+
+<p>The difference between Today and Next special folders, is confusing. They both appear to contain almost the same tasks, so not sure what it decides goes into these folders. This is how I would have thought they should behave:</p>
+
+
+
+
+<ul>
+    <li>Today - tasks with due dates that are overdue or are due today.</li>
+    <li>Future - tasks with due dates for later than today.</li>
+    <li>Next - tasks that have no due date set.</li>
+</ul>
+
+
+
+
+<p>That's my interpretation of GTD. Is that how you see it?</p>
+
+
+
+
+<h2>Useful Extras</h2>
+
+
+<ul>
+    <li>Projects can be pinned to the home screen</li>
+    <li>I like how it shows the number of tasks vs those that are overdue in a split task number box. It's a nice design touch that gets the message across really well. Does the same in 1x1 widget too.</li>
+    <li>Lots of reminder options. LED colours, vibrate, ringtone.</li>
+    <li>Out of the box the default settings are just fine but if you want to tweak it, it has a host of options you can set to make it your own. Too many to mentions here. Everything from 'which side the checkboxes should appear' to 'which screen should be the home screen'.</li>
+    <li>A widget, in the paid version.</li>
+    <li>Defaults for tasks that go into a project. Eg For a project 'Spring Clean' the default context @home</li>
+    <li>Long hold the Android search button to add tasks directly into Due Today, no matter where  you are in Android. Like a global hotkey, neat idea.</li>
+    <li>Assign tasks to other people.</li>
+</ul>
+
+
+
+
+<h2>How it Looks</h2>
+
+
+
+
+<div id="slider" class="slider swipe">
+  <div class='swipe-wrap slider__slides'>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-contexts.png">
+      <figcaption>Contexts</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-galaxytab.png">
+      <figcaption>Galaxy Tab</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-honeycomb.png">
+      <figcaption>Honeycomb</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-lists.png">
+      <figcaption>Lists</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-projects.png">
+      <figcaption>Projects</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-widget.png">
+      <figcaption>Widget</figcaption>
+    </figure>
+  </div>
+</div>
+
+
+
+
+<ul id="slider_nav" class='slider-indicators'></ul>
+
+
+
+
+<h2>Platforms</h2>
+
+
+<p>Android and <a href="http://www.lakeridgesoftware.com/products/windows/">Windows</a>. The app can sync with <a href="http://www.toodledoo.com">Toodledo</a>. The paid for Android app also supports tablets, <a title="Versions of Android" href="http://en.wikipedia.org/wiki/Android_%28operating_system%29#Version_history">Honeycomb</a> and Galaxy Tab.</p>
+
+
+
+
+<h2>Support</h2>
+
+
+<p>There is a <a href="http://forum.lakeridgesoftware.com/forumdisplay.php?f=70">support forum</a> for discussion, bugs and features requests where the developer is active.</p>
+
+
+
+
+<h2>Price</h2>
+
+
+<p>Free for the <a href="https://market.android.com/details?id=com.lakeridge.DueTodayLite">Lite version</a> and £1.85 for <a href="https://market.android.com/details?id=com.lakeridge.DueToday">premium version</a>.</p>
+
+
+
+
+<p><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a> to follow the rest of the GTD App Review series.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GTD App Review - Who and What]]></title>
+    <link href="http://tommysqueak.github.io/gtd-app-review-introduction/"/>
+    <updated>2011-09-26T00:00:00+02:00</updated>
+    <id>http://tommysqueak.github.io/gtd-app-review-introduction</id>
+    <content type="html"><![CDATA[<p>
+  <img alt="GTD Process" src="http://tommysqueak.github.io/images/uploads/2011/09/GTD-Process.jpg">
+</p>
+
+
+
+
+<p>
+  <a title="Getting Things Done" href="http://en.wikipedia.org/wiki/Getting_Things_Done">GTD</a> owns me.
+  I'm forgetful, not your average forgetful, I'm forget your Mums birthday forgetful (twice running, ouch!).
+  So when I discovered GTD over 3 years ago, it changed my life. Like having kids. Now I'm anal about capturing everything,
+  nothings escapes the system. My <a title="Mind Like Water" href="http://zenhabits.net/mind-like-water/">mind is like water</a>,
+  my tasks are in a trusted system, not my sieve head. I'd be lost without it and now I never forget (well *I do* but my system doesn't).
+</p>
+
+
+
+
+<p>
+  Ever since moving from Windows to Mac,
+  I've been on the <strong>lookout for a new GTD app</strong> to replace my old Windows
+  <a title="My Life Organized" href="http://www.mylifeorganized.net/">MLO</a> app.
+  There's hundreds of apps out there and I've been taking a brief look at them, to come up with a shortlist of potential apps.
+  I'm then going to review each shortlisted app, so I can pick an app for my trusted GTD system.
+</p>
+
+
+
+
+<p>
+  This was going to be just one post but I soon realised that it would be a very long post and one
+  I'd never get round to finishing, so I've split it into a series of posts.
+  The series will consist of a post for each app review and a final round up, where I'll announce my chosen app, the winner.
+</p>
+
+
+
+
+<h2>Prerequisites</h2>
+
+
+<p>
+  So the trusted system work for me, both technically and personally,
+  I used these 'must haves' to draw up the shortlist from the hundreds of apps.
+</p>
+
+
+
+
+<h3>Multi Device - Mac, Android and Windows</h3>
+
+
+<p>a Mac, My phone is Android and I sometimes use Windows. A GTD offering would need to be available to all of these.</p>
+
+
+
+
+<h3>Quick</h3>
+
+
+<p>Seen as I was going to use this app everyday, effectively emptying my head into it.
+  I need to capture, organise and review tasks quickly. For me this means native apps,
+  not Web based. Web based can be quick but not when there's no or little connectivity.
+</p>
+
+
+
+
+<h3>Available Offline with Cloud Syncing</h3>
+
+
+<p>In order to capture tasks at anytime and anywhere, I need an app to work offline. This reinforces the need for native apps for Android and Mac. Web access would be sufficient for the occasional use on Windows.</p>
+
+
+
+
+<h3>Beautiful</h3>
+
+
+<p>As I'm going to be using this everyday, I wanted something that would look beautiful (I've now got a Mac don't you know!). So any apps that looked like they'd been written in <a href="http://www.visualbasic6class.com/createform.html">VB4</a> or made in <a href="http://www.frontpage-templates.org/website-template-5.htm">frontpage</a>, got the boot.</p>
+
+
+
+
+<h2>The Shortlist</h2>
+
+
+<p>These are the apps that met the above prerequisites and the ones that I'm going to review in more detail.</p>
+
+
+
+
+<div class="gallery">
+
+ <figure>
+   <a href="http://doit.im"><img alt="Doit.im" src="http://tommysqueak.github.io/images/uploads/2011/09/doitim-icon.png"></a>
+   <figcaption> Doit.im</figcaption>
+ </figure>
+
+<figure>
+  <a href="http://www.nozbe.com"><img alt="Nozbe" src="http://tommysqueak.github.io/images/uploads/2011/09/nozbe-icon.png"></a>
+  <figcaption>Nozbe</figcaption>
+</figure>
+
+<figure>
+  <a href="http://www.appigo.com/todo/mac"><img alt="TODO for Mac" src="http://tommysqueak.github.io/images/uploads/2011/09/todo-icon.png"></a>
+  <figcaption>TODO for Mac</figcaption>
+</figure>
+
+<figure>
+  <a href="http://wunderlist.com/"><img src="http://tommysqueak.github.io/images/uploads/2011/09/wunderlist-icon.png"></a>
+  <figcaption>Wunderlist</figcaption>
+</figure>
+
+<figure>
+  <a href="http://getitdoneapp.com"><img alt="Get it Done" src="http://tommysqueak.github.io/images/uploads/2011/09/getitdone-icon.jpg"></a>
+  <figcaption>Get it Done</figcaption>
+</figure>
+
+<figure>
+  <a href="http://www.lakeridgesoftware.com/products/android/DueToday/"><img alt="Due Today" src="http://tommysqueak.github.io/images/uploads/2011/09/duetoday-icon.png"></a>
+  <figcaption>Due Today</figcaption>
+</figure>
+
+<figure>
+  <a href="http://astrid.com"><img alt="Astrid" src="http://tommysqueak.github.io/images/uploads/2011/09/astrid-icon.png" ></a>
+  <figcaption>Astrid</figcaption>
+</figure>
+
+<figure>
+  <a href="http://conqu.com"><img alt="Conqu" src="http://tommysqueak.github.io/images/uploads/2011/09/conqu-icon.jpg"></a>
+  <figcaption>Conqu</figcaption>
+</figure>
+
+<figure>
+  <a href="http://producteev.com"><img alt="Producteev" src="http://tommysqueak.github.io/images/uploads/2011/09/producteev-icon.png"></a>
+  <figcaption>Producteev</figcaption>
+</figure>
+
+<figure>
+  <a href="http://toodledoo.com"><img alt="Toodledoo" src="http://tommysqueak.github.io/images/uploads/2011/09/toodledoo-icon.png"></a>
+  <figcaption>Toodledo</figcaption>
+</figure>
+
+</div>
+
+
+
+
+<h2><a name="criteria"></a>The Criteria</h2>
+
+
+<p>This is the list of things, which I think makes a great GTD app and compliments how I manage my GTD system. I'll review each app against this criteria in this series. <strong>Anything I've missed?</strong></p>
+
+
+
+
+<ul>
+    <li><strong>Great user experience</strong>. As I mentioned earlier, I will use this app heavily so it has to be an enjoyable experience.</li>
+    <li><strong>Quick add</strong>. Preferably into a inbox for collecting.</li>
+    <li><strong>Projects/Sub-tasks</strong>. For multi step actions.</li>
+    <li><strong>Contexts/tags</strong>. Tagging tasks that can be completed at a certain place or circumstance. Eg @home, @phone, @internet.</li>
+    <li><strong>Order tasks</strong>. Quickly drag &amp; drop tasks for next action to take in a project or other list.</li>
+    <li><strong>Notes</strong>. To add more detail to a task.</li>
+    <li><strong>Highlight/star</strong>. Nice to be able to star certain important tasks, so I can see just important tasks in one list.</li>
+    <li><strong>Search</strong>. Quickly find a task!</li>
+    <li><strong>Deadline</strong>. Setting deadlines for critical tasks. Pay the tax man, birthdays etc.</li>
+    <li><strong>Reminder</strong>. Notify 'X' days before a tasks deadline, so I can begin the task and complete it by then.</li>
+    <li><strong>Recurring Tasks</strong>. For tasks that occur at the same time every month or year. Eg send monthly accounts</li>
+    <li><strong>Sync with Google Calendar</strong>. I like to keep birthdays, events in this calendar and have a nice Android widget. So it'd be nice if task with a deadline turned up here too.</li>
+</ul>
+
+
+
+
+<p><strong>If you think I've missed an app, let me know in the comments.</strong> Maybe I've already considered it and I thought it didn't meet the prerequisites. Maybe I missed it completely, if so I might have time to include it in the series.</p>
+
+
+
+
+<p>If you're interested in what's coming next, <a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">subscribe to my blog feed</a>.</p>
+
+
+
+
+<h2><strong></strong>The Reviews (updated)</h2>
+
+
+<ul>
+    <li><a title="TODO for Mac" href="http://tommysqueak.github.io/gtd-app-review-todo-for-mac/">TODO for Mac</a></li>
+    <li><a title="GTD App Review – Due Today" href="http://tommysqueak.github.io/gtd-app-review-due-today/">Due Today</a></li>
+    <li><a title="GTD App Review – Toodledo" href="http://tommysqueak.github.io/gtd-app-review-toodledo/">Toodledo</a></li>
+    <li><a title="GTD App Review – Doit.im" href="http://tommysqueak.github.io/gtd-app-review-doit-im/">Doit.im</a></li>
+    <li><a title="GTD App Review – Wunderlist" href="http://tommysqueak.github.io/gtd-app-review-wunderlist/">Wunderlist</a></li>
+    <li><a title="GTD App Review – Astrid" href="http://tommysqueak.github.io/gtd-app-review-astrid/">Astrid</a></li>
+    <li><a title="GTD App Review – Producteev" href="http://tommysqueak.github.io/gtd-app-review-producteev/">Producteev</a></li>
+    <li><a title="GTD App Review – Nozbe" href="http://tommysqueak.github.io/gtd-app-review-nozbe/">Nozbe</a></li>
+    <li><a title="GTD App Review – Conqu" href="http://tommysqueak.github.io/gtd-app-review-conqu/">Conqu</a></li>
+</ul>
+
+
+
+
+<p>GTD process image by Jinho.Jung on flickr</p>
+
+]]></content>
+  </entry>
+  
+</feed>

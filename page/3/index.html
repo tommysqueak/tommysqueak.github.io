@@ -455,7 +455,7 @@ Nice friendly memorable url too, well done. <a href="https://retail.santander.co
 
   </header>
 
-  <div class="post__content"><img class="alignnone size-full wp-image-536" title="Producteev" src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev.png" alt="Producteev Mac app" width="640" height="385" />
+  <div class="post__content"><img class="alignnone size-full wp-image-536" title="Producteev" src="/images/uploads/2011/11/Producteev.png" alt="Producteev Mac app" width="640" height="385" />
 
 <a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&#8217;s a pure joy to use. You can&#8217;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.
 
@@ -550,8 +550,39 @@ Dock badges just seem to be for tasks that you&#8217;ve assigned to others or ha
 	<li>Smart task entry. Eg ** walk the dog tomorrow, adds a task with 2 stars and a deadline of tomorrow</li>
 	<li>All items (labels and Filters) in the left menu can be dragged and dropped to re-order them.</li>
 </ul>
+
 <h2>How it Looks</h2>
-[gallery link=&#8221;file&#8221; exclude=&#8221;535,536&#8221;]
+
+<div id="slider" class="slider swipe">
+  <div class='swipe-wrap slider__slides'>
+    <figure class="slider__slide">
+      <img src="/images/uploads/2011/11/Producteev-Main.png">
+      <figcaption>Main Screen</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="/images/uploads/2011/11/Producteev-Empty-Workspace.png">
+      <figcaption>Empty Workspace</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="/images/uploads/2011/11/Producteev-Task-Entry.png">
+      <figcaption>Task Entry</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="/images/uploads/2011/11/Producteev-Setting-a-Deadline.png">
+      <figcaption>Setting a Deadline</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="/images/uploads/2011/11/Producteev-Multiple-Notes.png">
+      <figcaption>Multiple Notes</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="/images/uploads/2011/11/Producteev-History-Expanded.png">
+      <figcaption>History</figcaption>
+    </figure>
+  </div>
+</div>
+
+<ul id="slider_nav" class='slider-indicators'></ul>
 
 &nbsp;
 <h2>Platforms</h2>
@@ -840,7 +871,64 @@ Free for all platforms.
 
 
 </footer>
-  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery.min.js"><\/script>')</script>
+
+<script src="/javascripts/vendor/bootstrap.transition.js"></script>
+<script src="/javascripts/vendor/bootstrap.collapse.js"></script>
+<script src="/javascripts/vendor/skrollr.min.js"></script>
+<script src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
+<script src="/javascripts/vendor/swipe.js"></script>
+<script src="/javascripts/vendor/jquery.swipebox.min.js"></script>
+<script src="/javascripts/slider.js"></script>
+<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
+
+<!--[if lt IE 9]>
+<script src="/javascripts/vendor/skrollr.ie.min.js"></script>
+<![endif]-->
+<script>
+  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
+  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
+
+  $('.navbar-collapse').on('show.bs.collapse', function() {
+    $('#navToggler').addClass('opened');
+  });
+
+  $('.navbar-collapse').on('hide.bs.collapse', function() {
+    $('#navToggler').removeClass('opened');
+  });
+
+  if($('#slider').length > 0){
+    slider.slidify('#slider', '#slider_nav');
+  }
+
+  $(function() {
+  	$('.swipebox').swipebox();
+  });
+
+</script>
+
+<script>
+
+  function isTouchy(){
+    //  Hacky
+    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;
+  }
+
+  if (!isTouchy()){
+    var s = skrollr.init({forceHeight: false});
+  }
+</script>
+
+<script>
+	$(".rotate").textrotator({
+	  animation: "flip",
+		separator: ",",
+	  speed: 2000
+	});
+</script>
+
+
 
 <script type="text/javascript">
       var disqus_shortname = 'tomphilip';
@@ -896,67 +984,10 @@ Free for all platforms.
     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
     e.src='//www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');
+  ga('create','UA-11357885-9');ga('send','pageview');
 </script>
 
 
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery.min.js"><\/script>')</script>
-
-<script type="text/javascript" src="/javascripts/vendor/bootstrap.transition.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/bootstrap.collapse.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/skrollr.min.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/swipe.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/jquery.swipebox.min.js"></script>
-<script type="text/javascript" src="/javascripts/slider.js"></script>
-<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
-
-<!--[if lt IE 9]>
-<script type="text/javascript" src="/javascripts/vendor/skrollr.ie.min.js"></script>
-<![endif]-->
-<script type="text/javascript">
-  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
-  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
-  
-  $('.navbar-collapse').on('show.bs.collapse', function() {
-    $('#navToggler').addClass('opened');
-  });
-  
-  $('.navbar-collapse').on('hide.bs.collapse', function() {
-    $('#navToggler').removeClass('opened');
-  });
-
-  if($('#slider').length > 0){
-    slider.slidify('#slider', '#slider_nav');    
-  }
-  
-  $(function() {
-  	$('.swipebox').swipebox();
-  });
-  
-</script>
-
-<script type="text/javascript">
-
-  function isTouchy(){
-    //  Hacky
-    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;    
-  }
-
-  if (!isTouchy()){
-    var s = skrollr.init({forceHeight: false});    
-  }
-</script>
-
-<script type="text/javascript">
-	$(".rotate").textrotator({
-	  animation: "flip",
-		separator: ",", 
-	  speed: 2000
-	});
-</script>
 
 
 

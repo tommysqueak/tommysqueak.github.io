@@ -82,7 +82,7 @@
     <section class="boxed">
         <ul class="tag-list">
           <li class="tag-list__tag"><a href="/archive">all <span class="badge">&nbsp;</span></a></li>
-          <li class='tag-list__tag'><a href='/tags/android/'>android <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/app/'>app <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/asp-dot-net/'>asp.net <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/backbone/'>backbone <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/bdd/'>bdd <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/bdd/'>bdd <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/business-model-generation/'>business model generation <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/ci/'>ci <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/couchdb/'>couchdb <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/gtd/'>gtd <span class='badge'>11</span></a></li><li class='tag-list__tag'><a href='/tags/gtd-app-review/'>gtd app review <span class='badge'>11</span></a></li><li class='tag-list__tag'><a href='/tags/kanban/'>kanban <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/laters/'>laters <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/lean-startup/'>lean startup <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/lean-startup/'>lean startup <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/nosql/'>nosql <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/software-design/'>software design <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/talk/'>talk <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/usability/'>usability <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/ux/'>ux <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/wordpress/'>wordpress <span class='badge'>1</span></a></li>    
+          <li class='tag-list__tag'><a href='/tags/android/'>android <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/app/'>app <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/asp-dot-net/'>asp.net <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/backbone/'>backbone <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/bdd/'>bdd <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/bdd/'>bdd <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/business-model-generation/'>business model generation <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/ci/'>ci <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/couchdb/'>couchdb <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/gtd/'>gtd <span class='badge'>9</span></a></li><li class='tag-list__tag'><a href='/tags/gtd/'>gtd <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/gtd-app-review/'>gtd app review <span class='badge'>9</span></a></li><li class='tag-list__tag'><a href='/tags/kanban/'>kanban <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/laters/'>laters <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/lean-startup/'>lean startup <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/nosql/'>nosql <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/review/'>review <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/software-design/'>software design <span class='badge'>2</span></a></li><li class='tag-list__tag'><a href='/tags/talk/'>talk <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/usability/'>usability <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/ux/'>ux <span class='badge'>1</span></a></li><li class='tag-list__tag'><a href='/tags/wordpress/'>wordpress <span class='badge'>1</span></a></li>    
         </ul>
     </section>
   
@@ -299,7 +299,64 @@ The code used in the talk is available at <a title="Dependency Inversion Princip
 
 
 </footer>
-  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery.min.js"><\/script>')</script>
+
+<script src="/javascripts/vendor/bootstrap.transition.js"></script>
+<script src="/javascripts/vendor/bootstrap.collapse.js"></script>
+<script src="/javascripts/vendor/skrollr.min.js"></script>
+<script src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
+<script src="/javascripts/vendor/swipe.js"></script>
+<script src="/javascripts/vendor/jquery.swipebox.min.js"></script>
+<script src="/javascripts/slider.js"></script>
+<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
+
+<!--[if lt IE 9]>
+<script src="/javascripts/vendor/skrollr.ie.min.js"></script>
+<![endif]-->
+<script>
+  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
+  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
+
+  $('.navbar-collapse').on('show.bs.collapse', function() {
+    $('#navToggler').addClass('opened');
+  });
+
+  $('.navbar-collapse').on('hide.bs.collapse', function() {
+    $('#navToggler').removeClass('opened');
+  });
+
+  if($('#slider').length > 0){
+    slider.slidify('#slider', '#slider_nav');
+  }
+
+  $(function() {
+  	$('.swipebox').swipebox();
+  });
+
+</script>
+
+<script>
+
+  function isTouchy(){
+    //  Hacky
+    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;
+  }
+
+  if (!isTouchy()){
+    var s = skrollr.init({forceHeight: false});
+  }
+</script>
+
+<script>
+	$(".rotate").textrotator({
+	  animation: "flip",
+		separator: ",",
+	  speed: 2000
+	});
+</script>
+
+
 
 <script type="text/javascript">
       var disqus_shortname = 'tomphilip';
@@ -355,67 +412,10 @@ The code used in the talk is available at <a title="Dependency Inversion Princip
     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
     e.src='//www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');
+  ga('create','UA-11357885-9');ga('send','pageview');
 </script>
 
 
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery.min.js"><\/script>')</script>
-
-<script type="text/javascript" src="/javascripts/vendor/bootstrap.transition.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/bootstrap.collapse.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/skrollr.min.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/swipe.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/jquery.swipebox.min.js"></script>
-<script type="text/javascript" src="/javascripts/slider.js"></script>
-<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
-
-<!--[if lt IE 9]>
-<script type="text/javascript" src="/javascripts/vendor/skrollr.ie.min.js"></script>
-<![endif]-->
-<script type="text/javascript">
-  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
-  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
-  
-  $('.navbar-collapse').on('show.bs.collapse', function() {
-    $('#navToggler').addClass('opened');
-  });
-  
-  $('.navbar-collapse').on('hide.bs.collapse', function() {
-    $('#navToggler').removeClass('opened');
-  });
-
-  if($('#slider').length > 0){
-    slider.slidify('#slider', '#slider_nav');    
-  }
-  
-  $(function() {
-  	$('.swipebox').swipebox();
-  });
-  
-</script>
-
-<script type="text/javascript">
-
-  function isTouchy(){
-    //  Hacky
-    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;    
-  }
-
-  if (!isTouchy()){
-    var s = skrollr.init({forceHeight: false});    
-  }
-</script>
-
-<script type="text/javascript">
-	$(".rotate").textrotator({
-	  animation: "flip",
-		separator: ",", 
-	  speed: 2000
-	});
-</script>
 
 
 

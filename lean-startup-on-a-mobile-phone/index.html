@@ -191,7 +191,7 @@
 
 <p>
   If anyone would like to get involved, 
-  <a title="Get Laters on your phone" href="https://market.android.com/details?id=com.conker.laters.free">Laters is in the Android Market</a>. 
+  <a title="Get Laters on your phone" href="https://play.google.com/store/apps/details?id=com.conker.laters.pro">Laters is in the Android Market</a>. 
   Give your feedback and shape the app. Atypically I&#8217;ll be moving through the build-measure-learn loop quickly, 
   so expect some cool stuff on the way. An impending baby might put the brakes on this but bear with me and 
   I&#8217;m sure lack of sleep will mean nothing to me and I&#8217;ll back making those features.
@@ -227,8 +227,6 @@
   
     <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
   
-  
-  <script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url=/lean-startup-on-a-mobile-phone/&newwindow=1"></script>
 
 </div>
 
@@ -333,7 +331,64 @@
 
 
 </footer>
-  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery.min.js"><\/script>')</script>
+
+<script src="/javascripts/vendor/bootstrap.transition.js"></script>
+<script src="/javascripts/vendor/bootstrap.collapse.js"></script>
+<script src="/javascripts/vendor/skrollr.min.js"></script>
+<script src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
+<script src="/javascripts/vendor/swipe.js"></script>
+<script src="/javascripts/vendor/jquery.swipebox.min.js"></script>
+<script src="/javascripts/slider.js"></script>
+<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
+
+<!--[if lt IE 9]>
+<script src="/javascripts/vendor/skrollr.ie.min.js"></script>
+<![endif]-->
+<script>
+  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
+  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
+
+  $('.navbar-collapse').on('show.bs.collapse', function() {
+    $('#navToggler').addClass('opened');
+  });
+
+  $('.navbar-collapse').on('hide.bs.collapse', function() {
+    $('#navToggler').removeClass('opened');
+  });
+
+  if($('#slider').length > 0){
+    slider.slidify('#slider', '#slider_nav');
+  }
+
+  $(function() {
+  	$('.swipebox').swipebox();
+  });
+
+</script>
+
+<script>
+
+  function isTouchy(){
+    //  Hacky
+    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;
+  }
+
+  if (!isTouchy()){
+    var s = skrollr.init({forceHeight: false});
+  }
+</script>
+
+<script>
+	$(".rotate").textrotator({
+	  animation: "flip",
+		separator: ",",
+	  speed: 2000
+	});
+</script>
+
+
 
 <script type="text/javascript">
       var disqus_shortname = 'tomphilip';
@@ -389,67 +444,10 @@
     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
     e.src='//www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');
+  ga('create','UA-11357885-9');ga('send','pageview');
 </script>
 
 
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery.min.js"><\/script>')</script>
-
-<script type="text/javascript" src="/javascripts/vendor/bootstrap.transition.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/bootstrap.collapse.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/skrollr.min.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/swipe.js"></script>
-<script type="text/javascript" src="/javascripts/vendor/jquery.swipebox.min.js"></script>
-<script type="text/javascript" src="/javascripts/slider.js"></script>
-<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
-
-<!--[if lt IE 9]>
-<script type="text/javascript" src="/javascripts/vendor/skrollr.ie.min.js"></script>
-<![endif]-->
-<script type="text/javascript">
-  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
-  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
-  
-  $('.navbar-collapse').on('show.bs.collapse', function() {
-    $('#navToggler').addClass('opened');
-  });
-  
-  $('.navbar-collapse').on('hide.bs.collapse', function() {
-    $('#navToggler').removeClass('opened');
-  });
-
-  if($('#slider').length > 0){
-    slider.slidify('#slider', '#slider_nav');    
-  }
-  
-  $(function() {
-  	$('.swipebox').swipebox();
-  });
-  
-</script>
-
-<script type="text/javascript">
-
-  function isTouchy(){
-    //  Hacky
-    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;    
-  }
-
-  if (!isTouchy()){
-    var s = skrollr.init({forceHeight: false});    
-  }
-</script>
-
-<script type="text/javascript">
-	$(".rotate").textrotator({
-	  animation: "flip",
-		separator: ",", 
-	  speed: 2000
-	});
-</script>
 
 
 

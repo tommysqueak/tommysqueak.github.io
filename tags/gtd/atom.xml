@@ -4,7 +4,7 @@
   <title><![CDATA[GTD | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tommysqueak.github.io/tags/gtd/atom.xml" rel="self"/>
   <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-11-29T09:48:34+01:00</updated>
+  <updated>2013-12-01T18:12:39+01:00</updated>
   <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -838,7 +838,7 @@
     <link href="http://tommysqueak.github.io/gtd-app-review-producteev/"/>
     <updated>2011-11-21T00:00:00+01:00</updated>
     <id>http://tommysqueak.github.io/gtd-app-review-producteev</id>
-    <content type="html"><![CDATA[<p><img class="alignnone size-full wp-image-536" title="Producteev" src="http://tomphilip.me/wp-content/uploads/2011/11/Producteev.png" alt="Producteev Mac app" width="640" height="385" /></p>
+    <content type="html"><![CDATA[<p><img class="alignnone size-full wp-image-536" title="Producteev" src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev.png" alt="Producteev Mac app" width="640" height="385" /></p>
 
 <p><a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&rsquo;s a pure joy to use. You can&rsquo;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.</p>
 
@@ -950,10 +950,47 @@
 </ul>
 
 
+
+
 <h2>How it Looks</h2>
 
 
-<p>[gallery link=&ldquo;file&rdquo; exclude=&ldquo;535,536&rdquo;]</p>
+
+
+<div id="slider" class="slider swipe">
+  <div class='swipe-wrap slider__slides'>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-Main.png">
+      <figcaption>Main Screen</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-Empty-Workspace.png">
+      <figcaption>Empty Workspace</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-Task-Entry.png">
+      <figcaption>Task Entry</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-Setting-a-Deadline.png">
+      <figcaption>Setting a Deadline</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-Multiple-Notes.png">
+      <figcaption>Multiple Notes</figcaption>
+    </figure>
+    <figure class="slider__slide">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-History-Expanded.png">
+      <figcaption>History</figcaption>
+    </figure>
+  </div>
+</div>
+
+
+
+
+<ul id="slider_nav" class='slider-indicators'></ul>
+
 
 <p>&nbsp;</p>
 
