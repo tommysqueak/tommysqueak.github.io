@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[solid | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
+  <link href="http://tommysqueak.github.io/tags/solid/atom.xml" rel="self"/>
+  <link href="http://tommysqueak.github.io/"/>
+  <updated>2013-12-02T23:37:32+01:00</updated>
+  <id>http://tommysqueak.github.io/</id>
+  <author>
+    <name><![CDATA[Tom Philip]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dependency Inversion Principle]]></title>
+    <link href="http://tommysqueak.github.io/dependency-inversion-principle/"/>
+    <updated>2012-08-16T00:00:00+02:00</updated>
+    <id>http://tommysqueak.github.io/dependency-inversion-principle</id>
+    <content type="html"><![CDATA[<p>Slides and <a href="https://github.com/tommysqueak/dependency-inversion-talk">code</a> from a talk I gave on the Dependency Inversion Principle. Covers Dependency Injection, Service Location, TDD &amp; Mocking (how they play together nicely), Auto-mocking, IOC tools and a little best practice.</p>
+
+
+
+
+<p>The code used in the talk is available at <a title="Dependency Inversion Principle - Code Examples" href="https://github.com/tommysqueak/dependency-inversion-talk">https://github.com/tommysqueak/dependency-inversion-talk</a></p>
+
+
+
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/13992360" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="400"></iframe>
+
+
+
+
+<p>More <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/tommysqueak">Tom Philip</a>.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Great Software Design Slides]]></title>
+    <link href="http://tommysqueak.github.io/great-software-design-slides/"/>
+    <updated>2012-07-19T00:00:00+02:00</updated>
+    <id>http://tommysqueak.github.io/great-software-design-slides</id>
+    <content type="html"><![CDATA[<p>Another talk I gave today about not just good software design but Great Software Design.  Takes in SOLID, Design Patterns, Anti-Patterns and Tips.</p>
+
+
+
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/13694138" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="400"></iframe>
+
+
+
+
+<p>More <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/tommysqueak">Tom Philip</a>.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

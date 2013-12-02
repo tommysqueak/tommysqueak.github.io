@@ -1,13 +1,11 @@
 /*
 Syntax error: Undefined mixin 'font-smoothing'.
-        on line 5 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass, in `font-smoothing'
-        from line 5 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass
-
-1: /Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass
+        on line 8 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass, in `font-smoothing'
+        from line 8 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass
 
 Backtrace:
-/Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass:5:in `font-smoothing'
-/Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass:5
+/Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass:8:in `font-smoothing'
+/Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass:8
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/tommysqueek/.rvm/gems/ruby-1.9.3-p448@tommysqueak/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
@@ -60,4 +58,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'font-smoothing'.\A         on line 5 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass, in `font-smoothing'\A         from line 5 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass\A \A 1: /Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass"; }
+  content: "Syntax error: Undefined mixin 'font-smoothing'.\A         on line 8 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass, in `font-smoothing'\A         from line 8 of /Users/tommysqueek/Dev/Source/tommysqueak/sass/base/typography.sass"; }

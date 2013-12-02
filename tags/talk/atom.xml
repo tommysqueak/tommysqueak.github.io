@@ -4,7 +4,7 @@
   <title><![CDATA[talk | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tommysqueak.github.io/tags/talk/atom.xml" rel="self"/>
   <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-12-01T18:12:39+01:00</updated>
+  <updated>2013-12-02T23:37:32+01:00</updated>
   <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -12,6 +12,91 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dependency Inversion Principle]]></title>
+    <link href="http://tommysqueak.github.io/dependency-inversion-principle/"/>
+    <updated>2012-08-16T00:00:00+02:00</updated>
+    <id>http://tommysqueak.github.io/dependency-inversion-principle</id>
+    <content type="html"><![CDATA[<p>Slides and <a href="https://github.com/tommysqueak/dependency-inversion-talk">code</a> from a talk I gave on the Dependency Inversion Principle. Covers Dependency Injection, Service Location, TDD &amp; Mocking (how they play together nicely), Auto-mocking, IOC tools and a little best practice.</p>
+
+
+
+
+<p>The code used in the talk is available at <a title="Dependency Inversion Principle - Code Examples" href="https://github.com/tommysqueak/dependency-inversion-talk">https://github.com/tommysqueak/dependency-inversion-talk</a></p>
+
+
+
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/13992360" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="400"></iframe>
+
+
+
+
+<p>More <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/tommysqueak">Tom Philip</a>.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Great Software Design Slides]]></title>
+    <link href="http://tommysqueak.github.io/great-software-design-slides/"/>
+    <updated>2012-07-19T00:00:00+02:00</updated>
+    <id>http://tommysqueak.github.io/great-software-design-slides</id>
+    <content type="html"><![CDATA[<p>Another talk I gave today about not just good software design but Great Software Design.  Takes in SOLID, Design Patterns, Anti-Patterns and Tips.</p>
+
+
+
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/13694138" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="400"></iframe>
+
+
+
+
+<p>More <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/tommysqueak">Tom Philip</a>.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sociable Software Delivery - An Introduction to BDD]]></title>
+    <link href="http://tommysqueak.github.io/sociable-software-delivery-an-introduction-to-bdd/"/>
+    <updated>2012-07-10T00:00:00+02:00</updated>
+    <id>http://tommysqueak.github.io/sociable-software-delivery-an-introduction-to-bdd</id>
+    <content type="html"><![CDATA[<p>
+  Here's the slides from a talk I gave to staff at my current client <a href="http://www.newmind.co.uk/">New Mind</a>. 
+  It's an introduction to Behaviour Driven Development, from idea to working software.
+</p>
+
+
+
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/13594151" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="400"></iframe>
+
+
+
+
+<p>More presentations from <a href="http://www.slideshare.net/tommysqueak" target="_blank">Tom Philip</a></p>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Business Model Canvas Slides @ Lean Liverpool]]></title>
+    <link href="http://tommysqueak.github.io/business-model-canvas-slides-lean-liverpool/"/>
+    <updated>2011-12-09T00:00:00+01:00</updated>
+    <id>http://tommysqueak.github.io/business-model-canvas-slides-lean-liverpool</id>
+    <content type="html"><![CDATA[<p>Here's the slides from a talk I gave at <a title="Lean Liverpool" href="http://leanliverpool.com">Lean Liverpool</a>, on 8th Dec 2011, about the <a href="http://www.businessmodelgeneration.com/canvas">Business Model Canvas</a>. What it is and how you can use it with Lean Startup and Customer Development. With my fear of public speaking and man flu on top of it, I bumbled through the talk. So I do recommend you read the book <a title="Business Model Generation Book" href="http://www.amazon.co.uk/Business-Model-Generation-Visionaries-Challengers/dp/0470876417/ref=sr_1_1?ie=UTF8&amp;qid=1323438500&amp;sr=8-1">Business Model Generation</a>, if my talk was incoherrent. If it wasn't, still go out and get the book, it's a fantastic read. Also included in the slides is the Business Model Canvas we created at the end, as part of an exercise. Breakfast Delivery for the Lazy!</p>
+
+
+
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/10531124" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="400"></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[BDD Talk]]></title>

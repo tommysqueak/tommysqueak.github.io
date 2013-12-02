@@ -12,7 +12,7 @@
   <meta name="author" content="Tom Philip">
 
   
-  <meta name="description" content="Dec 23rd, 2011 Tom Philip BDD, Backbone Testing Backbone with Jasmine and Sinon This is based on an XKCD leanback web app I&#8217;m working on that &hellip;">
+  <meta name="description" content="Dec 23rd, 2011 Tom Philip backbone, bdd, javascript, sinon, xkcd Testing Backbone with Jasmine and Sinon This is based on an XKCD leanback web app I &hellip;">
   
 
 
@@ -103,7 +103,7 @@
 
 <span class="post-metadata__categories">
   
-    <a class='category' href='/tags/bdd/'>BDD</a>, <a class='category' href='/tags/backbone/'>Backbone</a>
+    <a class='category' href='/tags/backbone/'>backbone</a>, <a class='category' href='/tags/bdd/'>bdd</a>, <a class='category' href='/tags/javascript/'>javascript</a>, <a class='category' href='/tags/sinon/'>sinon</a>, <a class='category' href='/tags/xkcd/'>xkcd</a>
   
 </span>
 
@@ -119,104 +119,174 @@
 
 
 
-<div class="post__content"><img class="alignnone size-full wp-image-656" title="Backbone and Jasmine and Sinon" src="http://tomphilip.me/wp-content/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon" width="640" height="282" />
+<div class="post__content"><p><img src="/images/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon"></p>
 
-This is based on an <strong><a href="http://xkcd.com">XKCD</a> leanback web app</strong> I&#8217;m working on that will form part of a html5 <a title="Boxee app developer" href="http://www.greatboxee.com">Boxee app</a>. Think sitting on your couch, remote control in hand flicking through XKCD comics on the TV.
+<p>This is based on an <strong><a href="http://xkcd.com">XKCD</a> leanback web app</strong> I&#8217;m working on that will form part of a html5 <a title="Boxee app developer" href="http://www.greatboxee.com">Boxee app</a>. Think sitting on your couch, remote control in hand flicking through XKCD comics on the TV.</p>
 
-It brings together quite a few technologies and techniques. The end results is something that is separated out nicely (no spaghetti code) that is simple, testable, documented and maintainable.
+<p>It brings together quite a few technologies and techniques. The end results is something that is separated out nicely (no spaghetti code) that is simple, testable, documented and maintainable.</p>
+
 <h2>The Specs</h2>
-[codesyntax lang=&#8221;javascript&#8221; tab_width=&#8221;1&#8221;]
-<pre>describe("Comic Navigator", function(){
 
-	var nav = new Xkcd.ComicNavigator();
-	var latestComic = new Xkcd.Comic({id: 101});
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;Comic Navigator&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>
+</span><span class='line'> <span class="kd">var</span> <span class="nx">nav</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Xkcd</span><span class="p">.</span><span class="nx">ComicNavigator</span><span class="p">();</span>
+</span><span class='line'> <span class="kd">var</span> <span class="nx">latestComic</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Xkcd</span><span class="p">.</span><span class="nx">Comic</span><span class="p">({</span><span class="nx">id</span><span class="o">:</span> <span class="mi">101</span><span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'> <span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;when navigating to the latest xkcd comic&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">fetchStub</span> <span class="o">=</span> <span class="nx">sinon</span><span class="p">.</span><span class="nx">stub</span><span class="p">(</span><span class="nx">Xkcd</span><span class="p">.</span><span class="nx">Comic</span><span class="p">.</span><span class="nx">prototype</span><span class="p">,</span> <span class="s1">&#39;fetch&#39;</span><span class="p">).</span><span class="nx">yieldsTo</span><span class="p">(</span><span class="s1">&#39;success&#39;</span><span class="p">,</span> <span class="nx">latestComic</span><span class="p">);</span>
+</span><span class='line'>   <span class="nx">nav</span><span class="p">.</span><span class="nx">toLatest</span><span class="p">();</span>
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">afterEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">fetchStub</span><span class="p">.</span><span class="nx">restore</span><span class="p">();</span>
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should fetch the latest comic. NB requests without a comic number get the latest comic.&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>   <span class="nx">expect</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">fetchStub</span><span class="p">.</span><span class="nx">thisValues</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;id&quot;</span><span class="p">)).</span><span class="nx">toBeFalsy</span><span class="p">();</span>
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should navigate to the latest comic&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>   <span class="nx">expect</span><span class="p">(</span><span class="nx">nav</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;current&quot;</span><span class="p">)).</span><span class="nx">toBe</span><span class="p">(</span><span class="nx">latestComic</span><span class="p">);</span>
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should keep track of what the latest comic is&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>   <span class="nx">expect</span><span class="p">(</span><span class="nx">nav</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;latest&quot;</span><span class="p">)).</span><span class="nx">toBe</span><span class="p">(</span><span class="nx">latestComic</span><span class="p">);</span>
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'> <span class="p">});</span>
+</span><span class='line'><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure>
 
-	describe("when navigating to the latest xkcd comic", function(){
-
-		beforeEach(function(){
-			this.fetchStub = sinon.stub(Xkcd.Comic.prototype, 'fetch').yieldsTo('success', latestComic);
-
-			nav.toLatest();
-		});
-
-		afterEach(function(){
-			this.fetchStub.restore();
-		});
-
-		it("should fetch the latest comic. NB requests without a comic number get the latest comic.", function(){
-			expect(this.fetchStub.thisValues[0].get("id")).toBeFalsy();
-		});
-
-		it("should navigate to the latest comic", function(){
-			expect(nav.get("current")).toBe(latestComic);
-		});
-
-		it("should keep track of what the latest comic is", function(){
-			expect(nav.get("latest")).toBe(latestComic);
-		});
-	});
-});</pre>
-[/codesyntax]
 <h3>So what&#8217;s going on?</h3>
-<strong><a title="Jasmine BDD Framework for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> is the BDD framework</strong> that is giving us that familiar &#8216;describe/it&#8217; way of defining the behaviour and at the code level the expect-ations. It&#8217;s easy to understand and get started with. It doesn&#8217;t have to be run in the browser as it has no dependency on the DOM, so is CI friendly too.
 
-<strong><a title="Mocking, stubbing, spying framework for Javascript" href="http://sinonjs.org/">Sinon.JS</a> is the mocking framework</strong>. It&#8217;s only being used here to stub out the fetch call, which would otherwise make a call to the server. It  also keeps the call synchronous and gives us a canned answer that we can later observe. It&#8217;s framework independent, so can be used with your favourite Javascript testing framework.
+<p><strong><a title="Jasmine BDD Framework for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> is the BDD framework</strong> that is giving us that familiar &#8216;describe/it&#8217; way of defining the behaviour and at the code level the expect-ations. It&#8217;s easy to understand and get started with. It doesn&#8217;t have to be run in the browser as it has no dependency on the DOM, so is CI friendly too.</p>
+
+<p><strong><a title="Mocking, stubbing, spying framework for Javascript" href="http://sinonjs.org/">Sinon.JS</a> is the mocking framework</strong>. It&#8217;s only being used here to stub out the fetch call, which would otherwise make a call to the server. It  also keeps the call synchronous and gives us a canned answer that we can later observe. It&#8217;s framework independent, so can be used with your favourite Javascript testing framework.</p>
+
 <h2>The Feature</h2>
-[codesyntax lang=&#8221;javascript&#8221; tab_width=&#8221;1&#8221;]
-<pre>var Xkcd = (function(){
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">Xkcd</span> <span class="o">=</span> <span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>
+</span><span class='line'> <span class="kd">var</span> <span class="nx">ComicNavigator</span> <span class="o">=</span> <span class="nx">Backbone</span><span class="p">.</span><span class="nx">Model</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">toLatest</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>   <span class="kd">var</span> <span class="nx">comic</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Comic</span><span class="p">()</span>
+</span><span class='line'>   <span class="kd">var</span> <span class="nx">nav</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+</span><span class='line'>   <span class="nx">comic</span><span class="p">.</span><span class="nx">fetch</span><span class="p">({</span>
+</span><span class='line'>    <span class="nx">success</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">model</span><span class="p">){</span>
+</span><span class='line'>     <span class="nx">nav</span><span class="p">.</span><span class="nx">set</span><span class="p">({</span><span class="s2">&quot;current&quot;</span><span class="o">:</span> <span class="nx">model</span><span class="p">});</span>
+</span><span class='line'>     <span class="nx">nav</span><span class="p">.</span><span class="nx">set</span><span class="p">({</span><span class="s2">&quot;latest&quot;</span><span class="o">:</span> <span class="nx">model</span><span class="p">});</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>   <span class="p">});</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'> <span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'> <span class="kd">var</span> <span class="nx">Comic</span> <span class="o">=</span> <span class="nx">Backbone</span><span class="p">.</span><span class="nx">Model</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+</span><span class='line'>  <span class="nx">url</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>   <span class="k">return</span> <span class="s1">&#39;http://dynamic.xkcd.com/api-0/jsonp/comic/&#39;</span> <span class="o">+</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">id</span> <span class="o">||</span> <span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;?callback=?&#39;</span>
+</span><span class='line'>  <span class="p">},</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">initialize</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">backbone_fetch</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">fetch</span><span class="p">;</span>
+</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">fetch</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">options</span><span class="p">){</span>
+</span><span class='line'>    <span class="nx">options</span> <span class="o">||</span> <span class="p">(</span><span class="nx">options</span> <span class="o">=</span> <span class="p">{});</span>
+</span><span class='line'>    <span class="nx">options</span><span class="p">.</span><span class="nx">jsonpCallback</span> <span class="o">=</span> <span class="s1">&#39;comicIncoming&#39;</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">backbone_fetch</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+</span><span class='line'>   <span class="p">}</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'> <span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'> <span class="k">return</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">ComicNavigator</span><span class="o">:</span> <span class="nx">ComicNavigator</span><span class="p">,</span>
+</span><span class='line'>  <span class="nx">Comic</span><span class="o">:</span> <span class="nx">Comic</span>
+</span><span class='line'> <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">})();</span>
+</span></code></pre></td></tr></table></div></figure>
 
-	var ComicNavigator = Backbone.Model.extend({
-
-			toLatest: function(){
-				var comic = new Comic()
-				var nav = this;
-				comic.fetch({
-					success: function(model){
-						nav.set({"current": model});
-						nav.set({"latest": model});
-					}
-				});
-			}
-		}
-	);
-
-	var Comic = Backbone.Model.extend({
-		url: function(){
-			return 'http://dynamic.xkcd.com/api-0/jsonp/comic/' + (this.id || "") + '?callback=?'
-		},
-
-		initialize: function(){
-	    	this.backbone_fetch = this.fetch;
-			this.fetch = function(options)
-			{
-				options || (options = {});
-				options.jsonpCallback = 'comicIncoming';
-				return this.backbone_fetch(options);
-			}
-		}
-	});
-
-	return {
-		ComicNavigator: ComicNavigator,
-		Comic: Comic
-	};
-
-})();</pre>
-[/codesyntax]
 <h3>So what&#8217;s going on?</h3>
-First of all, I&#8217;m using the <strong><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript">Revealing Module Pattern</a> to namespace the models</strong> into &#8216;Xkcd&#8217;. The return statement at the end is effectively publicly exposing the ComicNavigator and Comic. Anything I want to keep private I can, I just don&#8217;t expose it. This particular version of the <a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module Pattern</a> is quite neat as it clearly shows what&#8217;s public and you can use consistent function definitions regardless of whether the function is public or private.
+<p>First of all, I&#8217;m using the <strong><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript">Revealing Module Pattern</a> to namespace the models</strong> into &#8216;Xkcd&#8217;. The return statement at the end is effectively publicly exposing the ComicNavigator and Comic. Anything I want to keep private I can, I just don&#8217;t expose it. This particular version of the <a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module Pattern</a> is quite neat as it clearly shows what&#8217;s public and you can use consistent function definitions regardless of whether the function is public or private.</p>
 
-<strong><a title="Backbone" href="http://documentcloud.github.com/backbone/">Backbone.js</a> is a lightweight MVC-like framework</strong> that allows you to structure your code, specifically separating your data from its presentation. I&#8217;m doing it an injustice, it actually does a lot more and is very useful in keeping everything in sync with a RESTful backend, not to mention routing, eventing and validation.
+<p><strong><a title="Backbone" href="http://documentcloud.github.com/backbone/">Backbone.js</a> is a lightweight MVC-like framework</strong> that allows you to structure your code, specifically separating your data from its presentation. I&#8217;m doing it an injustice, it actually does a lot more and is very useful in keeping everything in sync with a RESTful backend, not to mention routing, eventing and validation.`</p>
 
-In the above example I have 2 models. The rest of the code uses <a title="Backbone Router" href="http://documentcloud.github.com/backbone/#Router">routes</a> for bookmarking specific comics and possibly navigation to (I&#8217;ve yet to decide on that). There&#8217;s also a <a title="Backbone View" href="http://documentcloud.github.com/backbone/#View">view</a> which will bind to the current comic on the navigator. As the navigator changes the current comic the UI will automatically reflect this. You&#8217;ll be able to see all this in the finished app (coming soon!).
+<p>In the above example I have 2 models. The rest of the code uses <a title="Backbone Router" href="http://documentcloud.github.com/backbone/#Router">routes</a> for bookmarking specific comics and possibly navigation to (I&#8217;ve yet to decide on that). There&#8217;s also a <a title="Backbone View" href="http://documentcloud.github.com/backbone/#View">view</a> which will bind to the current comic on the navigator. As the navigator changes the current comic the UI will automatically reflect this. You&#8217;ll be able to see all this in the finished app (coming soon!).</p>
 
-For the Comic model, Backbone has a <a title="Backbone Model fetch method" href="http://documentcloud.github.com/backbone/#Model-fetch">fetch</a> method that will automatically populate the model, given a url. I&#8217;m overriding the url property in order to add a <a href="http://en.wikipedia.org/wiki/JSONP">jsonp</a> callback (the XKCD service is on a different domain to the app). <strong>Just by adding &#8220;?callback=?&#8221; means backbone will switch to jsonp</strong>. Backbone just defers to jQuery&#8217;s $.ajax (or <a title="Zepto.JS" href="http://zeptojs.com/">Zeptos</a>) method, which automatically detects the  presence of =? and switches from json to jsonp. If there&#8217;s no comic id the service returns the latest comic. I&#8217;m also intercepting the fetch function to specify &#8216;comicIncoming&#8217; as the callback, normally this isn&#8217;t necessary but the XKCD service doesn&#8217;t like jQuerys automatically generated callback.
+<p>For the Comic model, Backbone has a <a title="Backbone Model fetch method" href="http://documentcloud.github.com/backbone/#Model-fetch">fetch</a> method that will automatically populate the model, given a url. I&#8217;m overriding the url property in order to add a <a href="http://en.wikipedia.org/wiki/JSONP">jsonp</a> callback (the XKCD service is on a different domain to the app). <strong>Just by adding &#8220;?callback=?&#8221; means backbone will switch to jsonp</strong>. Backbone just defers to jQuery&#8217;s $.ajax (or <a title="Zepto.JS" href="http://zeptojs.com/">Zeptos</a>) method, which automatically detects the  presence of =? and switches from json to jsonp. If there&#8217;s no comic id the service returns the latest comic. I&#8217;m also intercepting the fetch function to specify &#8216;comicIncoming&#8217; as the callback, normally this isn&#8217;t necessary but the XKCD service doesn&#8217;t like jQuerys automatically generated callback.</p>
 
-At this stage, I&#8217;m not certain that the Navigator should be a Backbone model. It makes sense in a typical MVC app and has some characteristics of a Backbone model but then doesn&#8217;t have the persistence/entity behaviours.
+<p>At this stage, I&#8217;m not certain that the Navigator should be a Backbone model. It makes sense in a typical MVC app and has some characteristics of a Backbone model but then doesn&#8217;t have the persistence/entity behaviours.</p>
 
-I&#8217;m also not happy with the 1st spec, I think it&#8217;s highlighting a smell around newing up a comic. My static mind says inject a factory but that doesn&#8217;t feel right in a dynamic language. Thoughts?
+<p>I&#8217;m also not happy with the 1st spec, I think it&#8217;s highlighting a smell around newing up a comic. My static mind says inject a factory but that doesn&#8217;t feel right in a dynamic language. Thoughts?</p>
 
-What I&#8217;ve shown is a small slice of the app, to show off some of the techniques and tools. Clearly there&#8217;s more, I just haven&#8217;t written it yet. Once the app is complete, it will show how the other parts come into play, specifically the routes and the view.
+<p>What I&#8217;ve shown is a small slice of the app, to show off some of the techniques and tools. Clearly there&#8217;s more, I just haven&#8217;t written it yet. Once the app is complete, it will show how the other parts come into play, specifically the routes and the view.</p>
+
 <h2>To Recap</h2>
 <ul>
 	<li><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module Pattern</a> for namespacing and keeping things private</li>
@@ -225,9 +295,8 @@ What I&#8217;ve shown is a small slice of the app, to show off some of the techn
 	<li><a href="http://documentcloud.github.com/backbone/">Backbone</a> for separating code into different concerns</li>
 	<li><a href="http://en.wikipedia.org/wiki/JSONP">Jsonp</a> with Backbone to fetch data from a different domain</li>
 </ul>
-<strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="http://tomphilip.me/index.php/introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="http://tomphilip.me/index.php/backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.
 
-&nbsp;
+<p><strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="/introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="/backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.</p>
 </div>
 
 
@@ -359,6 +428,7 @@ What I&#8217;ve shown is a small slice of the app, to show off some of the techn
 <script src="/javascripts/vendor/swipe.js"></script>
 <script src="/javascripts/vendor/jquery.swipebox.min.js"></script>
 <script src="/javascripts/slider.js"></script>
+<script src="/javascripts/code.js"></script>
 <!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 
 <!--[if lt IE 9]>
@@ -382,7 +452,10 @@ What I&#8217;ve shown is a small slice of the app, to show off some of the techn
 
   $(function() {
   	$('.swipebox').swipebox();
+    addCodeLineNumbers();
   });
+
+
 
 </script>
 
