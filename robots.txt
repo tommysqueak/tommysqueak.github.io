@@ -1,5 +1,9 @@
 User-agent: *
 Disallow: /categories/
 Disallow: /page/
+Disallow: /archive/
+Disallow: /archive
+Disallow: /archives/
+Disallow: /tags/
 
-Sitemap: http://tommysqueak.github.io/sitemap.xml 
+Sitemap: http://tommysqueak.github.io/sitemap.xml

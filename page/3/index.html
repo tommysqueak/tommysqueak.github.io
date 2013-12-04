@@ -1,10 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +9,10 @@
   <meta name="author" content="Tom Philip">
 
   
-  <meta name="description" content="Full Stack Web, Frontend, Backend, Ruby on Rails, Backbone.js, C#.NET, Android, Boxee, Agile Developer Business Model Generation / Lean Startup / &hellip;">
-  
+  <meta name="description" content="Agile Software Developer and Lean Startup tinkerer. Makes Android, Boxee and Web Apps and helps others make theirs." >
 
+  
+  <meta name="keywords" content="blog, software, web developer, bdd, tdd, javascript, html, css, backbone.js, .net, ruby, rails, sql, c#, asp.net, lean startup, bmgen, business model generation" >
 
   <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon-152.png">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon-144.png">
@@ -25,13 +23,13 @@
   <link rel="icon" href="/images/favicon-152.png" >
   <meta name="msapplication-TileColor" content="#222">
   <meta name="msapplication-TileImage" content="/images/favicon-144.png">
-  
-  
+
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
   <link rel="canonical" href="http://tommysqueak.github.io/page/3">
-  
+
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer" type="application/atom+xml">
@@ -94,14 +92,14 @@
 
 <div class="post-list">
    
-   
 
+     
      
      
 
      <div class="cutout">
        <div class="container post-list__container">
-         
+
          <article class="post post--item row">
            <div class="post__media-object col-xs-12 col-sm-5 col-lg-4">
   
@@ -135,192 +133,14 @@
 <div class="post__media-body col-xs-12 col-sm-7 col-lg-8">
 
   <header class="post__header">
-
     <h1 class="post__title"><a href="/testing-backbone-with-jasmine-and-sinon/">Testing Backbone with Jasmine and Sinon</a></h1>
-
   </header>
 
-  <div class="post__content"><p><img src="/images/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon"></p>
+  <div class="post__content"></div>
 
-<p>This is based on an <strong><a href="http://xkcd.com">XKCD</a> leanback web app</strong> I&#8217;m working on that will form part of a html5 <a title="Boxee app developer" href="http://www.greatboxee.com">Boxee app</a>. Think sitting on your couch, remote control in hand flicking through XKCD comics on the TV.</p>
-
-<p>It brings together quite a few technologies and techniques. The end results is something that is separated out nicely (no spaghetti code) that is simple, testable, documented and maintainable.</p>
-
-<h2>The Specs</h2>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;Comic Navigator&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>
-</span><span class='line'> <span class="kd">var</span> <span class="nx">nav</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Xkcd</span><span class="p">.</span><span class="nx">ComicNavigator</span><span class="p">();</span>
-</span><span class='line'> <span class="kd">var</span> <span class="nx">latestComic</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Xkcd</span><span class="p">.</span><span class="nx">Comic</span><span class="p">({</span><span class="nx">id</span><span class="o">:</span> <span class="mi">101</span><span class="p">});</span>
-</span><span class='line'>
-</span><span class='line'> <span class="nx">describe</span><span class="p">(</span><span class="s2">&quot;when navigating to the latest xkcd comic&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">fetchStub</span> <span class="o">=</span> <span class="nx">sinon</span><span class="p">.</span><span class="nx">stub</span><span class="p">(</span><span class="nx">Xkcd</span><span class="p">.</span><span class="nx">Comic</span><span class="p">.</span><span class="nx">prototype</span><span class="p">,</span> <span class="s1">&#39;fetch&#39;</span><span class="p">).</span><span class="nx">yieldsTo</span><span class="p">(</span><span class="s1">&#39;success&#39;</span><span class="p">,</span> <span class="nx">latestComic</span><span class="p">);</span>
-</span><span class='line'>   <span class="nx">nav</span><span class="p">.</span><span class="nx">toLatest</span><span class="p">();</span>
-</span><span class='line'>  <span class="p">});</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="nx">afterEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">fetchStub</span><span class="p">.</span><span class="nx">restore</span><span class="p">();</span>
-</span><span class='line'>  <span class="p">});</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should fetch the latest comic. NB requests without a comic number get the latest comic.&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>   <span class="nx">expect</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">fetchStub</span><span class="p">.</span><span class="nx">thisValues</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;id&quot;</span><span class="p">)).</span><span class="nx">toBeFalsy</span><span class="p">();</span>
-</span><span class='line'>  <span class="p">});</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should navigate to the latest comic&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>   <span class="nx">expect</span><span class="p">(</span><span class="nx">nav</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;current&quot;</span><span class="p">)).</span><span class="nx">toBe</span><span class="p">(</span><span class="nx">latestComic</span><span class="p">);</span>
-</span><span class='line'>  <span class="p">});</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="nx">it</span><span class="p">(</span><span class="s2">&quot;should keep track of what the latest comic is&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>   <span class="nx">expect</span><span class="p">(</span><span class="nx">nav</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;latest&quot;</span><span class="p">)).</span><span class="nx">toBe</span><span class="p">(</span><span class="nx">latestComic</span><span class="p">);</span>
-</span><span class='line'>  <span class="p">});</span>
-</span><span class='line'>
-</span><span class='line'> <span class="p">});</span>
-</span><span class='line'><span class="p">});</span>
-</span></code></pre></td></tr></table></div></figure>
-
-<h3>So what&#8217;s going on?</h3>
-
-<p><strong><a title="Jasmine BDD Framework for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> is the BDD framework</strong> that is giving us that familiar &#8216;describe/it&#8217; way of defining the behaviour and at the code level the expect-ations. It&#8217;s easy to understand and get started with. It doesn&#8217;t have to be run in the browser as it has no dependency on the DOM, so is CI friendly too.</p>
-
-<p><strong><a title="Mocking, stubbing, spying framework for Javascript" href="http://sinonjs.org/">Sinon.JS</a> is the mocking framework</strong>. It&#8217;s only being used here to stub out the fetch call, which would otherwise make a call to the server. It  also keeps the call synchronous and gives us a canned answer that we can later observe. It&#8217;s framework independent, so can be used with your favourite Javascript testing framework.</p>
-
-<h2>The Feature</h2>
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-<span class='line-number'>36</span>
-<span class='line-number'>37</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">Xkcd</span> <span class="o">=</span> <span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>
-</span><span class='line'> <span class="kd">var</span> <span class="nx">ComicNavigator</span> <span class="o">=</span> <span class="nx">Backbone</span><span class="p">.</span><span class="nx">Model</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="nx">toLatest</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>   <span class="kd">var</span> <span class="nx">comic</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Comic</span><span class="p">()</span>
-</span><span class='line'>   <span class="kd">var</span> <span class="nx">nav</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
-</span><span class='line'>   <span class="nx">comic</span><span class="p">.</span><span class="nx">fetch</span><span class="p">({</span>
-</span><span class='line'>    <span class="nx">success</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">model</span><span class="p">){</span>
-</span><span class='line'>     <span class="nx">nav</span><span class="p">.</span><span class="nx">set</span><span class="p">({</span><span class="s2">&quot;current&quot;</span><span class="o">:</span> <span class="nx">model</span><span class="p">});</span>
-</span><span class='line'>     <span class="nx">nav</span><span class="p">.</span><span class="nx">set</span><span class="p">({</span><span class="s2">&quot;latest&quot;</span><span class="o">:</span> <span class="nx">model</span><span class="p">});</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'>   <span class="p">});</span>
-</span><span class='line'>  <span class="p">}</span>
-</span><span class='line'> <span class="p">});</span>
-</span><span class='line'>
-</span><span class='line'> <span class="kd">var</span> <span class="nx">Comic</span> <span class="o">=</span> <span class="nx">Backbone</span><span class="p">.</span><span class="nx">Model</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
-</span><span class='line'>  <span class="nx">url</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>   <span class="k">return</span> <span class="s1">&#39;http://dynamic.xkcd.com/api-0/jsonp/comic/&#39;</span> <span class="o">+</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">id</span> <span class="o">||</span> <span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;?callback=?&#39;</span>
-</span><span class='line'>  <span class="p">},</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="nx">initialize</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">backbone_fetch</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">fetch</span><span class="p">;</span>
-</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">fetch</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">options</span><span class="p">){</span>
-</span><span class='line'>    <span class="nx">options</span> <span class="o">||</span> <span class="p">(</span><span class="nx">options</span> <span class="o">=</span> <span class="p">{});</span>
-</span><span class='line'>    <span class="nx">options</span><span class="p">.</span><span class="nx">jsonpCallback</span> <span class="o">=</span> <span class="s1">&#39;comicIncoming&#39;</span><span class="p">;</span>
-</span><span class='line'>    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">backbone_fetch</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
-</span><span class='line'>   <span class="p">}</span>
-</span><span class='line'>  <span class="p">}</span>
-</span><span class='line'> <span class="p">});</span>
-</span><span class='line'>
-</span><span class='line'> <span class="k">return</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nx">ComicNavigator</span><span class="o">:</span> <span class="nx">ComicNavigator</span><span class="p">,</span>
-</span><span class='line'>  <span class="nx">Comic</span><span class="o">:</span> <span class="nx">Comic</span>
-</span><span class='line'> <span class="p">};</span>
-</span><span class='line'>
-</span><span class='line'><span class="p">})();</span>
-</span></code></pre></td></tr></table></div></figure>
-
-<h3>So what&#8217;s going on?</h3>
-<p>First of all, I&#8217;m using the <strong><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript">Revealing Module Pattern</a> to namespace the models</strong> into &#8216;Xkcd&#8217;. The return statement at the end is effectively publicly exposing the ComicNavigator and Comic. Anything I want to keep private I can, I just don&#8217;t expose it. This particular version of the <a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module Pattern</a> is quite neat as it clearly shows what&#8217;s public and you can use consistent function definitions regardless of whether the function is public or private.</p>
-
-<p><strong><a title="Backbone" href="http://documentcloud.github.com/backbone/">Backbone.js</a> is a lightweight MVC-like framework</strong> that allows you to structure your code, specifically separating your data from its presentation. I&#8217;m doing it an injustice, it actually does a lot more and is very useful in keeping everything in sync with a RESTful backend, not to mention routing, eventing and validation.`</p>
-
-<p>In the above example I have 2 models. The rest of the code uses <a title="Backbone Router" href="http://documentcloud.github.com/backbone/#Router">routes</a> for bookmarking specific comics and possibly navigation to (I&#8217;ve yet to decide on that). There&#8217;s also a <a title="Backbone View" href="http://documentcloud.github.com/backbone/#View">view</a> which will bind to the current comic on the navigator. As the navigator changes the current comic the UI will automatically reflect this. You&#8217;ll be able to see all this in the finished app (coming soon!).</p>
-
-<p>For the Comic model, Backbone has a <a title="Backbone Model fetch method" href="http://documentcloud.github.com/backbone/#Model-fetch">fetch</a> method that will automatically populate the model, given a url. I&#8217;m overriding the url property in order to add a <a href="http://en.wikipedia.org/wiki/JSONP">jsonp</a> callback (the XKCD service is on a different domain to the app). <strong>Just by adding &#8220;?callback=?&#8221; means backbone will switch to jsonp</strong>. Backbone just defers to jQuery&#8217;s $.ajax (or <a title="Zepto.JS" href="http://zeptojs.com/">Zeptos</a>) method, which automatically detects the  presence of =? and switches from json to jsonp. If there&#8217;s no comic id the service returns the latest comic. I&#8217;m also intercepting the fetch function to specify &#8216;comicIncoming&#8217; as the callback, normally this isn&#8217;t necessary but the XKCD service doesn&#8217;t like jQuerys automatically generated callback.</p>
-
-<p>At this stage, I&#8217;m not certain that the Navigator should be a Backbone model. It makes sense in a typical MVC app and has some characteristics of a Backbone model but then doesn&#8217;t have the persistence/entity behaviours.</p>
-
-<p>I&#8217;m also not happy with the 1st spec, I think it&#8217;s highlighting a smell around newing up a comic. My static mind says inject a factory but that doesn&#8217;t feel right in a dynamic language. Thoughts?</p>
-
-<p>What I&#8217;ve shown is a small slice of the app, to show off some of the techniques and tools. Clearly there&#8217;s more, I just haven&#8217;t written it yet. Once the app is complete, it will show how the other parts come into play, specifically the routes and the view.</p>
-
-<h2>To Recap</h2>
-<ul>
-	<li><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module Pattern</a> for namespacing and keeping things private</li>
-	<li><a href="http://pivotal.github.com/jasmine/">Jasmine</a> for BDD style testing ala RSpec</li>
-	<li><a href="http://sinonjs.org/">Sinon</a> for test doubles (mocks, stubs etc if you care about the terms which cause more confusion than their worth)</li>
-	<li><a href="http://documentcloud.github.com/backbone/">Backbone</a> for separating code into different concerns</li>
-	<li><a href="http://en.wikipedia.org/wiki/JSONP">Jsonp</a> with Backbone to fetch data from a different domain</li>
-</ul>
-
-<p><strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="/introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="/backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.</p>
-</div>
-  
-  
+  <footer>
+    <a rel="full-article" href="/testing-backbone-with-jasmine-and-sinon/">Read&#8230;</a>
+  </footer>
 
 </div>
 
@@ -328,9 +148,9 @@
 
 
          </article>
+
          
-          
-         
+
        </div>
        <div class="cutout__slice"></div>
      </div>
@@ -339,10 +159,11 @@
 
      
      
+     
 
      <div class="cutout">
        <div class="container post-list__container">
-         
+
          <article class="post post--item row">
            <div class="post__media-object col-xs-12 col-sm-5 col-lg-4">
   
@@ -376,31 +197,14 @@
 <div class="post__media-body col-xs-12 col-sm-7 col-lg-8">
 
   <header class="post__header">
-
     <h1 class="post__title"><a href="/santander-login-translations/">Santander Login Translations</a></h1>
-
   </header>
 
-  <div class="post__content"><p>From the immortal words of Steve Krugs usability book <a href="http://www.sensible.com/dmmt.html">Don&#8217;t Make me Think</a>, Santander makes me think every time I have to login to their <a title="Santander Online Banking" href="https://retail.santander.co.uk/LOGSUK_NS_ENS/BtoChannelDriver.ssobto?dse_operationName=LOGON">online banking site</a>. So here&#8217;s a handy translation guide to what they&#8217;re really asking you to enter to login.</p>
+  <div class="post__content"></div>
 
-<h2>Step 1</h2>
-<p><img src="/images/uploads/2011/12/Santander-Login-Screen-1.png" alt="First page for the Santander Online Banking Login"></p>
-
-<h3><strong>Personal ID = Username</strong>.</h3>
-<p>Like what everybody else asks for and not to be confused with the other code/id they give you, the Registration Number (see step 2).</p>
-
-<h2>Step 2</h2>
-<p><img src="/images/uploads/2011/12/Santander-Login-Screen-2.png" alt="Second page for the Santander Online Banking Login" width="619" height="343" ></p>
-
-<h3><strong>Passcode = Password</strong>.</h3>
-
-<p>Beyond just the bad labelling, the Back and Submit buttons are the same. I have to read each one to know what to click. What&#8217;s up with &#8216;login&#8217; or &#8216;signin&#8217;? What am I submitting?</p>
-
-<p>Nice friendly memorable url too, well done. <a href="https://retail.santander.co.uk/LOGSUK_NS_ENS/BtoChannelDriver.ssobto?dse_operationName=LOGON">https://retail.santander.co.uk/LOGSUK_NS_ENS/BtoChannelDriver.ssobto?dse_operationName=LOGON</a></p>
-
-</div>
-  
-  
+  <footer>
+    <a rel="full-article" href="/santander-login-translations/">Read&#8230;</a>
+  </footer>
 
 </div>
 
@@ -408,9 +212,9 @@
 
 
          </article>
+
          
-          
-         
+
        </div>
        <div class="cutout__slice"></div>
      </div>
@@ -419,10 +223,11 @@
 
      
      
+     
 
      <div class="cutout">
        <div class="container post-list__container">
-         
+
          <article class="post post--item row">
            <div class="post__media-object col-xs-12 col-sm-5 col-lg-4">
   
@@ -456,17 +261,14 @@
 <div class="post__media-body col-xs-12 col-sm-7 col-lg-8">
 
   <header class="post__header">
-
     <h1 class="post__title"><a href="/business-model-canvas-slides-lean-liverpool/">Business Model Canvas Slides @ Lean Liverpool</a></h1>
-
   </header>
 
-  <div class="post__content"><p>Here&#8217;s the slides from a talk I gave at <a title="Lean Liverpool" href="http://leanliverpool.com">Lean Liverpool</a>, on 8th Dec 2011, about the <a href="http://www.businessmodelgeneration.com/canvas">Business Model Canvas</a>. What it is and how you can use it with Lean Startup and Customer Development. With my fear of public speaking and man flu on top of it, I bumbled through the talk. So I do recommend you read the book <a title="Business Model Generation Book" href="http://www.amazon.co.uk/Business-Model-Generation-Visionaries-Challengers/dp/0470876417/ref=sr_1_1?ie=UTF8&amp;qid=1323438500&amp;sr=8-1">Business Model Generation</a>, if my talk was incoherrent. If it wasn&#8217;t, still go out and get the book, it&#8217;s a fantastic read. Also included in the slides is the Business Model Canvas we created at the end, as part of an exercise. Breakfast Delivery for the Lazy!</p>
+  <div class="post__content"></div>
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/10531124" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="400"></iframe>
-</div>
-  
-  
+  <footer>
+    <a rel="full-article" href="/business-model-canvas-slides-lean-liverpool/">Read&#8230;</a>
+  </footer>
 
 </div>
 
@@ -474,9 +276,9 @@
 
 
          </article>
+
          
-          
-         
+
        </div>
        <div class="cutout__slice"></div>
      </div>
@@ -485,10 +287,11 @@
 
      
      
+     
 
      <div class="cutout">
        <div class="container post-list__container">
-         
+
          <article class="post post--item row">
            <div class="post__media-object col-xs-12 col-sm-5 col-lg-4">
   
@@ -522,162 +325,14 @@
 <div class="post__media-body col-xs-12 col-sm-7 col-lg-8">
 
   <header class="post__header">
-
     <h1 class="post__title"><a href="/gtd-app-review-producteev/">GTD App Review - Producteev</a></h1>
-
   </header>
 
-  <div class="post__content"><p><img alt="Producteev" src="/images/uploads/2011/11/Producteev.png"></p>
+  <div class="post__content"></div>
 
-<p><a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&#8217;s a pure joy to use. You can&#8217;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.</p>
-
-<p>Adding new tasks is easy. Called up with a hotkey from within any app. It allows extra options (labelling, deadlines, starring etc) to be set too without it being an unwieldy dialog.</p>
-
-<p>Task organisation is easy too, by clicking on the obvious icons to pop-up simple focused dialogs for each property of a task you wish to set (see Setting a Deadline screenshot).</p>
-
-<p><a title="GTD App Review – Astrid" href="/gtd-app-review-astrid/">Astrid</a> would be the Android client in this trusted system but if their soon to be released Android app is anywhere as good as its Mac app, then I can&#8217;t wait to see that.</p>
-
-<h2>How it Scored</h2>
-
-<p>This is how it scored against <a title="My GTD App Criteria" href="/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
-
-<table class="gtd-results">
-<thead>
-<tr>
-<th>Criteria</th>
-<th>Result</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Quick add</td>
-<td>Yes. There&#8217;s an inbox but I think tasks that people asign to you land in here.</td>
-</tr>
-<tr>
-<td>Projects/Sub-tasks</td>
-<td>Yes, labels</td>
-</tr>
-<tr>
-<td>Contexts/tags</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Order tasks</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Notes</td>
-<td>Yes, multiple notes</td>
-</tr>
-<tr>
-<td>Highlight/star</td>
-<td>Yes, importance stars 1-5</td>
-</tr>
-<tr>
-<td>Search</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Deadline</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Reminder</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Recurring tasks</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Sync with Google Calendar</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>User Experience</td>
-<td>5/5</td>
-</tr>
-</tbody>
-</table>
-
-<p>I put <em>no</em> for contexts/tags but you can assign multiple labels to task, so labels could be used for both projects and contexts. Not as nice as separate but a workaround. Another approach is to use Workspaces as projects and labels as contexts. The problem with this is labels belong to a workspace, so it wouldn&#8217;t be possible to see all tasks for a certain context. Also Google Calendar integration is per workspace, so for each workspace you&#8217;d get a separate calendar and need to connect this to Google.   <strong>I&#8217;d be interested to here from anyone who&#8217;s using/tried either approach and the pros/cons of each.</strong></p>
-
-<h2>Downsides</h2>
-<p>Labels not having the option to span Workspaces.</p>
-
-<p>Having to manually connect each workspace to Google Calendar, thus creating a calendar in Google Calendar per workspace.</p>
-
-<h2>Puzzling</h2>
-<p>After 5 labels, you need to expand to see the rest of them (see &#8216;Moving House&#8217; in the Main Screen screenshot). Shame it just doesn&#8217;t show them all or allow you to choose how many to show, there&#8217;s space.</p>
-
-<p><strong>Update 12/9/2012</strong> - You can actually manually order the lists, by dragging and dropping them into the top half (above the <em>more</em>). So this puzzler goes away.</p>
-
-<p>Dock badges just seem to be for tasks that you&#8217;ve assigned to others or have has assigned to you (I didn&#8217;t get to verify this with someone, so this is I&#8217;m assuming where dock badges come in). I was expecting to get badges for overdue tasks.</p>
-
-<h2>Useful Extras</h2>
-<ul>
-	<li>Import tasks from Remember the Milk.</li>
-	<li>Multiple notes per task.</li>
-	<li>Attach a file with each note. Multiple notes mean you can attach multiple files. 100mb file storage limit for free accounts.</li>
-	<li>Workspaces for top level partitioning of tasks. Eg Work, Home etc.</li>
-	<li>Enhanced for OSX Lion.</li>
-	<li>Global hot key to bring up new task box.</li>
-	<li>Audit trail. So you can see the history of what&#8217;s happened to a task.</li>
-	<li>Assign tasks to other people.</li>
-	<li>Collaborate on Workspaces.</li>
-	<li>You can create your own filters using quite an extensive criteria and remove the default ones to.</li>
-	<li>Smart task entry. Eg ** walk the dog tomorrow, adds a task with 2 stars and a deadline of tomorrow</li>
-	<li>All items (labels and Filters) in the left menu can be dragged and dropped to re-order them.</li>
-</ul>
-
-<h2>How it Looks</h2>
-
-<div id="slider" class="slider swipe">
-  <div class='swipe-wrap slider__slides'>
-    <figure class="slider__slide">
-      <img src="/images/uploads/2011/11/Producteev-Main.png">
-      <figcaption>Main Screen</figcaption>
-    </figure>
-    <figure class="slider__slide">
-      <img src="/images/uploads/2011/11/Producteev-Empty-Workspace.png">
-      <figcaption>Empty Workspace</figcaption>
-    </figure>
-    <figure class="slider__slide">
-      <img src="/images/uploads/2011/11/Producteev-Task-Entry.png">
-      <figcaption>Task Entry</figcaption>
-    </figure>
-    <figure class="slider__slide">
-      <img src="/images/uploads/2011/11/Producteev-Setting-a-Deadline.png">
-      <figcaption>Setting a Deadline</figcaption>
-    </figure>
-    <figure class="slider__slide">
-      <img src="/images/uploads/2011/11/Producteev-Multiple-Notes.png">
-      <figcaption>Multiple Notes</figcaption>
-    </figure>
-    <figure class="slider__slide">
-      <img src="/images/uploads/2011/11/Producteev-History-Expanded.png">
-      <figcaption>History</figcaption>
-    </figure>
-  </div>
-</div>
-
-<ul id="slider_nav" class='slider-indicators'></ul>
-
-
-<h2>Platforms</h2>
-<p>Web, iPhone, Mac and <a href="http://blog.producteev.com/exclusive-sneak-peek-at-producteev-for-window">Windows (coming soon)</a>.</p>
-
-<h2>Support</h2>
-<p>They have a good support setup and are listening to customers, with a <a href="http://support.producteev.com/home">support site</a> and <a href="http://producteev2.uservoice.com/">feedback forum</a>.</p>
-
-<h2>Price</h2>
-<p>Free for up to 2 users in any Workspace plus 100MB limit. Unlimited Workspaces. Then <a href="https://www.producteev.com/#pricing">tiered pricing</a> for more users, storage and others.</p>
-
-<p><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
- to follow the rest of the GTD App Review series.</p>
-</div>
-  
-  
+  <footer>
+    <a rel="full-article" href="/gtd-app-review-producteev/">Read&#8230;</a>
+  </footer>
 
 </div>
 
@@ -685,9 +340,9 @@
 
 
          </article>
+
          
-          
-         
+
        </div>
        <div class="cutout__slice"></div>
      </div>
@@ -696,10 +351,11 @@
 
      
      
+     
 
      <div class="cutout">
        <div class="container post-list__container">
-         
+
          <article class="post post--item row">
            <div class="post__media-object col-xs-12 col-sm-5 col-lg-4">
   
@@ -733,144 +389,14 @@
 <div class="post__media-body col-xs-12 col-sm-7 col-lg-8">
 
   <header class="post__header">
-
     <h1 class="post__title"><a href="/gtd-app-review-astrid/">GTD App Review - Astrid</a></h1>
-
   </header>
 
-  <div class="post__content"><p><img alt="Astrid" src="http://tomphilip.me/wp-content/uploads/2011/11/Astrid.png"></p>
+  <div class="post__content"></div>
 
-<p><a href="http://astrid.com">Astrid</a> is <strong>popular task list app for Android</strong>, that is easy to use and comes with a <strong>host of syncing options</strong>. Incredibly simple and straight forward to use with a pleasant <strong>clean UI</strong>.</p>
-
-<p>It stands out from other task list apps, with some unique features such as backups, random notifications for overdue tasks and encouragements.</p>
-
-<p>Used with Producteev syncing, means I can use the Producteev Mac app as the desktop client for my GTD system. That review is coming soon.</p>
-
-<h2>How it Scored</h2>
-<p>This is how it scored against <a title="My GTD App Criteria" href="/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
-
-<table class="gtd-results">
-<thead>
-<tr>
-<th>Criteria</th>
-<th>Result</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Quick add</td>
-<td>Yes. But it has no inbox</td>
-</tr>
-<tr>
-<td>Projects/Sub-tasks</td>
-<td>Yes, lists.</td>
-</tr>
-<tr>
-<td>Contexts/tags</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Order tasks</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Notes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Highlight/star</td>
-<td>Yes. Importance stars 1-5</td>
-</tr>
-<tr>
-<td>Search</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Deadline</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Reminder</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Recurring tasks</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Sync with Google Calendar</td>
-<td>Kind of. You can add a calendar entry that is connected to the task</td>
-</tr>
-<tr>
-<td>User Experience</td>
-<td>4/5</td>
-</tr>
-</tbody>
-</table>
-
-<h2>Downsides</h2>
-<p>It&#8217;s an impressive app but the lack of GTD specific folders and contexts/tags, means it loses out to those that have them. They of course can be replicated with lists (tasks can belong to more than one list).</p>
-
-<p>You can&#8217;t add a task from the lists home page and you can&#8217;t set the lists page as your <em>home screen</em>.</p>
-
-<p>You can&#8217;t remove or customise the default filters. Like &#8216;Recently Modified&#8217; which doesn&#8217;t feel like a useful filter.</p>
-
-<h2>Puzzling</h2>
-<p>Nothing puzzling, just a straight forward task list app.</p>
-
-<h2>Useful Extras</h2>
-<ul>
-	<li>Time how long it takes to perform a task.</li>
-	<li>Workspaces for top level partitioning of tasks. Eg Work, Home etc. When used with Producteev sync.</li>
-	<li>Assign tasks to other people and collaborate on lists too.</li>
-	<li>Randomly <del>remind</del> nag you of overdue tasks.</li>
-	<li>Limited smart task entry. Eg add to list #listname would add the task to <em>listname</em></li>
-	<li>Power packs for more widgets, notifications based on location and voice integration.</li>
-	<li>Widget for any list/view of tasks.</li>
-	<li>Add limited filters.</li>
-	<li>Reminders come with encouragements to complete overdue tasks and a host of other reminder settings.</li>
-	<li>Specify defaults for tasks.</li>
-	<li>Automated backups, should anything go wrong.</li>
-	<li>The app is <a href="https://github.com/todoroo/astrid">open source</a>.</li>
-	<li>Syncs with <a href="http://www.producteev.com/">Producteev</a>, <a href="http://mail.google.com/tasks">Google Tasks</a> and it&#8217;s own new <a href="http://astrid.com/features">Web app</a>.</li>
-</ul>
-
-<h2>How it Looks</h2>
-
-<div id="slider" class="slider swipe">
-  <div class='swipe-wrap slider__slides'>
-    <figure class="slider__slide">
-      <img src="/images/uploads/2011/11/Astrid-Active-Tasks.jpg">
-      <figcaption>Active Tasks</figcaption>
-    </figure>
-    <figure class="slider__slide">
-      <img src="/images/uploads/2011/11/Astrid-Filters.jpg">
-      <figcaption>Filters</figcaption>
-    </figure>
-    <figure class="slider__slide">
-      <img src="/images/uploads/2011/11/Astrid-List-View.jpg">
-      <figcaption>List</figcaption>
-    </figure>
-  </div>
-</div>
-
-<ul id="slider_nav" class='slider-indicators'></ul>
-
-
-<h2>Platforms</h2>
-<p><a href="https://market.android.com/details?id=com.timsu.astrid">Android</a>, <a href="http://itunes.apple.com/us/app/astrid-todo/id453396855">iPhone</a> (new) and <a href="http://astrid.com">Web</a>.</p>
-
-<h2>Support</h2>
-<p>They have a <a href="http://feedback.astrid.com/">feedback forum</a> where employees are active. I&#8217;ve been using the Android app for a long time, as an &#8216;on the go inbox&#8217; and they are always improving the app.</p>
-
-<h2>Price</h2>
-<p>Free for all platforms.</p>
-
-<p><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
- to follow the rest of the GTD App Review series.</p>
-</div>
-  
-  
+  <footer>
+    <a rel="full-article" href="/gtd-app-review-astrid/">Read&#8230;</a>
+  </footer>
 
 </div>
 
@@ -878,13 +404,13 @@
 
 
          </article>
-         
+
          
          <div class="navigation-buttons">
-           <a href="/archive" class="button button--navigation">&gt; More posts&#8230;</a>             
+           <a href="/archive" class="button button--navigation">&gt; More posts&#8230;</a>
          </div>
-          
          
+
        </div>
        <div class="cutout__slice"></div>
      </div>
@@ -895,7 +421,7 @@
   <div class="post-more cutout cutout--inverse cutout--footer">
     <div class="cutout__slice"></div>
   </div>
-  
+
 </div>
 
 
@@ -984,63 +510,15 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery.min.js"><\/script>')</script>
 
-<script src="/javascripts/vendor/bootstrap.transition.js"></script>
-<script src="/javascripts/vendor/bootstrap.collapse.js"></script>
-<script src="/javascripts/vendor/skrollr.min.js"></script>
-<script src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
-<script src="/javascripts/vendor/swipe.js"></script>
-<script src="/javascripts/vendor/jquery.swipebox.min.js"></script>
-<script src="/javascripts/slider.js"></script>
-<script src="/javascripts/code.js"></script>
-<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 
+<script src='/assets/footer-e8829d7013c1998f0f575e31043f9d5e.js' type='text/javascript'></script>
+
+
+<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 <!--[if lt IE 9]>
 <script src="/javascripts/vendor/skrollr.ie.min.js"></script>
 <![endif]-->
-<script>
-  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
-  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
 
-  $('.navbar-collapse').on('show.bs.collapse', function() {
-    $('#navToggler').addClass('opened');
-  });
-
-  $('.navbar-collapse').on('hide.bs.collapse', function() {
-    $('#navToggler').removeClass('opened');
-  });
-
-  if($('#slider').length > 0){
-    slider.slidify('#slider', '#slider_nav');
-  }
-
-  $(function() {
-  	$('.swipebox').swipebox();
-    addCodeLineNumbers();
-  });
-
-
-
-</script>
-
-<script>
-
-  function isTouchy(){
-    //  Hacky
-    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;
-  }
-
-  if (!isTouchy()){
-    var s = skrollr.init({forceHeight: false});
-  }
-</script>
-
-<script>
-	$(".rotate").textrotator({
-	  animation: "flip",
-		separator: ",",
-	  speed: 2000
-	});
-</script>
 
 
 

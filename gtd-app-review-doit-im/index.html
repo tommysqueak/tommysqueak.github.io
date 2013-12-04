@@ -1,10 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +9,10 @@
   <meta name="author" content="Tom Philip">
 
   
-  <meta name="description" content="Oct 13th, 2011 Tom Philip gtd, review GTD App Review - Doit.im Doit.im is a fantastic multi-platform free service, designed specifically for GTD. It &hellip;">
-  
+  <meta name="description" content="Doit.im is a fantastic multi-platform free service, designed specifically for GTD. It has a pleasant simplicity about it, that looks great and makes &hellip;" >
 
+  
+  <meta name="keywords" content="doit.im, gtd, android, iphone, ipad, windows, cloud sync. tasks" >
 
   <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon-152.png">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon-144.png">
@@ -25,13 +23,13 @@
   <link rel="icon" href="/images/favicon-152.png" >
   <meta name="msapplication-TileColor" content="#222">
   <meta name="msapplication-TileImage" content="/images/favicon-144.png">
-  
-  
+
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
   <link rel="canonical" href="http://tommysqueak.github.io/gtd-app-review-doit-im">
-  
+
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer" type="application/atom+xml">
@@ -101,9 +99,9 @@
 
         
 
-<span class="post-metadata__categories">
+<span class="post-metadata__tags">
   
-    <a class='category' href='/tags/gtd/'>gtd</a>, <a class='category' href='/tags/review/'>review</a>
+    <a class='category' href='/tag/gtd/'>gtd</a>, <a class='category' href='/tag/review/'>review</a>
   
 </span>
 
@@ -119,7 +117,7 @@
 
 
 
-<div class="post__content"><p><img alt="Doit-im" src="/images/uploads/2011/10/Doit-im.png"></p>
+<div class="post__content"><p><img class="post__image" alt="Doit-im" src="/images/uploads/2011/10/Doit-im.png"></p>
 
 <p><a href="http://www.doit.im">Doit.im</a> is a fantastic multi-platform free service, designed specifically for GTD. It has a pleasant simplicity about it, that looks great and makes it easy to use.</p>
 
@@ -404,63 +402,15 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery.min.js"><\/script>')</script>
 
-<script src="/javascripts/vendor/bootstrap.transition.js"></script>
-<script src="/javascripts/vendor/bootstrap.collapse.js"></script>
-<script src="/javascripts/vendor/skrollr.min.js"></script>
-<script src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
-<script src="/javascripts/vendor/swipe.js"></script>
-<script src="/javascripts/vendor/jquery.swipebox.min.js"></script>
-<script src="/javascripts/slider.js"></script>
-<script src="/javascripts/code.js"></script>
-<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 
+<script src='/assets/footer-e8829d7013c1998f0f575e31043f9d5e.js' type='text/javascript'></script>
+
+
+<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 <!--[if lt IE 9]>
 <script src="/javascripts/vendor/skrollr.ie.min.js"></script>
 <![endif]-->
-<script>
-  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
-  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
 
-  $('.navbar-collapse').on('show.bs.collapse', function() {
-    $('#navToggler').addClass('opened');
-  });
-
-  $('.navbar-collapse').on('hide.bs.collapse', function() {
-    $('#navToggler').removeClass('opened');
-  });
-
-  if($('#slider').length > 0){
-    slider.slidify('#slider', '#slider_nav');
-  }
-
-  $(function() {
-  	$('.swipebox').swipebox();
-    addCodeLineNumbers();
-  });
-
-
-
-</script>
-
-<script>
-
-  function isTouchy(){
-    //  Hacky
-    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;
-  }
-
-  if (!isTouchy()){
-    var s = skrollr.init({forceHeight: false});
-  }
-</script>
-
-<script>
-	$(".rotate").textrotator({
-	  animation: "flip",
-		separator: ",",
-	  speed: 2000
-	});
-</script>
 
 
 

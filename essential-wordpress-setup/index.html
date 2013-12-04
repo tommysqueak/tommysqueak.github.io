@@ -1,10 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +9,10 @@
   <meta name="author" content="Tom Philip">
 
   
-  <meta name="description" content="Sep 19th, 2011 Tom Philip wordpress Essential Wordpress Setup Wordpress is a great free open-source blogging platform (that can be used as a CMS too &hellip;">
-  
+  <meta name="description" content="The essential guide to setting up a blog or CMS with Wordpress. Ensuring I and my visitors get the best experience." >
 
+  
+  <meta name="keywords" content="wordpress, setup, plugins, ultimate, essential" >
 
   <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon-152.png">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon-144.png">
@@ -25,13 +23,13 @@
   <link rel="icon" href="/images/favicon-152.png" >
   <meta name="msapplication-TileColor" content="#222">
   <meta name="msapplication-TileImage" content="/images/favicon-144.png">
-  
-  
+
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
   <link rel="canonical" href="http://tommysqueak.github.io/essential-wordpress-setup">
-  
+
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer" type="application/atom+xml">
@@ -101,9 +99,9 @@
 
         
 
-<span class="post-metadata__categories">
+<span class="post-metadata__tags">
   
-    <a class='category' href='/tags/wordpress/'>wordpress</a>
+    <a class='category' href='/tag/wordpress/'>wordpress</a>
   
 </span>
 
@@ -120,43 +118,43 @@
 
 
 <div class="post__content"><p>
-  <img src="/images/uploads/2011/09/wordpress.png" alt="Wordpress logo">
+  <img class="post__image" src="/images/uploads/2011/09/wordpress.png" alt="Wordpress logo">
 </p>
 
 <p>
-  Wordpress is a great free open-source blogging platform (that can be used as a CMS too), 
-  that just keeps getting better and better. 
+  Wordpress is a great free open-source blogging platform (that can be used as a CMS too),
+  that just keeps getting better and better.
   With thousands of free plugins and themes it can be extended in an extraordinary amount of ways.
 </p>
 
 <p>
-  I&#8217;ve setup many wordpress blogs for <a href="http://www.greatboxee.com/">Great Boxee</a>, 
-  <a href="http://laters.mobi">Laters - Read it Later client for Android</a>, 
-  <a href="http://postboxed.conkersoftware.co.uk">Postboxed - Postboxes nearby on Android</a>, 
-  <a title="Contemporary artist based in Liverpool" href="http://www.peterphilip.co.uk">Peter Philip</a> 
-  and of course <a href="http://tomphilip.me">this blog</a>. 
-  So I thought it&#8217;s about time I wrote about how I set up Wordpress blogs. 
-  How this setup has served me well and ensures I get the best experience for me and my visitors. 
+  I&#8217;ve setup many wordpress blogs for <a href="http://www.greatboxee.com/">Great Boxee</a>,
+  <a href="http://laters.mobi">Laters - Read it Later client for Android</a>,
+  <a href="http://postboxed.conkersoftware.co.uk">Postboxed - Postboxes nearby on Android</a>,
+  <a title="Contemporary artist based in Liverpool" href="http://www.peterphilip.co.uk">Peter Philip</a>
+  and of course <a href="http://tomphilip.me">this blog</a>.
+  So I thought it&#8217;s about time I wrote about how I set up Wordpress blogs.
+  How this setup has served me well and ensures I get the best experience for me and my visitors.
   This is my essential guide to creating a blog or CMS with Wordpress.
 </p>
 
 <h2>Install Wordpress</h2>
 <p>
-  It goes without saying I <a title="Wordpress download" href="http://wordpress.org/download/">download Wordpress</a> 
-  and follow the <a title="How to install Wordpress" href="http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install">famous 5-minute install guide</a> 
+  It goes without saying I <a title="Wordpress download" href="http://wordpress.org/download/">download Wordpress</a>
+  and follow the <a title="How to install Wordpress" href="http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install">famous 5-minute install guide</a>
   to get the basic Wordpress up and running.
 </p>
 
 
 <p>
-  This I always forget, <strong>set read permissions on the wp-content/uploads folder</strong> using your ftp program. 
+  This I always forget, <strong>set read permissions on the wp-content/uploads folder</strong> using your ftp program.
   So UNIX permissions should show to be 775. If you don&#8217;t do this, your uploaded images don&#8217;t get served up.
 </p>
 
 <h2>Plugins</h2>
 <p>
-  These are the plugins I use to enhance my blog. There&#8217;s always similar competing ones but I&#8217;ve found these to 
-  offer great functionality and be reliable. You can download them all from the official 
+  These are the plugins I use to enhance my blog. There&#8217;s always similar competing ones but I&#8217;ve found these to
+  offer great functionality and be reliable. You can download them all from the official
   <a href="http://wordpress.org/extend/plugins/">Wordpress plugin directory</a>. Unzip them and ftp them to your wp-content/plugins directory.
 
   <ul>
@@ -188,11 +186,11 @@
 
   <ul>
     <li><strong>General</strong> - add your sites tagline (default is &#8216;Just another Wordpress Site&#8217; which you don&#8217;t want)</li>
-    <li><strong>Discussion</strong> - &#8216;Hold a comment in the queue if it contains&#8217; - change this to 1 link. Uncheck &#8216;Comment author must have a previously approved comment&#8217;. 
+    <li><strong>Discussion</strong> - &#8216;Hold a comment in the queue if it contains&#8217; - change this to 1 link. Uncheck &#8216;Comment author must have a previously approved comment&#8217;.
       I prefer to allow comments without approval. I get an email that a comments is there, so I can then go and act on it, if its inappropriate/spam. Akismet is on and posts with links need approval first.</li>
     <li><strong>Permalinks</strong> - Change it from the default which is not SEO or user friendly. I prefer a custom of &#8216;/index.php/%postname%/&#8217; simple and clean.</li>
     <li><strong>Posts </strong>- Delete the dummy post that come with Wordpress.</li>
-    <li><strong>Create Author Account</strong> - Create myself an account (besides the admin account), under who I&#8217;ll publish posts as. The admin account normally has a strong generated obscure password that I could never remember, so my own account is just an editor with a password I can remember. 
+    <li><strong>Create Author Account</strong> - Create myself an account (besides the admin account), under who I&#8217;ll publish posts as. The admin account normally has a strong generated obscure password that I could never remember, so my own account is just an editor with a password I can remember.
       Make sure you change the &#8216;Display Name publicly as&#8217; to your name rather than some username/nickname.</li>
     <li><strong>Robots.txt</strong> - Create a <a href="http://boganmarketing.com/blog/ultimate-wordpress-robots-txt-for-silo-seo.html">robots.txt</a> file and ftp it to your root directory. This prevents search engines crawling private pages/scripts and indexing duplicates.</li>
   </ul>
@@ -216,9 +214,9 @@
 
 <h2>Other</h2>
 <p>
-  
+
   These are also great enhancements worth applying.
-  
+
   <ul>
     <li><strong>About</strong> - Create an &#8216;About&#8217; page and fill it out. Let people know <a href="http://www.uxbooth.com/blog/about-pages-good-bad-and-missing/">who, where, what, how and when</a>.</li>
     <li><strong><a title="How to create a favicon for Wordpress" href="http://codex.wordpress.org/Creating_a_Favicon">Create an favicon icon</a></strong> for the site and ftp it to root (for rss readers) and to your themes root (for browsers). <a href="http://www.favicon.co.uk/">Favicon.co.uk</a> is really easy for this.</li>
@@ -355,63 +353,15 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery.min.js"><\/script>')</script>
 
-<script src="/javascripts/vendor/bootstrap.transition.js"></script>
-<script src="/javascripts/vendor/bootstrap.collapse.js"></script>
-<script src="/javascripts/vendor/skrollr.min.js"></script>
-<script src="/javascripts/vendor/jquery.simple-text-rotator.min.js"></script>
-<script src="/javascripts/vendor/swipe.js"></script>
-<script src="/javascripts/vendor/jquery.swipebox.min.js"></script>
-<script src="/javascripts/slider.js"></script>
-<script src="/javascripts/code.js"></script>
-<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 
+<script src='/assets/footer-e8829d7013c1998f0f575e31043f9d5e.js' type='text/javascript'></script>
+
+
+<!--[if lt IE 8]><script src="/javascripts/vendor/pictonic.min.js"></script><![endif]-->
 <!--[if lt IE 9]>
 <script src="/javascripts/vendor/skrollr.ie.min.js"></script>
 <![endif]-->
-<script>
-  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
-  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
 
-  $('.navbar-collapse').on('show.bs.collapse', function() {
-    $('#navToggler').addClass('opened');
-  });
-
-  $('.navbar-collapse').on('hide.bs.collapse', function() {
-    $('#navToggler').removeClass('opened');
-  });
-
-  if($('#slider').length > 0){
-    slider.slidify('#slider', '#slider_nav');
-  }
-
-  $(function() {
-  	$('.swipebox').swipebox();
-    addCodeLineNumbers();
-  });
-
-
-
-</script>
-
-<script>
-
-  function isTouchy(){
-    //  Hacky
-    return (/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) || Modernizr.touch;
-  }
-
-  if (!isTouchy()){
-    var s = skrollr.init({forceHeight: false});
-  }
-</script>
-
-<script>
-	$(".rotate").textrotator({
-	  animation: "flip",
-		separator: ",",
-	  speed: 2000
-	});
-</script>
 
 
 
