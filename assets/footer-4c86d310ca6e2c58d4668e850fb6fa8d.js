@@ -924,7 +924,7 @@ function addCodeLineNumbers() {
   }
 
   if (!isTouchy()){
-    var s = skrollr.init({forceHeight: false});
+    skrollr.init({forceHeight: false});
   }
 })();
 
