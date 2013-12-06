@@ -910,7 +910,16 @@ function addCodeLineNumbers() {
 (function(){
 
   $(function() {
+    $(document).on('click', '.post--item', function(ev){
+      window.location = $(ev.currentTarget).find('a').first().attr('href');
+    });
+    
+    $(document).on('click', '.post--item a', function(ev){
+      ev.stopPropagation();
+    });
+    
     $('.swipebox').swipebox();
+    
     addCodeLineNumbers();
   });
 
