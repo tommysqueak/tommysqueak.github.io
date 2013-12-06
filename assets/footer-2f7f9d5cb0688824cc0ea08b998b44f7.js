@@ -876,7 +876,7 @@ function addCodeLineNumbers() {
 
 (function(){
 
-  nav = $('.page-post .navbar').removeAttr('data-500-start data-540-start');
+  $('.page-post .navbar').removeAttr('data-500-start data-540-start');
   $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
 
   $('.navbar-collapse').on('show.bs.collapse', function() {
