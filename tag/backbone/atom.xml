@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[backbone | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
-  <link href="http://tommysqueak.github.io/tag/backbone/atom.xml" rel="self"/>
-  <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-12-07T15:58:49+01:00</updated>
-  <id>http://tommysqueak.github.io/</id>
+  <link href="http://tomphilip.me//tag/backbone/atom.xml" rel="self"/>
+  <link href="http://tomphilip.me//"/>
+  <updated>2013-12-07T17:36:19+01:00</updated>
+  <id>http://tomphilip.me//</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
     
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[Introducing XKCD Couch]]></title>
-    <link href="http://tommysqueak.github.io/introducing-xkcd-couch/"/>
+    <link href="http://tomphilip.me//introducing-xkcd-couch/"/>
     <updated>2012-01-30T00:00:00+01:00</updated>
-    <id>http://tommysqueak.github.io/introducing-xkcd-couch</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2012/01/xkcd-couch.png" alt="xkcd couch"></p>
+    <id>http://tomphilip.me//introducing-xkcd-couch</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2012/01/xkcd-couch.png" alt="xkcd couch"></p>
 
 
 
@@ -41,7 +41,7 @@
 <h2>Technology</h2>
 
 
-<p>A bit about the technology behind it. It'a single page HTML5 app that uses <a href="http://documentcloud.github.com/backbone/">Backbone.js</a> as it's underlying framework, that was tested with the BDD framework <a title="Jasmine - BDD for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> and mocking library <a title="Standalone test spies, stubs and mocks for JavaScript." href="http://sinonjs.org/">Sinon.js</a>. Early parts of this app appeared in my previous post on <a title="Testing Backbone with Jasmine and Sinon" href="http://tommysqueak.github.io/testing-backbone-with-jasmine-and-sinon/">Testing Backbone.js with Jasmine and Sinon.js</a>. It also spawned a Backbone plugin called <a title="Backbone on the Couch" href="http://tommysqueak.github.io/backbone-on-the-couch/">Backbone on the Couch</a>, which allows you to easily bind to remote control d-pad events (left, right, up, down etc).</p>
+<p>A bit about the technology behind it. It'a single page HTML5 app that uses <a href="http://documentcloud.github.com/backbone/">Backbone.js</a> as it's underlying framework, that was tested with the BDD framework <a title="Jasmine - BDD for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> and mocking library <a title="Standalone test spies, stubs and mocks for JavaScript." href="http://sinonjs.org/">Sinon.js</a>. Early parts of this app appeared in my previous post on <a title="Testing Backbone with Jasmine and Sinon" href="http://tomphilip.me//testing-backbone-with-jasmine-and-sinon/">Testing Backbone.js with Jasmine and Sinon.js</a>. It also spawned a Backbone plugin called <a title="Backbone on the Couch" href="http://tomphilip.me//backbone-on-the-couch/">Backbone on the Couch</a>, which allows you to easily bind to remote control d-pad events (left, right, up, down etc).</p>
 
 
 
@@ -63,10 +63,10 @@
   
   <entry>
     <title type="html"><![CDATA[Backbone on the Couch]]></title>
-    <link href="http://tommysqueak.github.io/backbone-on-the-couch/"/>
+    <link href="http://tomphilip.me//backbone-on-the-couch/"/>
     <updated>2012-01-30T00:00:00+01:00</updated>
-    <id>http://tommysqueak.github.io/backbone-on-the-couch</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2012/01/Backbone-on-the-Couch.png" alt="Backbone on the Couch"></p>
+    <id>http://tomphilip.me//backbone-on-the-couch</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2012/01/Backbone-on-the-Couch.png" alt="Backbone on the Couch"></p>
 
 
 
@@ -144,7 +144,7 @@ var keypad = new Backbone.OnTheCouch.KeyEvents({keyMaps: [
 <h2>Example</h2>
 
 
-<p>The plugin came out of the development of the <a href="http://tommysqueak.github.io/introducing-xkcd-couch/">XKCD Couch app</a>, which is also a <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 Boxee app</a>. You can see this plugin at work on <a href="http://xkcd.greatboxee.com">XKCD Couch app</a>.</p>
+<p>The plugin came out of the development of the <a href="http://tomphilip.me//introducing-xkcd-couch/">XKCD Couch app</a>, which is also a <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 Boxee app</a>. You can see this plugin at work on <a href="http://xkcd.greatboxee.com">XKCD Couch app</a>.</p>
 
 
 
@@ -156,10 +156,10 @@ var keypad = new Backbone.OnTheCouch.KeyEvents({keyMaps: [
   
   <entry>
     <title type="html"><![CDATA[Testing Backbone with Jasmine and Sinon]]></title>
-    <link href="http://tommysqueak.github.io/testing-backbone-with-jasmine-and-sinon/"/>
+    <link href="http://tomphilip.me//testing-backbone-with-jasmine-and-sinon/"/>
     <updated>2011-12-23T00:00:00+01:00</updated>
-    <id>http://tommysqueak.github.io/testing-backbone-with-jasmine-and-sinon</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon"></p>
+    <id>http://tomphilip.me//testing-backbone-with-jasmine-and-sinon</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon"></p>
 
 
 
@@ -326,7 +326,7 @@ return this.backbone_fetch(options);
 
 
 
-<p><strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="http://tommysqueak.github.io/introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="http://tommysqueak.github.io/backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.</p>
+<p><strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="http://tomphilip.me//introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="http://tomphilip.me//backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.</p>
 
 ]]></content>
   </entry>

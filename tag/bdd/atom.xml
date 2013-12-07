@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[bdd | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
-  <link href="http://tommysqueak.github.io/tag/bdd/atom.xml" rel="self"/>
-  <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-12-07T15:58:49+01:00</updated>
-  <id>http://tommysqueak.github.io/</id>
+  <link href="http://tomphilip.me//tag/bdd/atom.xml" rel="self"/>
+  <link href="http://tomphilip.me//"/>
+  <updated>2013-12-07T17:36:19+01:00</updated>
+  <id>http://tomphilip.me//</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Dependency Inversion Principle]]></title>
-    <link href="http://tommysqueak.github.io/dependency-inversion-principle/"/>
+    <link href="http://tomphilip.me//dependency-inversion-principle/"/>
     <updated>2012-08-16T00:00:00+02:00</updated>
-    <id>http://tommysqueak.github.io/dependency-inversion-principle</id>
+    <id>http://tomphilip.me//dependency-inversion-principle</id>
     <content type="html"><![CDATA[<p>Slides and <a href="https://github.com/tommysqueak/dependency-inversion-talk">code</a> from a talk I gave on the Dependency Inversion Principle. Covers Dependency Injection, Service Location, TDD &amp; Mocking (how they play together nicely), Auto-mocking, IOC tools and a little best practice.</p>
 
 
@@ -40,9 +40,9 @@
   
   <entry>
     <title type="html"><![CDATA[Great Software Design Slides]]></title>
-    <link href="http://tommysqueak.github.io/great-software-design-slides/"/>
+    <link href="http://tomphilip.me//great-software-design-slides/"/>
     <updated>2012-07-19T00:00:00+02:00</updated>
-    <id>http://tommysqueak.github.io/great-software-design-slides</id>
+    <id>http://tomphilip.me//great-software-design-slides</id>
     <content type="html"><![CDATA[<p>Another talk I gave today about not just good software design but Great Software Design.  Takes in SOLID, Design Patterns, Anti-Patterns and Tips.</p>
 
 
@@ -60,9 +60,9 @@
   
   <entry>
     <title type="html"><![CDATA[Sociable Software Delivery - An Introduction to BDD]]></title>
-    <link href="http://tommysqueak.github.io/sociable-software-delivery-an-introduction-to-bdd/"/>
+    <link href="http://tomphilip.me//sociable-software-delivery-an-introduction-to-bdd/"/>
     <updated>2012-07-10T00:00:00+02:00</updated>
-    <id>http://tommysqueak.github.io/sociable-software-delivery-an-introduction-to-bdd</id>
+    <id>http://tomphilip.me//sociable-software-delivery-an-introduction-to-bdd</id>
     <content type="html"><![CDATA[<p>
   Here's the slides from a talk I gave to staff at my current client <a href="http://www.newmind.co.uk/">New Mind</a>. 
   It's an introduction to Behaviour Driven Development, from idea to working software.
@@ -85,10 +85,10 @@
   
   <entry>
     <title type="html"><![CDATA[Testing Backbone with Jasmine and Sinon]]></title>
-    <link href="http://tommysqueak.github.io/testing-backbone-with-jasmine-and-sinon/"/>
+    <link href="http://tomphilip.me//testing-backbone-with-jasmine-and-sinon/"/>
     <updated>2011-12-23T00:00:00+01:00</updated>
-    <id>http://tommysqueak.github.io/testing-backbone-with-jasmine-and-sinon</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon"></p>
+    <id>http://tomphilip.me//testing-backbone-with-jasmine-and-sinon</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon"></p>
 
 
 
@@ -255,16 +255,16 @@ return this.backbone_fetch(options);
 
 
 
-<p><strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="http://tommysqueak.github.io/introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="http://tommysqueak.github.io/backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.</p>
+<p><strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="http://tomphilip.me//introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="http://tomphilip.me//backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.</p>
 
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[BDD Talk]]></title>
-    <link href="http://tommysqueak.github.io/bdd-talk/"/>
+    <link href="http://tomphilip.me//bdd-talk/"/>
     <updated>2010-11-25T00:00:00+01:00</updated>
-    <id>http://tommysqueak.github.io/bdd-talk</id>
+    <id>http://tomphilip.me//bdd-talk</id>
     <content type="html"><![CDATA[<p>
   <iframe src="http://prezi.com/embed/4bklhiavc5qp/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" width="100%" height="400" frameBorder="0"></iframe>
 </p>
