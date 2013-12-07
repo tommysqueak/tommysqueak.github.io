@@ -843,7 +843,7 @@ var slider = (function($){
       });
       
       bullet_holder.on('click', '.slider-indicators__indicator', function(ev){
-                    var index = $(event.currentTarget).find('.slider-indicators__indicator').index(event.target);
+                    var index = bullet_holder.find('.slider-indicators__indicator').index(ev.target);
                     slider.slide(index, 300)
                   });
       
