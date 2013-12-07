@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[app | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
-  <link href="http://tomphilip.me//tag/app/atom.xml" rel="self"/>
-  <link href="http://tomphilip.me//"/>
-  <updated>2013-12-07T20:31:26+01:00</updated>
-  <id>http://tomphilip.me//</id>
+  <link href="http://tommysqueak.github.io/tag/app/atom.xml" rel="self"/>
+  <link href="http://tommysqueak.github.io/"/>
+  <updated>2013-12-07T20:37:21+01:00</updated>
+  <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
     
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[XKCD Couch New Feature - Remote Control]]></title>
-    <link href="http://tomphilip.me//xkcd-couch-new-feature-remote-control/"/>
+    <link href="http://tommysqueak.github.io/xkcd-couch-new-feature-remote-control/"/>
     <updated>2012-03-18T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//xkcd-couch-new-feature-remote-control</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2012/03/xkcd-remote-control.png" alt="xkcd remote control" ></p>
+    <id>http://tommysqueak.github.io/xkcd-couch-new-feature-remote-control</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2012/03/xkcd-remote-control.png" alt="xkcd remote control" ></p>
 
 
 
@@ -64,10 +64,10 @@
   
   <entry>
     <title type="html"><![CDATA[Introducing XKCD Couch]]></title>
-    <link href="http://tomphilip.me//introducing-xkcd-couch/"/>
+    <link href="http://tommysqueak.github.io/introducing-xkcd-couch/"/>
     <updated>2012-01-30T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//introducing-xkcd-couch</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2012/01/xkcd-couch.png" alt="xkcd couch"></p>
+    <id>http://tommysqueak.github.io/introducing-xkcd-couch</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2012/01/xkcd-couch.png" alt="xkcd couch"></p>
 
 
 
@@ -90,7 +90,7 @@
 <h2>Technology</h2>
 
 
-<p>A bit about the technology behind it. It'a single page HTML5 app that uses <a href="http://documentcloud.github.com/backbone/">Backbone.js</a> as it's underlying framework, that was tested with the BDD framework <a title="Jasmine - BDD for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> and mocking library <a title="Standalone test spies, stubs and mocks for JavaScript." href="http://sinonjs.org/">Sinon.js</a>. Early parts of this app appeared in my previous post on <a title="Testing Backbone with Jasmine and Sinon" href="http://tomphilip.me//testing-backbone-with-jasmine-and-sinon/">Testing Backbone.js with Jasmine and Sinon.js</a>. It also spawned a Backbone plugin called <a title="Backbone on the Couch" href="http://tomphilip.me//backbone-on-the-couch/">Backbone on the Couch</a>, which allows you to easily bind to remote control d-pad events (left, right, up, down etc).</p>
+<p>A bit about the technology behind it. It'a single page HTML5 app that uses <a href="http://documentcloud.github.com/backbone/">Backbone.js</a> as it's underlying framework, that was tested with the BDD framework <a title="Jasmine - BDD for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> and mocking library <a title="Standalone test spies, stubs and mocks for JavaScript." href="http://sinonjs.org/">Sinon.js</a>. Early parts of this app appeared in my previous post on <a title="Testing Backbone with Jasmine and Sinon" href="http://tommysqueak.github.io/testing-backbone-with-jasmine-and-sinon/">Testing Backbone.js with Jasmine and Sinon.js</a>. It also spawned a Backbone plugin called <a title="Backbone on the Couch" href="http://tommysqueak.github.io/backbone-on-the-couch/">Backbone on the Couch</a>, which allows you to easily bind to remote control d-pad events (left, right, up, down etc).</p>
 
 
 

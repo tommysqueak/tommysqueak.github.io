@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
-  <link href="http://tomphilip.me//atom.xml" rel="self"/>
-  <link href="http://tomphilip.me//"/>
-  <updated>2013-12-07T20:31:26+01:00</updated>
-  <id>http://tomphilip.me//</id>
+  <link href="http://tommysqueak.github.io/atom.xml" rel="self"/>
+  <link href="http://tommysqueak.github.io/"/>
+  <updated>2013-12-07T20:37:21+01:00</updated>
+  <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Dependency Inversion Principle]]></title>
-    <link href="http://tomphilip.me//dependency-inversion-principle/"/>
+    <link href="http://tommysqueak.github.io/dependency-inversion-principle/"/>
     <updated>2012-08-16T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//dependency-inversion-principle</id>
+    <id>http://tommysqueak.github.io/dependency-inversion-principle</id>
     <content type="html"><![CDATA[<p>Slides and <a href="https://github.com/tommysqueak/dependency-inversion-talk">code</a> from a talk I gave on the Dependency Inversion Principle. Covers Dependency Injection, Service Location, TDD &amp; Mocking (how they play together nicely), Auto-mocking, IOC tools and a little best practice.</p>
 
 <p>The code used in the talk is available at <a title="Dependency Inversion Principle - Code Examples" href="https://github.com/tommysqueak/dependency-inversion-talk">https://github.com/tommysqueak/dependency-inversion-talk</a></p>
@@ -30,9 +30,9 @@
   
   <entry>
     <title type="html"><![CDATA[Great Software Design Slides]]></title>
-    <link href="http://tomphilip.me//great-software-design-slides/"/>
+    <link href="http://tommysqueak.github.io/great-software-design-slides/"/>
     <updated>2012-07-19T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//great-software-design-slides</id>
+    <id>http://tommysqueak.github.io/great-software-design-slides</id>
     <content type="html"><![CDATA[<p>Another talk I gave today about not just good software design but Great Software Design.  Takes in SOLID, Design Patterns, Anti-Patterns and Tips.</p>
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/13694138" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="400"></iframe>
@@ -43,9 +43,9 @@
   
   <entry>
     <title type="html"><![CDATA[Sociable Software Delivery - An Introduction to BDD]]></title>
-    <link href="http://tomphilip.me//sociable-software-delivery-an-introduction-to-bdd/"/>
+    <link href="http://tommysqueak.github.io/sociable-software-delivery-an-introduction-to-bdd/"/>
     <updated>2012-07-10T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//sociable-software-delivery-an-introduction-to-bdd</id>
+    <id>http://tommysqueak.github.io/sociable-software-delivery-an-introduction-to-bdd</id>
     <content type="html"><![CDATA[<p>
   Here&#8217;s the slides from a talk I gave to staff at my current client <a href="http://www.newmind.co.uk/">New Mind</a>. 
   It&#8217;s an introduction to Behaviour Driven Development, from idea to working software.
@@ -60,15 +60,15 @@
   
   <entry>
     <title type="html"><![CDATA[The Best GTD App]]></title>
-    <link href="http://tomphilip.me//best-gtd-app/"/>
+    <link href="http://tommysqueak.github.io/best-gtd-app/"/>
     <updated>2012-06-19T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//best-gtd-app</id>
-    <content type="html"><![CDATA[<p>When I started this review process back in September 2011, eager to find the perfect GTD app for myself. I was looking forward to whizzing through the reviews, to find a winning app that would meet my needs set out in the <a title="GTD App Review – Who and What" href="http://tomphilip.me//gtd-app-review-introduction/">opening post</a>. I was writing the reviews, at times, twice a week. Then babies, work and disillusionment set in. The latter came about as it slowly dawned on me that there wouldn&#8217;t be a clear winner, a perfect GTD for me (and others).</p>
+    <id>http://tommysqueak.github.io/best-gtd-app</id>
+    <content type="html"><![CDATA[<p>When I started this review process back in September 2011, eager to find the perfect GTD app for myself. I was looking forward to whizzing through the reviews, to find a winning app that would meet my needs set out in the <a title="GTD App Review – Who and What" href="http://tommysqueak.github.io/gtd-app-review-introduction/">opening post</a>. I was writing the reviews, at times, twice a week. Then babies, work and disillusionment set in. The latter came about as it slowly dawned on me that there wouldn&#8217;t be a clear winner, a perfect GTD for me (and others).</p>
 
 <p>The conclusions I&#8217;m about to draw, as I choose my &#8216;perfect&#8217; GTD system, will be a story of compromise. <strong>Will the app be, not perfect, but just good enough? Will missing features be made in the future? Many a &#8220;it would be perfect if &#8230;&#8221;.</strong></p>
 
 <h2>Recap</h2>
-<p><strong>The full story is in the <a title="GTD App Review – Who and What" href="http://tomphilip.me//gtd-app-review-introduction/">opening post</a></strong>. To find the perfect app, I came up with some basic criteria the app had to meet in order to be considered, this got the list down from over a hundred to a manageable 9 (10 originally, until I realised <a href="http://getitdoneapp.com/">Get It Done</a> didn&#8217;t have a Mac app).</p>
+<p><strong>The full story is in the <a title="GTD App Review – Who and What" href="http://tommysqueak.github.io/gtd-app-review-introduction/">opening post</a></strong>. To find the perfect app, I came up with some basic criteria the app had to meet in order to be considered, this got the list down from over a hundred to a manageable 9 (10 originally, until I realised <a href="http://getitdoneapp.com/">Get It Done</a> didn&#8217;t have a Mac app).</p>
 
 <ul>
 	<li>Multi Device – Mac, Android and Windows</li>
@@ -80,21 +80,21 @@
 <p>The following 9 shortlisted apps then got an in depth review:</p>
 
 <ul>
-	<li><a title="GTD App Review – TODO for Mac" href="http://tomphilip.me//gtd-app-review-todo-for-mac/">TODO for Mac</a></li>
-	<li><a title="GTD App Review – Due Today" href="http://tomphilip.me//gtd-app-review-due-today/">Due Today</a></li>
-	<li><a title="GTD App Review – Toodledo" href="http://tomphilip.me//gtd-app-review-toodledo/">Toodledo</a></li>
-	<li><a title="GTD App Review – Doit.im" href="http://tomphilip.me//gtd-app-review-doit-im/">Doit.im</a></li>
-	<li><a title="GTD App Review – Wunderlist" href="http://tomphilip.me//gtd-app-review-wunderlist/">Wunderlist</a></li>
-	<li><a title="GTD App Review – Astrid" href="http://tomphilip.me//gtd-app-review-astrid/">Astrid</a></li>
-	<li><a title="GTD App Review – Producteev" href="http://tomphilip.me//gtd-app-review-producteev/">Producteev</a></li>
-	<li><a title="GTD App Review – Nozbe" href="http://tomphilip.me//gtd-app-review-nozbe/">Nozbe</a></li>
-	<li><a title="GTD App Review – Conqu" href="http://tomphilip.me//gtd-app-review-conqu/">Conqu</a></li>
+	<li><a title="GTD App Review – TODO for Mac" href="http://tommysqueak.github.io/gtd-app-review-todo-for-mac/">TODO for Mac</a></li>
+	<li><a title="GTD App Review – Due Today" href="http://tommysqueak.github.io/gtd-app-review-due-today/">Due Today</a></li>
+	<li><a title="GTD App Review – Toodledo" href="http://tommysqueak.github.io/gtd-app-review-toodledo/">Toodledo</a></li>
+	<li><a title="GTD App Review – Doit.im" href="http://tommysqueak.github.io/gtd-app-review-doit-im/">Doit.im</a></li>
+	<li><a title="GTD App Review – Wunderlist" href="http://tommysqueak.github.io/gtd-app-review-wunderlist/">Wunderlist</a></li>
+	<li><a title="GTD App Review – Astrid" href="http://tommysqueak.github.io/gtd-app-review-astrid/">Astrid</a></li>
+	<li><a title="GTD App Review – Producteev" href="http://tommysqueak.github.io/gtd-app-review-producteev/">Producteev</a></li>
+	<li><a title="GTD App Review – Nozbe" href="http://tommysqueak.github.io/gtd-app-review-nozbe/">Nozbe</a></li>
+	<li><a title="GTD App Review – Conqu" href="http://tommysqueak.github.io/gtd-app-review-conqu/">Conqu</a></li>
 </ul>
 
 <p>&#8230; and now here we are, about to find out  which I think is best and which will become my trusted system?</p>
 
 <h2>Comparison Chart</h2>
-<p>If you&#8217;re after a quick comparison, here&#8217;s <strong>how their features compared</strong>. The criteria is taken from my thoughts on what makes a great GTD app, outlined in the <a title="GTD App Review – Who and What" href="http://tomphilip.me//gtd-app-review-introduction/">introduction post</a>. I&#8217;ve included some &#8216;nice to have&#8217; features that I discovered which I enjoyed and/or were useful.</p>
+<p>If you&#8217;re after a quick comparison, here&#8217;s <strong>how their features compared</strong>. The criteria is taken from my thoughts on what makes a great GTD app, outlined in the <a title="GTD App Review – Who and What" href="http://tommysqueak.github.io/gtd-app-review-introduction/">introduction post</a>. I&#8217;ve included some &#8216;nice to have&#8217; features that I discovered which I enjoyed and/or were useful.</p>
 
 <table class="gtd-results" width="479">
 <thead>
@@ -447,35 +447,35 @@ more&#8230;
 <p>It was really hard to choose my apps to make up my trusted system. There wasn&#8217;t a single one that looked like a clear winner. All of them had at least one thing wrong or missing. So it&#8217;s not that the runners up are bad apps, it&#8217;s just that the others were better, sometimes marginally.</p>
 
 <h3>Wunderlist</h3>
-<p><img alt="Wunderlist" src="http://tomphilip.me//images/uploads/2011/10/Wunderlist.png"></p>
+<p><img alt="Wunderlist" src="http://tommysqueak.github.io/images/uploads/2011/10/Wunderlist.png"></p>
 
 <p><strong>I love Wunderlists simplicity and looks</strong> but the lack of tags or appearing in more than one list, means no contexts. Based on that alone it loses out. Although there might be reprieve for this, as I&#8217;ve been using it for a while for my work tasks for <a title="Life Tuned - Music Memory Box" href="http://lifetuned.com">Life Tuned</a> and <a title="Pik Pak - Create, discover and share packing lists" href="http://pikpak.me">Pik Pak</a>, in a kind of personal Kanban. With its drag &#8216;n&#8217; drop task ordering (something surprisingly missing on most), it makes easy just-in-time ordering of the next tasks to do in a project, so it might remain as part of the system.</p>
 
 <p>This is for you, if you after an app that has great looks, fantastic simple UX,  same experience across multiple platforms and are happy with basic task organisation.</p>
 
-<p><a title="GTD App Review – Wunderlist" href="http://tomphilip.me//gtd-app-review-wunderlist/">Wunderlist Full Review</a></p>
+<p><a title="GTD App Review – Wunderlist" href="http://tommysqueak.github.io/gtd-app-review-wunderlist/">Wunderlist Full Review</a></p>
 
 <h3>Conqu</h3>
-<p><img src="http://tomphilip.me//images/uploads/2012/04/Conqu.png" alt="Conqu"></p>
+<p><img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu.png" alt="Conqu"></p>
 
 <p><strong>The odd UI and it&#8217;s clunky-ness is just something that would grate on me after a time</strong>, it bewildered me in the short time I used it. Plus missing features, like task recurrences (essential for doing stuff like monthly accounts) and Google calendar sync puts this one out of the running.</p>
 
 <p>This is for you, if you after an app that looks good, supports many platforms (Playbook and Nook included), don&#8217;t mind Adobe Air and are not too bothered that it doesn&#8217;t look/work like anything you&#8217;ve used before.</p>
 
-<p><a title="GTD App Review – Conqu" href="http://tomphilip.me//gtd-app-review-conqu/">Conqu Full Review</a></p>
+<p><a title="GTD App Review – Conqu" href="http://tommysqueak.github.io/gtd-app-review-conqu/">Conqu Full Review</a></p>
 
 <h3>Nozbe</h3>
-<p><img alt="Nozbe" src="http://tomphilip.me//images/uploads/2012/04/Nozbe.png"></p>
+<p><img alt="Nozbe" src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe.png"></p>
 
 <p><strong>For the high price it has to be the best and I don&#8217;t think it is (yet).</strong> The brownish UI for Mac just doesn&#8217;t work, I can&#8217;t quite put my finger on it, is it because the colour palette looks like something off a toddlers app? I&#8217;m not sure. My biggest turn-off was their New Android app. With a small number of tasks it was slow. What would it be like with many more? It also looks like I&#8217;m not the only one having problems, it gets a right panning in the <a href="https://play.google.com/store/apps/details?id=com.nozbe.droid">reviews on the Google Play store</a> which worries me more. To be fair they&#8217;ve only just released their new Mac and Android apps, so perhaps one to keep an eye on for the future.</p>
 
 <p>This is for you, if you after an app that is GTD all over, simple to understand, you use <a href="http://www.dropbox.com">Dropbox</a> and/or <a href="http://evernote.com/">Evernote</a>, your patient (as they get out of beta quality), rich and your favourite colour is brown.</p>
 
-<p><a title="GTD App Review – Nozbe" href="http://tomphilip.me//gtd-app-review-nozbe/">Nozbe Full Review</a></p>
+<p><a title="GTD App Review – Nozbe" href="http://tommysqueak.github.io/gtd-app-review-nozbe/">Nozbe Full Review</a></p>
 
 <h3>TODO for Mac, Due Today &amp; Toodledoo</h3>
 
-<p><img src="http://tomphilip.me//images/uploads/2012/06/TODO-Toodledo-DueToday.png" alt="TODO, Toodledo and Due Today"></p>
+<p><img src="http://tommysqueak.github.io/images/uploads/2012/06/TODO-Toodledo-DueToday.png" alt="TODO, Toodledo and Due Today"></p>
 
 <p><strong>These apps come in as a threesome</strong>, working together to provide one trusted system. TODO for my Mac, Due Today for my Android phone and Toodledo for access anywhere (it&#8217;s Web) and providing the core service/glue that the other 2 sync with. One of the advantages of Toodledo is the <strong>many of 3rd party apps</strong>, so if I find that I don&#8217;t like Due Today, I can swap it out for one of the other many apps that sync with Toodledo. One particular app that caught my eye was <a href="https://play.google.com/store/apps/details?id=com.guidedways.android2do">2Do</a>.</p>
 
@@ -485,14 +485,14 @@ more&#8230;
 
 <p>This is for you, if you are a power user and are after an app/s that is extremely customisable, has tons of features, has multiple clients to choose from and you can live with fugly UIs.</p>
 
-<p><a title="GTD App Review – TODO for Mac" href="http://tomphilip.me//gtd-app-review-todo-for-mac/">TODO for Mac Full Review</a></p>
+<p><a title="GTD App Review – TODO for Mac" href="http://tommysqueak.github.io/gtd-app-review-todo-for-mac/">TODO for Mac Full Review</a></p>
 
-<p><a title="GTD App Review – Toodledo" href="http://tomphilip.me//gtd-app-review-toodledo/">Toodledo Full Review</a></p>
+<p><a title="GTD App Review – Toodledo" href="http://tommysqueak.github.io/gtd-app-review-toodledo/">Toodledo Full Review</a></p>
 
-<p><a title="GTD App Review – Due Today" href="http://tomphilip.me//gtd-app-review-due-today/">Due Today Full Review</a></p>
+<p><a title="GTD App Review – Due Today" href="http://tommysqueak.github.io/gtd-app-review-due-today/">Due Today Full Review</a></p>
 
 <h3>Doit.im</h3>
-<p><img src="http://tomphilip.me//images/uploads/2011/10/Doit-im.png" alt="Doit.im" ></p>
+<p><img src="http://tommysqueak.github.io/images/uploads/2011/10/Doit-im.png" alt="Doit.im" ></p>
 
 <p><strong>Doit.im has the best GTD implementation</strong> I&#8217;ve seen. It&#8217;s designed specifically for GTD and I think it <a title="Doit.im Features" href="http://doit.im/features">aligns itself with GTD</a> perfectly. For example when tasks are created, they&#8217;re in the inbox (which is not a special folder but more a classification or focus). When you process the inbox the task, it can then can be reclassified as Today, Next, Scheduled, Someday and Waiting. On top of this, independently you can then add to projects and contexts (plus tags for good measure).</p>
 
@@ -502,10 +502,10 @@ more&#8230;
 
 <p>This is for you, if you&#8217;re after a complete GTD style trusted system in one - for Android, iOS and Web.</p>
 
-<p><a title="GTD App Review – Doit.im" href="http://tomphilip.me//gtd-app-review-doit-im/">Doit.im Full Review</a></p>
+<p><a title="GTD App Review – Doit.im" href="http://tommysqueak.github.io/gtd-app-review-doit-im/">Doit.im Full Review</a></p>
 
 <h3>Astrid &amp; Producteev - The Winners!</h3>
-<p><img src="http://tomphilip.me//images/uploads/2012/06/Producteev-and-Astrid.png" alt="Producteev and Astrid"></p>
+<p><img src="http://tommysqueak.github.io/images/uploads/2012/06/Producteev-and-Astrid.png" alt="Producteev and Astrid"></p>
 
 <p>It was a close call but I think these pair <strong>just edge it</strong>. There&#8217;s a <strong>great desktop app</strong> for the Mac (Producteev) and the <strong>best task app I&#8217;ve seen for Android</strong> (Astrid). They&#8217;ve got a host of features and even missing the odd one but I think the <strong>User Experience won it over</strong> for me. Both make me smile and that&#8217;s important. It compels me too look at them, collect on them, organise on them, review on them.</p>
 
@@ -537,23 +537,23 @@ more&#8230;
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/06/New-Astrid-List.jpg">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/06/New-Astrid-List.jpg">
       <figcaption>Astrids New App - List</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/06/New-Astrid-Edit-Task.jpg">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/06/New-Astrid-Edit-Task.jpg">
       <figcaption>Astrids New App - Edit Task</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/06/Astrid-Web.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/06/Astrid-Web.png">
       <figcaption>Astrids Web App</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/06/Producteev-New-Main.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/06/Producteev-New-Main.png">
       <figcaption>Producteevs New Look Mac App</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/06/Producteev-Android-App.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/06/Producteev-Android-App.png">
       <figcaption>Producteev Android App</figcaption>
     </figure>
   </div>
@@ -571,9 +571,9 @@ more&#8230;
 
 <p>So there your have it. <strong>Producteev and Astrid take the winners medal</strong>. I&#8217;m going to start using these 2 in anger which will be the real proof. If it all goes horribly wrong I&#8217;ll report back!</p>
 
-<p><a title="GTD App Review – Astrid" href="http://tomphilip.me//gtd-app-review-astrid/">Astrid Full Review</a></p>
+<p><a title="GTD App Review – Astrid" href="http://tommysqueak.github.io/gtd-app-review-astrid/">Astrid Full Review</a></p>
 
-<p><a title="GTD App Review – Producteev" href="http://tomphilip.me//gtd-app-review-producteev/">Producteev Full Review</a></p>
+<p><a title="GTD App Review – Producteev" href="http://tommysqueak.github.io/gtd-app-review-producteev/">Producteev Full Review</a></p>
 
 <p>Hope you enjoyed the series, I certainly didn&#8217;t ;) I never foresaw the amount of time and effort it would take. Next time I&#8217;ll just look at some apps and pick one. <strong>Agree? Which is your fave?</strong></p>
 
@@ -587,17 +587,17 @@ more&#8230;
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Conqu]]></title>
-    <link href="http://tomphilip.me//gtd-app-review-conqu/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-conqu/"/>
     <updated>2012-05-03T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//gtd-app-review-conqu</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2012/04/Conqu.png" alt="Conqu"></p>
+    <id>http://tommysqueak.github.io/gtd-app-review-conqu</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu.png" alt="Conqu"></p>
 
 <p><a href="http://conqu.com/">Conqu</a> is a good, yet odd in places, looking GTD specific app for a host of platforms, including not so common ones such as <a href="http://uk.blackberry.com/playbook-tablet/overview.jsp">Blackberry Playbook</a> and <a href="http://www.barnesandnoble.com/p/nook-color-barnes-noble/1100437663">Nook Color</a>. With a decent feature set, clearly and simply laid out.</p>
 
 <p>It&#8217;s a real mixed UI. It has an eclectic mix of controls that are just odd and look handmade ie not your standard set. Followed by the inspired zoomed in task view. It&#8217;s nice and clear, has a nice relevant paper note 3D effect, with a ribbon showing you where it&#8217;s located and nice big text for the project it&#8217;s in. Most apps task views are quite functional, Conqu&#8217;s take is refreshing.</p>
 
 <h2>How it Scored</h2>
-<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me//gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tommysqueak.github.io/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
 
 <table class="gtd-results">
 <thead>
@@ -686,63 +686,63 @@ more&#8230;
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Archives.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Archives.png">
       <figcaption>Archives</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Backburner.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Backburner.png">
       <figcaption>Backburner</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Calendar.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Calendar.png">
       <figcaption>Calendar/Future</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Contexts.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Contexts.png">
       <figcaption>Contexts</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Filter-Tasks.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Filter-Tasks.png">
       <figcaption>Filter Tasks</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Inbox.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Inbox.png">
       <figcaption>Inbox</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Next-Actions.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Next-Actions.png">
       <figcaption>Next Actions</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Projects.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Projects.png">
       <figcaption>Projects</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Search.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Search.png">
       <figcaption>Search</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Search-Results.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Search-Results.png">
       <figcaption>Search Results</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Task.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Task.png">
       <figcaption>Task (Zoomed in/edit)</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Task-Ordering.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Task-Ordering.png">
       <figcaption>Task ordering</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Today.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Today.png">
       <figcaption>Today</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Trash.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Trash.png">
       <figcaption>Trash</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Conqu-Waiting.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Conqu-Waiting.png">
       <figcaption>Waiting</figcaption>
     </figure>
   </div>
@@ -760,17 +760,17 @@ more&#8230;
 <h2>Price</h2>
 <p>Free for all the apps. Optionally $53 per year for <a href="http://conqu.com/conqusync">ConquSync</a> which gives you backup to the cloud, syncing tasks across multiple devices and improved task sharing.</p>
 
-<p><a href="http://tomphilip.me//atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
+<p><a href="http://tommysqueak.github.io/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
  to follow the rest of the GTD App Review series.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Nozbe]]></title>
-    <link href="http://tomphilip.me//gtd-app-review-nozbe/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-nozbe/"/>
     <updated>2012-04-17T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//gtd-app-review-nozbe</id>
-    <content type="html"><![CDATA[<p><img class="post__image" alt="Nozbe" src="http://tomphilip.me//images/uploads/2012/04/Nozbe.png"></p>
+    <id>http://tommysqueak.github.io/gtd-app-review-nozbe</id>
+    <content type="html"><![CDATA[<p><img class="post__image" alt="Nozbe" src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe.png"></p>
 
 <p><a href="http://www.nozbe.com/">Nozbe&#8217;s</a> new Mac app is a well thought out <strong>GTD specific app</strong>, that has some great <strong>integration with other popular services like Dropbox and Evernote</strong>.</p>
 
@@ -783,7 +783,7 @@ more&#8230;
 <p>Bear in mind the Mac app has just come out of beta, so for a first release it&#8217;s pretty good.</p>
 
 <h2>How it Scored</h2>
-<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me//gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tommysqueak.github.io/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
 
 <table class="gtd-results">
 <thead>
@@ -878,51 +878,51 @@ more&#8230;
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Add-Task.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Add-Task.png">
       <figcaption>Add Task</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Calendar.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Calendar.png">
       <figcaption>Calendar</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Contexts.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Contexts.png">
       <figcaption>Contexts</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Edit-Task-Pane.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Edit-Task-Pane.png">
       <figcaption>Edit Task</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Edit-Task-Project.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Edit-Task-Project.png">
       <figcaption>Change Project</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Next-Actions.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Next-Actions.png">
       <figcaption>Next Actions</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Project-Documents.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Project-Documents.png">
       <figcaption>Project Documents</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Project-Notes.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Project-Notes.png">
       <figcaption>Project Notes</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Projects.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Projects.png">
       <figcaption>Projects</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Android-Edit-Task.jpg">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Android-Edit-Task.jpg">
       <figcaption>Android – Edit Task</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Android-Inbox.jpg">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Android-Inbox.jpg">
       <figcaption>Android – Inbox</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2012/04/Nozbe-Android-Projects.jpg">
+      <img src="http://tommysqueak.github.io/images/uploads/2012/04/Nozbe-Android-Projects.jpg">
       <figcaption>Android – Projects</figcaption>
     </figure>
   </div>
@@ -940,17 +940,17 @@ more&#8230;
 <h2>Price</h2>
 <p>Free for up to 5 projects, then <a href="http://www.nozbe.com/signup">9.95 EUR per month for unlimited projects</a> for a single user. There&#8217;s also pricing for groups.</p>
 
-<p><a href="http://tomphilip.me//atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
+<p><a href="http://tommysqueak.github.io/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
  to follow the rest of the GTD App Review series.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[XKCD Couch New Feature - Remote Control]]></title>
-    <link href="http://tomphilip.me//xkcd-couch-new-feature-remote-control/"/>
+    <link href="http://tommysqueak.github.io/xkcd-couch-new-feature-remote-control/"/>
     <updated>2012-03-18T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//xkcd-couch-new-feature-remote-control</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2012/03/xkcd-remote-control.png" alt="xkcd remote control" ></p>
+    <id>http://tommysqueak.github.io/xkcd-couch-new-feature-remote-control</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2012/03/xkcd-remote-control.png" alt="xkcd remote control" ></p>
 
 <p><a href="http://xkcd.greatboxee.com">XKCD Couch</a> has a new feature. <strong>The Remote Control</strong>.</p>
 
@@ -975,10 +975,10 @@ more&#8230;
   
   <entry>
     <title type="html"><![CDATA[Cassette. The Javascript CSS Minifying Combining Compressing Tool for ASP.NET]]></title>
-    <link href="http://tomphilip.me//cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net/"/>
+    <link href="http://tommysqueak.github.io/cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net/"/>
     <updated>2012-02-02T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2012/02/cassette.jpg" alt="Cassette Tape"></p>
+    <id>http://tommysqueak.github.io/cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2012/02/cassette.jpg" alt="Cassette Tape"></p>
 
 <p><strong>In a nutshell, <a href="http://getcassette.net/">Cassette</a> will minify, combine, compress and cache your css and javascript files, reducing your page load times.</strong> It does a <a title="more benefits of Cassette" href="http://getcassette.net/benefits">heap more</a> too like <a href="http://lesscss.org/">LESS</a>, <a href="http://coffeescript.org/">Coffeescript</a>, file ordering, debug vs release files, html templates, CDN assets and more.</p>
 
@@ -1091,10 +1091,10 @@ more&#8230;
   
   <entry>
     <title type="html"><![CDATA[Introducing XKCD Couch]]></title>
-    <link href="http://tomphilip.me//introducing-xkcd-couch/"/>
+    <link href="http://tommysqueak.github.io/introducing-xkcd-couch/"/>
     <updated>2012-01-30T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//introducing-xkcd-couch</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2012/01/xkcd-couch.png" alt="xkcd couch"></p>
+    <id>http://tommysqueak.github.io/introducing-xkcd-couch</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2012/01/xkcd-couch.png" alt="xkcd couch"></p>
 
 <p>An app for lounging on your couch, with your remote control, flicking through <a title="XKCD Comics" href="http://xkcd.com">XCKD</a> comics on your TV.</p>
 
@@ -1103,7 +1103,7 @@ more&#8230;
 <p><strong>Designed for the big screen and a remote.</strong> Use you left and right arrow keys on your remote/keyboard to navigate through the comics. Use the select/enter/space type key reveal the good old &#8216;alt&#8217; text.</p>
 
 <h2>Technology</h2>
-<p>A bit about the technology behind it. It&#8217;a single page HTML5 app that uses <a href="http://documentcloud.github.com/backbone/">Backbone.js</a> as it&#8217;s underlying framework, that was tested with the BDD framework <a title="Jasmine - BDD for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> and mocking library <a title="Standalone test spies, stubs and mocks for JavaScript." href="http://sinonjs.org/">Sinon.js</a>. Early parts of this app appeared in my previous post on <a title="Testing Backbone with Jasmine and Sinon" href="http://tomphilip.me//testing-backbone-with-jasmine-and-sinon/">Testing Backbone.js with Jasmine and Sinon.js</a>. It also spawned a Backbone plugin called <a title="Backbone on the Couch" href="http://tomphilip.me//backbone-on-the-couch/">Backbone on the Couch</a>, which allows you to easily bind to remote control d-pad events (left, right, up, down etc).</p>
+<p>A bit about the technology behind it. It&#8217;a single page HTML5 app that uses <a href="http://documentcloud.github.com/backbone/">Backbone.js</a> as it&#8217;s underlying framework, that was tested with the BDD framework <a title="Jasmine - BDD for Javascript" href="http://pivotal.github.com/jasmine/">Jasmine</a> and mocking library <a title="Standalone test spies, stubs and mocks for JavaScript." href="http://sinonjs.org/">Sinon.js</a>. Early parts of this app appeared in my previous post on <a title="Testing Backbone with Jasmine and Sinon" href="http://tommysqueak.github.io/testing-backbone-with-jasmine-and-sinon/">Testing Backbone.js with Jasmine and Sinon.js</a>. It also spawned a Backbone plugin called <a title="Backbone on the Couch" href="http://tommysqueak.github.io/backbone-on-the-couch/">Backbone on the Couch</a>, which allows you to easily bind to remote control d-pad events (left, right, up, down etc).</p>
 
 <p>Works on modern browers and maybe even some of the older ones. It&#8217;s also part of a <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 app for Boxee</a>.</p>
 
@@ -1115,10 +1115,10 @@ more&#8230;
   
   <entry>
     <title type="html"><![CDATA[Backbone on the Couch]]></title>
-    <link href="http://tomphilip.me//backbone-on-the-couch/"/>
+    <link href="http://tommysqueak.github.io/backbone-on-the-couch/"/>
     <updated>2012-01-30T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//backbone-on-the-couch</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2012/01/Backbone-on-the-Couch.png" alt="Backbone on the Couch"></p>
+    <id>http://tommysqueak.github.io/backbone-on-the-couch</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2012/01/Backbone-on-the-Couch.png" alt="Backbone on the Couch"></p>
 
 <p>A simple <a href="http://documentcloud.github.com/backbone">Backbone.js</a> plugin for use in leanback apps, where someone is sat on the couch using a remote control to use your app. It&#8217;s open source. You can get it and fork it at <strong><a title="Backbone on the Couch source code" href="https://github.com/tommysqueak/Backbone-On-The-Couch">Backbone on the Couch on github</a></strong></p>
 
@@ -1197,7 +1197,7 @@ more&#8230;
 </span></code></pre></td></tr></table></div></figure>
 
 <h2>Example</h2>
-<p>The plugin came out of the development of the <a href="http://tomphilip.me//introducing-xkcd-couch/">XKCD Couch app</a>, which is also a <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 Boxee app</a>. You can see this plugin at work on <a href="http://xkcd.greatboxee.com">XKCD Couch app</a>.</p>
+<p>The plugin came out of the development of the <a href="http://tommysqueak.github.io/introducing-xkcd-couch/">XKCD Couch app</a>, which is also a <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 Boxee app</a>. You can see this plugin at work on <a href="http://xkcd.greatboxee.com">XKCD Couch app</a>.</p>
 
 <p><strong><a title="Backbone on the Couch source code" href="https://github.com/tommysqueak/Backbone-On-The-Couch">Backbone on the Couch on github</a></strong></p>
 ]]></content>
@@ -1205,10 +1205,10 @@ more&#8230;
   
   <entry>
     <title type="html"><![CDATA[Testing Backbone with Jasmine and Sinon]]></title>
-    <link href="http://tomphilip.me//testing-backbone-with-jasmine-and-sinon/"/>
+    <link href="http://tommysqueak.github.io/testing-backbone-with-jasmine-and-sinon/"/>
     <updated>2011-12-23T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//testing-backbone-with-jasmine-and-sinon</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon"></p>
+    <id>http://tommysqueak.github.io/testing-backbone-with-jasmine-and-sinon</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tommysqueak.github.io/images/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon"></p>
 
 <p>This is based on an <strong><a href="http://xkcd.com">XKCD</a> leanback web app</strong> I&#8217;m working on that will form part of a html5 <a title="Boxee app developer" href="http://www.greatboxee.com">Boxee app</a>. Think sitting on your couch, remote control in hand flicking through XKCD comics on the TV.</p>
 
@@ -1385,25 +1385,25 @@ more&#8230;
 	<li><a href="http://en.wikipedia.org/wiki/JSONP">Jsonp</a> with Backbone to fetch data from a different domain</li>
 </ul>
 
-<p><strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="http://tomphilip.me//introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="http://tomphilip.me//backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.</p>
+<p><strong>Update:</strong> The finished <a title="Introducing XKCD Couch" href="http://tommysqueak.github.io/introducing-xkcd-couch/">xckd couch app</a>, the <a href="http://www.greatboxee.com/index.php/2012/01/30/xkcd-app-reborn/">html5 boxee app</a> and the <a title="Backbone on the Couch" href="http://tommysqueak.github.io/backbone-on-the-couch/">backbone on the couch plugin</a> that came out of all of it.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Santander Login Translations]]></title>
-    <link href="http://tomphilip.me//santander-login-translations/"/>
+    <link href="http://tommysqueak.github.io/santander-login-translations/"/>
     <updated>2011-12-21T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//santander-login-translations</id>
+    <id>http://tommysqueak.github.io/santander-login-translations</id>
     <content type="html"><![CDATA[<p>From the immortal words of Steve Krugs usability book <a href="http://www.sensible.com/dmmt.html">Don&#8217;t Make me Think</a>, Santander makes me think every time I have to login to their <a title="Santander Online Banking" href="https://retail.santander.co.uk/LOGSUK_NS_ENS/BtoChannelDriver.ssobto?dse_operationName=LOGON">online banking site</a>. So here&#8217;s a handy translation guide to what they&#8217;re really asking you to enter to login.</p>
 
 <h2>Step 1</h2>
-<p><img src="http://tomphilip.me//images/uploads/2011/12/Santander-Login-Screen-1.png" alt="First page for the Santander Online Banking Login"></p>
+<p><img src="http://tommysqueak.github.io/images/uploads/2011/12/Santander-Login-Screen-1.png" alt="First page for the Santander Online Banking Login"></p>
 
 <h3><strong>Personal ID = Username</strong>.</h3>
 <p>Like what everybody else asks for and not to be confused with the other code/id they give you, the Registration Number (see step 2).</p>
 
 <h2>Step 2</h2>
-<p><img src="http://tomphilip.me//images/uploads/2011/12/Santander-Login-Screen-2.png" alt="Second page for the Santander Online Banking Login" width="619" height="343" ></p>
+<p><img src="http://tommysqueak.github.io/images/uploads/2011/12/Santander-Login-Screen-2.png" alt="Second page for the Santander Online Banking Login" width="619" height="343" ></p>
 
 <h3><strong>Passcode = Password</strong>.</h3>
 
@@ -1416,9 +1416,9 @@ more&#8230;
   
   <entry>
     <title type="html"><![CDATA[Business Model Canvas Slides @ Lean Liverpool]]></title>
-    <link href="http://tomphilip.me//business-model-canvas-slides-lean-liverpool/"/>
+    <link href="http://tommysqueak.github.io/business-model-canvas-slides-lean-liverpool/"/>
     <updated>2011-12-09T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//business-model-canvas-slides-lean-liverpool</id>
+    <id>http://tommysqueak.github.io/business-model-canvas-slides-lean-liverpool</id>
     <content type="html"><![CDATA[<p>Here&#8217;s the slides from a talk I gave at <a title="Lean Liverpool" href="http://leanliverpool.com">Lean Liverpool</a>, on 8th Dec 2011, about the <a href="http://www.businessmodelgeneration.com/canvas">Business Model Canvas</a>. What it is and how you can use it with Lean Startup and Customer Development. With my fear of public speaking and man flu on top of it, I bumbled through the talk. So I do recommend you read the book <a title="Business Model Generation Book" href="http://www.amazon.co.uk/Business-Model-Generation-Visionaries-Challengers/dp/0470876417/ref=sr_1_1?ie=UTF8&amp;qid=1323438500&amp;sr=8-1">Business Model Generation</a>, if my talk was incoherrent. If it wasn&#8217;t, still go out and get the book, it&#8217;s a fantastic read. Also included in the slides is the Business Model Canvas we created at the end, as part of an exercise. Breakfast Delivery for the Lazy!</p>
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/10531124" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="400"></iframe>
@@ -1427,10 +1427,10 @@ more&#8230;
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Producteev]]></title>
-    <link href="http://tomphilip.me//gtd-app-review-producteev/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-producteev/"/>
     <updated>2011-11-21T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//gtd-app-review-producteev</id>
-    <content type="html"><![CDATA[<p><img class="post__image" alt="Producteev" src="http://tomphilip.me//images/uploads/2011/11/Producteev.png"></p>
+    <id>http://tommysqueak.github.io/gtd-app-review-producteev</id>
+    <content type="html"><![CDATA[<p><img class="post__image" alt="Producteev" src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev.png"></p>
 
 <p><a title="Producteev" href="http://producteev.com">Producteev</a> for Mac is a beautifully designed task list app, that&#8217;s a pure joy to use. You can&#8217;t help but feel that every little piece has been well thought out and designed. It uses contrast and colour to good effect, adding to its looks and helping the user to interact with and visualise tasks.</p>
 
@@ -1438,11 +1438,11 @@ more&#8230;
 
 <p>Task organisation is easy too, by clicking on the obvious icons to pop-up simple focused dialogs for each property of a task you wish to set (see Setting a Deadline screenshot).</p>
 
-<p><a title="GTD App Review – Astrid" href="http://tomphilip.me//gtd-app-review-astrid/">Astrid</a> would be the Android client in this trusted system but if their soon to be released Android app is anywhere as good as its Mac app, then I can&#8217;t wait to see that.</p>
+<p><a title="GTD App Review – Astrid" href="http://tommysqueak.github.io/gtd-app-review-astrid/">Astrid</a> would be the Android client in this trusted system but if their soon to be released Android app is anywhere as good as its Mac app, then I can&#8217;t wait to see that.</p>
 
 <h2>How it Scored</h2>
 
-<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me//gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tommysqueak.github.io/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
 
 <table class="gtd-results">
 <thead>
@@ -1538,27 +1538,27 @@ more&#8230;
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/11/Producteev-Main.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-Main.png">
       <figcaption>Main Screen</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/11/Producteev-Empty-Workspace.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-Empty-Workspace.png">
       <figcaption>Empty Workspace</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/11/Producteev-Task-Entry.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-Task-Entry.png">
       <figcaption>Task Entry</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/11/Producteev-Setting-a-Deadline.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-Setting-a-Deadline.png">
       <figcaption>Setting a Deadline</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/11/Producteev-Multiple-Notes.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-Multiple-Notes.png">
       <figcaption>Multiple Notes</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/11/Producteev-History-Expanded.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Producteev-History-Expanded.png">
       <figcaption>History</figcaption>
     </figure>
   </div>
@@ -1576,17 +1576,17 @@ more&#8230;
 <h2>Price</h2>
 <p>Free for up to 2 users in any Workspace plus 100MB limit. Unlimited Workspaces. Then <a href="https://www.producteev.com/#pricing">tiered pricing</a> for more users, storage and others.</p>
 
-<p><a href="http://tomphilip.me//atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
+<p><a href="http://tommysqueak.github.io/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
  to follow the rest of the GTD App Review series.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Astrid]]></title>
-    <link href="http://tomphilip.me//gtd-app-review-astrid/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-astrid/"/>
     <updated>2011-11-07T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//gtd-app-review-astrid</id>
-    <content type="html"><![CDATA[<p><img class="post__image" alt="Astrid" src="http://tomphilip.me//images/uploads/2011/11/Astrid.png"></p>
+    <id>http://tommysqueak.github.io/gtd-app-review-astrid</id>
+    <content type="html"><![CDATA[<p><img class="post__image" alt="Astrid" src="http://tommysqueak.github.io/images/uploads/2011/11/Astrid.png"></p>
 
 <p><a href="http://astrid.com">Astrid</a> is <strong>popular task list app for Android</strong>, that is easy to use and comes with a <strong>host of syncing options</strong>. Incredibly simple and straight forward to use with a pleasant <strong>clean UI</strong>.</p>
 
@@ -1595,7 +1595,7 @@ more&#8230;
 <p>Used with Producteev syncing, means I can use the Producteev Mac app as the desktop client for my GTD system. That review is coming soon.</p>
 
 <h2>How it Scored</h2>
-<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me//gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tommysqueak.github.io/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
 
 <table class="gtd-results">
 <thead>
@@ -1688,15 +1688,15 @@ more&#8230;
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/11/Astrid-Active-Tasks.jpg">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Astrid-Active-Tasks.jpg">
       <figcaption>Active Tasks</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/11/Astrid-Filters.jpg">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Astrid-Filters.jpg">
       <figcaption>Filters</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/11/Astrid-List-View.jpg">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/11/Astrid-List-View.jpg">
       <figcaption>List</figcaption>
     </figure>
   </div>
@@ -1714,17 +1714,17 @@ more&#8230;
 <h2>Price</h2>
 <p>Free for all platforms.</p>
 
-<p><a href="http://tomphilip.me//atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
+<p><a href="http://tommysqueak.github.io/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
  to follow the rest of the GTD App Review series.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Wunderlist]]></title>
-    <link href="http://tomphilip.me//gtd-app-review-wunderlist/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-wunderlist/"/>
     <updated>2011-10-25T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//gtd-app-review-wunderlist</id>
-    <content type="html"><![CDATA[<p><img class="post__image" alt="Wunderlist" src="http://tomphilip.me//images/uploads/2011/10/Wunderlist.png" ></p>
+    <id>http://tommysqueak.github.io/gtd-app-review-wunderlist</id>
+    <content type="html"><![CDATA[<p><img class="post__image" alt="Wunderlist" src="http://tommysqueak.github.io/images/uploads/2011/10/Wunderlist.png" ></p>
 
 <p><a href="http://www.wunderlist.com/">Wunderlist</a> is a beautiful looking free app that is unbelievably simple to use. Providing that same experience across all the major platforms and devices. There&#8217;s no need to re-learn or adapt for which platform you&#8217;re on.</p>
 
@@ -1735,7 +1735,7 @@ more&#8230;
 <p>If you&#8217;ve tried the Android app before and had a terrible time of it, they have released a native Android which is quicker and reliable.</p>
 
 <h2>How it Scored</h2>
-<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me//gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tommysqueak.github.io/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
 
 <table class="gtd-results">
 <thead>
@@ -1820,23 +1820,23 @@ more&#8230;
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/Wunderlist-Desktop.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/Wunderlist-Desktop.png">
       <figcaption>Desktop</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/Wunderlist-Android.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/Wunderlist-Android.png">
       <figcaption>Android</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/Wunderlist-iPad.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/Wunderlist-iPad.png">
       <figcaption>iPad</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/Wunderlist-iPhone.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/Wunderlist-iPhone.png">
       <figcaption>iPhone</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/Wunderlist-Webapp.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/Wunderlist-Webapp.png">
       <figcaption>Web</figcaption>
     </figure>
   </div>
@@ -1854,24 +1854,24 @@ more&#8230;
 <h2>Price</h2>
 <p>Free for all platforms.</p>
 
-<p><a href="http://tomphilip.me//atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
+<p><a href="http://tommysqueak.github.io/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
  to follow the rest of the GTD App Review series.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Doit.im]]></title>
-    <link href="http://tomphilip.me//gtd-app-review-doit-im/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-doit-im/"/>
     <updated>2011-10-13T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//gtd-app-review-doit-im</id>
-    <content type="html"><![CDATA[<p><img class="post__image" alt="Doit-im" src="http://tomphilip.me//images/uploads/2011/10/Doit-im.png"></p>
+    <id>http://tommysqueak.github.io/gtd-app-review-doit-im</id>
+    <content type="html"><![CDATA[<p><img class="post__image" alt="Doit-im" src="http://tommysqueak.github.io/images/uploads/2011/10/Doit-im.png"></p>
 
 <p><a href="http://www.doit.im">Doit.im</a> is a fantastic multi-platform free service, designed specifically for GTD. It has a pleasant simplicity about it, that looks great and makes it easy to use.</p>
 
 <p>Because it is <a href="https://i.doit.im/features">made for GTD</a>, it isn&#8217;t bloated with features and focuses on the key principles of GTD. It has GTD specific lists (Eg someday, next, waiting for etc), filters which make sense (eg contexts, projects etc) and an ever present &#8216;Create Task&#8217; button for collecting those thoughts. All of which help you through the <a href="http://www.lifehack.org/articles/lifehack/gtd-workflow-chart.html">GTD process</a>.</p>
 
 <h2>How it Scored</h2>
-<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me//gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tommysqueak.github.io/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
 
 <table class="gtd-results">
 <thead>
@@ -1961,51 +1961,51 @@ more&#8230;
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-web-today.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-web-today.png">
       <figcaption>Web – Task List</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-web-contexts.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-web-contexts.png">
       <figcaption>Web – Contexts</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-web-project.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-web-project.png">
       <figcaption>Web – Projects</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-web-addtask.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-web-addtask.png">
       <figcaption>Web – Add Task</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-web-calendar.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-web-calendar.png">
       <figcaption>Web – Calendar</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-web-filter.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-web-filter.png">
       <figcaption>Web – Filter</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-android-home.jpg">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-android-home.jpg">
       <figcaption>Android – Home</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-android-today.jpg">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-android-today.jpg">
       <figcaption>Android – Task List</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-android-edittask.jpg">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-android-edittask.jpg">
       <figcaption>Android – Edit Task</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-mac-today.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-mac-today.png">
       <figcaption>Mac – Task List</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-mac-addtask.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-mac-addtask.png">
       <figcaption>Mac – Add Task</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/doit-im-mac-smarttask.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/doit-im-mac-smarttask.png">
       <figcaption>Mac – Smart Task</figcaption>
     </figure>
   </div>
@@ -2023,24 +2023,24 @@ more&#8230;
 <h2>Price</h2>
 <p>Free for all platforms, except the Mac mini app which is only £0.69.</p>
 
-<p><a href="http://tomphilip.me//atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
+<p><a href="http://tommysqueak.github.io/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
  to follow the rest of the GTD App Review series.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Toodledo]]></title>
-    <link href="http://tomphilip.me//gtd-app-review-toodledo/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-toodledo/"/>
     <updated>2011-10-08T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//gtd-app-review-toodledo</id>
-    <content type="html"><![CDATA[<p><img class="post__image" alt="Toodledoo" src="http://tomphilip.me//images/uploads/2011/10/Toodledoo.png"></p>
+    <id>http://tommysqueak.github.io/gtd-app-review-toodledo</id>
+    <content type="html"><![CDATA[<p><img class="post__image" alt="Toodledoo" src="http://tommysqueak.github.io/images/uploads/2011/10/Toodledoo.png"></p>
 
 <p><a href="http://www.toodledo.com">Toodledo</a> is an extremely feature rich web app but unfortunately this is also its falldown. The UI is complicated and not pleasant to use. However it is very reasonably priced.</p>
 
-<p>This large number of features does have a silver lining. Toodledo allows third-party developers to create apps using its API. Apps can be created which aren&#8217;t constrained by lack of meta-data about a task or features. The apps can then provide a simplified pleasant UI. This has already happened with <a title="GTD App Review – Due Today" href="http://tomphilip.me//gtd-app-review-due-today/">Due Today</a> and <a title="GTD App Review – TODO for Mac" href="http://tomphilip.me//gtd-app-review-todo-for-mac/">TODO for Mac</a>. Both have a great user experience. With over <a href="http://www.toodledo.com/tools/directory.php">third-party 50 apps</a>, there&#8217;s already plenty of choice.</p>
+<p>This large number of features does have a silver lining. Toodledo allows third-party developers to create apps using its API. Apps can be created which aren&#8217;t constrained by lack of meta-data about a task or features. The apps can then provide a simplified pleasant UI. This has already happened with <a title="GTD App Review – Due Today" href="http://tommysqueak.github.io/gtd-app-review-due-today/">Due Today</a> and <a title="GTD App Review – TODO for Mac" href="http://tommysqueak.github.io/gtd-app-review-todo-for-mac/">TODO for Mac</a>. Both have a great user experience. With over <a href="http://www.toodledo.com/tools/directory.php">third-party 50 apps</a>, there&#8217;s already plenty of choice.</p>
 
 <h2>How it Scored</h2>
-<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me//gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tommysqueak.github.io/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
 
 <table class="gtd-results">
 <thead>
@@ -2131,19 +2131,19 @@ more&#8230;
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/Toodledoo-Main.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/Toodledoo-Main.png">
       <figcaption>Main Screen</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/Toodledoo-expanded.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/Toodledoo-expanded.png">
       <figcaption>Expanded Tasks</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/Toodledoo-Manage-Folders.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/Toodledoo-Manage-Folders.png">
       <figcaption>Manage Folders</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/10/Toodledoo-Notebook.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/10/Toodledoo-Notebook.png">
       <figcaption>Notebook</figcaption>
     </figure>
 
@@ -2162,17 +2162,17 @@ more&#8230;
 <h2>Price</h2>
 <p>Free, $14.95/year pro and $29.95/year pro plus. <a href="http://www.toodledo.com/info/compare.php">Comparison of features</a> between the prices plans.</p>
 
-<p><a href="http://tomphilip.me//atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
+<p><a href="http://tommysqueak.github.io/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
  to follow the rest of the GTD App Review series.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - TODO for Mac]]></title>
-    <link href="http://tomphilip.me//gtd-app-review-todo-for-mac/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-todo-for-mac/"/>
     <updated>2011-09-30T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//gtd-app-review-todo-for-mac</id>
-    <content type="html"><![CDATA[<p><img class="post__image" alt="TODO for Mac" src="http://tomphilip.me//images/uploads/2011/09/TODO-for-Mac.png"></p>
+    <id>http://tommysqueak.github.io/gtd-app-review-todo-for-mac</id>
+    <content type="html"><![CDATA[<p><img class="post__image" alt="TODO for Mac" src="http://tommysqueak.github.io/images/uploads/2011/09/TODO-for-Mac.png"></p>
 
 
 <p><a href="http://www.appigo.com/todo/mac">TODO for Mac</a> is a great little app, that has impressive number of features whilst still managing to be easy to use. It meets all criteria I set out. It&#8217;s fairly easy on the eye and didn&#8217;t require me to think how to use it. It&#8217;s also a native Mac app (ie no Adobe Air or Titanium) and so fits in with the look and feel of your other Mac apps.</p>
@@ -2180,7 +2180,7 @@ more&#8230;
 <p>Adding new tasks is a snap with the quick entry box, which can be called up when you&#8217;re in any app with a hotkey. Organising tasks, is a simple drag and drop affair. Plus the calendar offers a nice way to drag and drop tasks to be scheduled.</p>
 
 <h2>How it Scored</h2>
-<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me//gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tommysqueak.github.io/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
 
 <table class="gtd-results">
 <thead>
@@ -2266,19 +2266,19 @@ more&#8230;
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/09/TODO-for-Mac-Main.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/TODO-for-Mac-Main.png">
       <figcaption>Main Screen</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/09/TODO-for-Mac-Details-Open.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/TODO-for-Mac-Details-Open.png">
       <figcaption>Task Details Expanded</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/09/TODO-for-Mac-Quick-Add.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/TODO-for-Mac-Quick-Add.png">
       <figcaption>Quick Add</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/09/TODO-for-Mac-Badge.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/TODO-for-Mac-Badge.png">
       <figcaption>Badge for Dock Icon</figcaption>
     </figure>
 
@@ -2296,17 +2296,17 @@ more&#8230;
 <h2>Price</h2>
 <p>£20 for  the app, in the App Store.</p>
 
-<p><a href="http://tomphilip.me//atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
+<p><a href="http://tommysqueak.github.io/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
  to follow the rest of the GTD App Review series.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[GTD App Review - Due Today]]></title>
-    <link href="http://tomphilip.me//gtd-app-review-due-today/"/>
+    <link href="http://tommysqueak.github.io/gtd-app-review-due-today/"/>
     <updated>2011-09-30T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//gtd-app-review-due-today</id>
-    <content type="html"><![CDATA[<p><img class="post__image" alt="Due Today" src="http://tomphilip.me//images/uploads/2011/09/Due-Today.jpg"></p>
+    <id>http://tommysqueak.github.io/gtd-app-review-due-today</id>
+    <content type="html"><![CDATA[<p><img class="post__image" alt="Due Today" src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today.jpg"></p>
 
 <p><a href="http://www.lakeridgesoftware.com/products/android/DueToday/">Due Today</a> is <strong>great looking app</strong>, that is <strong>easy to navigate and manage tasks on a small screen</strong>. Each task is highly configurable with many properties to tweak (or not, if you turn them off). Yet when viewing a list of tasks it makes great use of colour, contrast and icons to visually communicate all that information about a task, without it feeling cramped or overwhelming.</p>
 
@@ -2315,7 +2315,7 @@ more&#8230;
 <p>The add task button is always at hand to add any tasks that come to mind, no matter which list your in.</p>
 
 <h2>How it Scored</h2>
-<p>This is how it scored against <a title="My GTD App Criteria" href="http://tomphilip.me//gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
+<p>This is how it scored against <a title="My GTD App Criteria" href="http://tommysqueak.github.io/gtd-app-review-introduction/#criteria">the criteria for a great GTD app</a>.</p>
 
 <table class="gtd-results">
 <thead>
@@ -2414,27 +2414,27 @@ more&#8230;
 <div id="slider" class="slider swipe">
   <div class='swipe-wrap slider__slides'>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/09/Due-Today-contexts.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-contexts.png">
       <figcaption>Contexts</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/09/Due-Today-galaxytab.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-galaxytab.png">
       <figcaption>Galaxy Tab</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/09/Due-Today-honeycomb.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-honeycomb.png">
       <figcaption>Honeycomb</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/09/Due-Today-lists.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-lists.png">
       <figcaption>Lists</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/09/Due-Today-projects.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-projects.png">
       <figcaption>Projects</figcaption>
     </figure>
     <figure class="slider__slide">
-      <img src="http://tomphilip.me//images/uploads/2011/09/Due-Today-widget.png">
+      <img src="http://tommysqueak.github.io/images/uploads/2011/09/Due-Today-widget.png">
       <figcaption>Widget</figcaption>
     </figure>
   </div>
@@ -2452,7 +2452,7 @@ more&#8230;
 <h2>Price</h2>
 <p>Free for the <a href="https://market.android.com/details?id=com.lakeridge.DueTodayLite">Lite version</a> and £1.85 for <a href="https://market.android.com/details?id=com.lakeridge.DueToday">premium version</a>.</p>
 
-<p><a href="http://tomphilip.me//atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
+<p><a href="http://tommysqueak.github.io/atom.xml" rel="subscribe-rss" title="subscribe via RSS">Subscribe to the feed</a>
  to follow the rest of the GTD App Review series.</p>
 ]]></content>
   </entry>

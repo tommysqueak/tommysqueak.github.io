@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[wordpress | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
-  <link href="http://tomphilip.me//tag/wordpress/atom.xml" rel="self"/>
-  <link href="http://tomphilip.me//"/>
-  <updated>2013-12-07T20:31:26+01:00</updated>
-  <id>http://tomphilip.me//</id>
+  <link href="http://tommysqueak.github.io/tag/wordpress/atom.xml" rel="self"/>
+  <link href="http://tommysqueak.github.io/"/>
+  <updated>2013-12-07T20:37:21+01:00</updated>
+  <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
     
@@ -15,11 +15,11 @@
   
   <entry>
     <title type="html"><![CDATA[Essential Wordpress Setup]]></title>
-    <link href="http://tomphilip.me//essential-wordpress-setup/"/>
+    <link href="http://tommysqueak.github.io/essential-wordpress-setup/"/>
     <updated>2011-09-19T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//essential-wordpress-setup</id>
+    <id>http://tommysqueak.github.io/essential-wordpress-setup</id>
     <content type="html"><![CDATA[<p>
-  <img class="post__image" src="http://tomphilip.me//images/uploads/2011/09/wordpress.png" alt="Wordpress logo">
+  <img class="post__image" src="http://tommysqueak.github.io/images/uploads/2011/09/wordpress.png" alt="Wordpress logo">
 </p>
 
 

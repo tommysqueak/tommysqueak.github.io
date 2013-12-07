@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[nosql | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
-  <link href="http://tomphilip.me//tag/nosql/atom.xml" rel="self"/>
-  <link href="http://tomphilip.me//"/>
-  <updated>2013-12-07T20:31:26+01:00</updated>
-  <id>http://tomphilip.me//</id>
+  <link href="http://tommysqueak.github.io/tag/nosql/atom.xml" rel="self"/>
+  <link href="http://tommysqueak.github.io/"/>
+  <updated>2013-12-07T20:37:21+01:00</updated>
+  <id>http://tommysqueak.github.io/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
     
@@ -15,11 +15,11 @@
   
   <entry>
     <title type="html"><![CDATA[CouchDB. It's too easy]]></title>
-    <link href="http://tomphilip.me//couchdb-its-too-easy/"/>
+    <link href="http://tommysqueak.github.io/couchdb-its-too-easy/"/>
     <updated>2010-10-29T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//couchdb-its-too-easy</id>
+    <id>http://tommysqueak.github.io/couchdb-its-too-easy</id>
     <content type="html"><![CDATA[<p>
-  <img class="post__image" src="http://tomphilip.me//images/uploads/2011/09/couchdb.jpg" alt="CouchDB Logo">
+  <img class="post__image" src="http://tommysqueak.github.io/images/uploads/2011/09/couchdb.jpg" alt="CouchDB Logo">
 </p>
 
 
@@ -53,7 +53,7 @@
 
 <p>
   <figure>
-    <a href="http://tomphilip.me//images/uploads/2011/07/Futon.png" class="swipebox" title="Futon"><img src="http://tomphilip.me//images/uploads/2011/07/Futon.png" alt="Futon Screenshot"></a>
+    <a href="http://tommysqueak.github.io/images/uploads/2011/07/Futon.png" class="swipebox" title="Futon"><img src="http://tommysqueak.github.io/images/uploads/2011/07/Futon.png" alt="Futon Screenshot"></a>
     <figcaption>click image to see full size image</figcaption>
   </figure>
 
