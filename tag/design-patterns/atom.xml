@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[design patterns | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
-  <link href="http://tommysqueak.github.io/tag/design-patterns/atom.xml" rel="self"/>
-  <link href="http://tommysqueak.github.io/"/>
-  <updated>2013-12-07T20:37:21+01:00</updated>
-  <id>http://tommysqueak.github.io/</id>
+  <link href="http://tomphilip.me//tag/design-patterns/atom.xml" rel="self"/>
+  <link href="http://tomphilip.me//"/>
+  <updated>2013-12-07T20:49:36+01:00</updated>
+  <id>http://tomphilip.me//</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Dependency Inversion Principle]]></title>
-    <link href="http://tommysqueak.github.io/dependency-inversion-principle/"/>
+    <link href="http://tomphilip.me//dependency-inversion-principle/"/>
     <updated>2012-08-16T00:00:00+02:00</updated>
-    <id>http://tommysqueak.github.io/dependency-inversion-principle</id>
+    <id>http://tomphilip.me//dependency-inversion-principle</id>
     <content type="html"><![CDATA[<p>Slides and <a href="https://github.com/tommysqueak/dependency-inversion-talk">code</a> from a talk I gave on the Dependency Inversion Principle. Covers Dependency Injection, Service Location, TDD &amp; Mocking (how they play together nicely), Auto-mocking, IOC tools and a little best practice.</p>
 
 
@@ -40,9 +40,9 @@
   
   <entry>
     <title type="html"><![CDATA[Great Software Design Slides]]></title>
-    <link href="http://tommysqueak.github.io/great-software-design-slides/"/>
+    <link href="http://tomphilip.me//great-software-design-slides/"/>
     <updated>2012-07-19T00:00:00+02:00</updated>
-    <id>http://tommysqueak.github.io/great-software-design-slides</id>
+    <id>http://tomphilip.me//great-software-design-slides</id>
     <content type="html"><![CDATA[<p>Another talk I gave today about not just good software design but Great Software Design.  Takes in SOLID, Design Patterns, Anti-Patterns and Tips.</p>
 
 

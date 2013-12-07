@@ -6,4 +6,4 @@ Disallow: /archive
 Disallow: /archives/
 Disallow: /tags/
 
-Sitemap: http://tommysqueak.github.io/sitemap.xml
+Sitemap: http://tomphilip.me//sitemap.xml
