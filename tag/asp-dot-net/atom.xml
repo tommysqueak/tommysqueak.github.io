@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[asp.net | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
+  <link href="http://tomphilip.me/tag/asp-dot-net/atom.xml" rel="self"/>
+  <link href="http://tomphilip.me/"/>
+  <updated>2013-12-08T20:10:54+01:00</updated>
+  <id>http://tomphilip.me/</id>
+  <author>
+    <name><![CDATA[Tom Philip]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Cassette. The Javascript CSS Minifying Combining Compressing Tool for ASP.NET]]></title>
+    <link href="http://tomphilip.me/cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net/"/>
+    <updated>2012-02-02T00:00:00+01:00</updated>
+    <id>http://tomphilip.me/cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/02/cassette.jpg" alt="Cassette Tape"></p>
+
+
+
+
+<p><strong>In a nutshell, <a href="http://getcassette.net/">Cassette</a> will minify, combine, compress and cache your css and javascript files, reducing your page load times.</strong> It does a <a title="more benefits of Cassette" href="http://getcassette.net/benefits">heap more</a> too like <a href="http://lesscss.org/">LESS</a>, <a href="http://coffeescript.org/">Coffeescript</a>, file ordering, debug vs release files, html templates, CDN assets and more.</p>
+
+
+
+
+<p>It's easy to <a title="getting started with Cassette" href="http://getcassette.net/documentation/getting-started">get started</a> with too. No more complicated than referencing your css and javascript files directly.</p>
+
+
+
+
+<h2>No Excuses</h2>
+
+
+<p>I hadn't implemented any minifying, combining, etc for my app <a title="Create, Discover and Share Packing Lists" href="http://pikpak.me">Pik Pak</a>. As I saw it (with my lean goggles on), it worked fine, it was good enough. I could benefit from it but really was the effort worth it. I'd bookmarked Cassette ages ago when it was Knapsack and made it a someday-maybe task. As I was giving Pik Pak a facelift, removing a garish design and replacing with the wonderful <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>, it was time to bring it in.</p>
+
+
+
+
+<p>My opinion has changed, it is worth it. It takes so little effort. I know in my next asp.net project it will go in at the beginning, it's so easy to use there's no excuse not too (Except perhaps 1, if you're not using .NET 4.0). In dev I get the scripts unaltered, just like I'd inserted them manually and in prod they get minified, compressed and combined.</p>
+
+
+
+
+<h2>How it Works (Briefly)</h2>
+
+
+<p>I want to share with you a little bit about how it works, as it wasn't clear to me at first. I originally mistook the <a href="http://getcassette.net/documentation/getting-started">Bundle.Reference() calls</a> to be informing Cassette about the asset and saying it's required on this page. There's actually 3 parts to Cassette, in it's simplest form (there's tons more to it):</p>
+
+
+
+
+<p>There are 3 parts to getting your scripts/css combined, minified etc</p>
+
+
+
+
+<h3>1. Tell Cassette about your css/js files</h3>
+
+
+<p>Cassette doesn't automatically discover your files (assets), you need to tell it where they are and how they should be combined (bundles). A <a href="http://getcassette.net/documentation/getting-started/assets-and-bundles">bundle</a> is a number of files that will be combined into one minified/compressed file (in production) that is referenced by one script/stylesheet tag, thus causing a single download. The default CasseteConfiguration.css that get's dropped in by nuget creates a bundle for every css or javascript file. Which is better than nothing. You're getting minification, compression, caching, versioning but it's still a download per file, there's no combining. So you want to define bundles to minimise the number of downloads the browser has to make.</p>
+
+
+
+
+<p>As well as defining what goes into a bundle you can also define the order within bundle and dependencies between bundles or files. Eg your script might depend on a framework like jQuery or Backbone.</p>
+
+
+
+
+<p>There's a number of ways to define what goes into a bundle.</p>
+
+
+
+
+<ul>
+    <li>A bundle per file (default config). <code>bundles.AddPerIndividualFile&lt;StylesheetBundle&gt;("Content/Stylesheets");</code></li>
+    <li><a href="http://getcassette.net/documentation/configuration/add-directory">A folder as a bundle</a>. <code>bundles.Add&lt;StylesheetBundle&gt;("Content/Stylesheets");</code></li>
+    <li> A <a href="http://getcassette.net/documentation/configuration/add-per-sub-directory">folder as a bundle and each direct subfolder as a bundle</a> to. <code>bundles.AddPerSubDirectory&lt;<code>ScriptBundle</code>&gt;("Scripts");</code></li>
+</ul>
+
+
+
+
+<p>All of these kind be fine tuned to.</p>
+
+
+
+
+<p>Defining the order they get rendered and dependencies (If your script depends on jquery and you reference your file or bundle in a page, jquery will automatically be pulled in) can be:</p>
+
+
+
+
+<ul>
+    <li><a href="http://getcassette.net/documentation/AssetReferences">Embedded in the file itself</a>. <code>// @reference ~/lib/backbone.js</code> <strong>or</strong> <code>/// &lt;reference path="~/lib/backbone.js" /&gt;</code></li>
+    <li>or in <a href="http://getcassette.net/documentation/configuration/bundle-descriptor-file">bundle.txt files</a> in the folders that are being bundled.</li>
+</ul>
+
+
+
+
+<p>If you're still with me! Defining the bundles is the most difficult part but once you're done the next 2 are straight forward.</p>
+
+
+
+
+<h3>2. Request scripts to be added to the page</h3>
+
+
+<p>This is were <a href="http://getcassette.net/documentation/getting-started/assets-and-bundles">inform Casssette, that you need xyx file on this page</a>. This can be in your master page/Razor layout, page or partial view. You can either</p>
+
+
+
+
+<ul>
+    <li>reference the file itself (and the containing bundle will be inserted) <code>@Bundles.Reference("lib/backbone/backbone.marionette.js");</code></li>
+    <li>or you can reference the bundle <code>@Bundles.Reference("lib/backbone")</code></li>
+</ul>
+
+
+
+
+<p>You can also optionally specify where the script should be rendered. <code>@Bundles.Reference("lib/modernizr.js", "header")</code></p>
+
+
+
+
+<h3>3. Render the scripts</h3>
+
+
+<p>Call into Cassette to render the script/css tags at that point. Normally this will be one or 2 lines in your layout/masterpage file.</p>
+
+
+<p>``` aspx-cs
+&lt;!DOCTYPE html>
+<html>
+<head></p>
+
+<pre><code>&lt;title&gt;Web App&lt;/title&gt;
+@Bundles.RenderStylesheets()
+</code></pre>
+
+<p></head>
+<body></p>
+
+<pre><code>...
+@Bundles.RenderScripts()
+</code></pre>
+
+<p></body>
+</html>
+```</p>
+
+<p>There's so much more, all in the <a href="http://getcassette.net/documentation/">documentation</a>.</p>
+
+
+
+
+<h2>Tips</h2>
+
+
+<p>So far, these are my thoughts on how to get the best out of Cassette with least effort.</p>
+
+
+
+
+<h3>Render scripts before closing body tags</h3>
+
+
+<p>Everyone knows you should render your scripts before the closing body tags, to prevent the page load being blocked. Have your main <code>@Bundles.RenderScripts();</code> before the closing body tags and have a specific one <code>@Bundles.RenderScripts("header")</code> in the header for those scripts that need it (<a href="http://www.modernizr.com/">Modernizr</a>).</p>
+
+
+
+
+<h3>jQuery CDN</h3>
+
+
+<p>If your using jquery, you should create a bundle just for itself. Create a folder (probably called jquery), add the jquery file and a bundle.txt file containing the following:</p>
+
+
+<p>```
+[external]
+url = //ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
+fallbackCondition = !window.jQuery</p>
+
+<p>[assets]
+jquery.js</pre>
+```</p>
+
+<p>Then reference the bundle as normal <code>@Bundles.Reference("scripts/jquery");</code> In dev you get your full jquery js file and in prod you get googles cdn jquery file (most likely already cached in the broswer) with a fallback to your minified/compressed one.</p>
+
+
+
+
+<h3>Convention</h3>
+
+
+<p>Use <code>bundles.AddPerSubDirectory&lt;ScriptBundle&gt;("Scripts");</code> and arrange your scripts/css into folders for each bundle you want. That way you don't have to go back and touch the CasetteConfiguration. You can leave it upto convention and fine tune with a bundle.txt file in the folders/bundles where needed.</p>
+
+
+
+
+<p>It'd be great to hear how your using Cassette, in the comments and any tips that have helped.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ci | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
+  <link href="http://tomphilip.me/tag/ci/atom.xml" rel="self"/>
+  <link href="http://tomphilip.me/"/>
+  <updated>2013-12-08T20:10:54+01:00</updated>
+  <id>http://tomphilip.me/</id>
+  <author>
+    <name><![CDATA[Tom Philip]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Build Broken Greasemonkey Script for TeamCity]]></title>
+    <link href="http://tomphilip.me/build-broken-greasemonkey-script-for-teamcity/"/>
+    <updated>2010-12-08T00:00:00+01:00</updated>
+    <id>http://tomphilip.me/build-broken-greasemonkey-script-for-teamcity</id>
+    <content type="html"><![CDATA[<p>
+  <a class="swipebox" href="http://tomphilip.me/images/uploads/2011/07/Information-Radiator-Team-City-Broken-Build.jpg">
+    <img title="Information Radiator - Team City Broken Build"  class="post__image" src="http://tomphilip.me/images/uploads/2011/07/Information-Radiator-Team-City-Broken-Build.jpg?" alt="Team City Broken Build" >
+  </a>
+</p>
+
+
+
+
+<p>
+  This is a simple script that turns the <strong>TeamCity</strong> overview page <strong>green if all is good</strong>
+  and a nice<strong> red if any builds are broken</strong>.
+</p>
+
+
+
+
+<p>
+  We have a nice big 57" LCD <a href="http://www.agileadvice.com/archives/2005/05/information_rad.html">information radiator</a>
+  with a Firefox open <a title="Firefox Add-on Tab Slideshow" href="https://addons.mozilla.org/en-US/firefox/addon/2688/">cycling through tabs</a>
+  of analytics, build Screens, service status, Jira etc. This script makes it blatantly obvious when we have a good build
+  and when we have a broken build.
+</p>
+
+
+
+
+<p>
+  <strong><a title="Download script from userscripts.org" href="http://userscripts.org/scripts/show/92241">Download the script</a></strong>
+</p>
+
+
+
+
+<p>
+  You'll need to change the @include to be your TeamCity build server.
+  It's currently set as http://thriller:8000/* for our build server 'thrilller'.
+</p>
+
+]]></content>
+  </entry>
+  
+</feed>
