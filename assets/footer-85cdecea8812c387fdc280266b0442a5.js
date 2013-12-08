@@ -891,13 +891,19 @@ function addCodeLineNumbers() {
 
 (function(){
 
-  var animation = Modernizr.csstransforms3d ? 'flip' : 'fade';
+  try{
+    var ie10 = Function('/*@cc_on return document.documentMode===10@*/')();
+    var animation = (Modernizr.csstransforms3d && !ie10) ? 'flip' : 'fade';
 
-  $(".rotate").textrotator({
-    animation: animation,
-    separator: ',',
-    speed: 2000
-  });
+    $(".rotate").textrotator({
+      animation: animation,
+      separator: ',',
+      speed: 2000
+    });    
+  }
+  catch(ex){
+     $(".rotate").text('Full Stack Web');
+  }
 
 })();
 
