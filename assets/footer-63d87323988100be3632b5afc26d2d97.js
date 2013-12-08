@@ -891,9 +891,11 @@ function addCodeLineNumbers() {
 
 (function(){
 
+  var animation = Modernizr.csstransforms3d ? 'flip' : 'fade';
+
   $(".rotate").textrotator({
-    animation: "flip",
-    separator: ",",
+    animation: animation,
+    separator: ',',
     speed: 2000
   });
 
