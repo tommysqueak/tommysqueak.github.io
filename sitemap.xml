@@ -1,143 +1,143 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://tomphilip.me//couchdb-its-too-easy/</loc>
+        <loc>http://tomphilip.me/couchdb-its-too-easy/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//bdd-talk/</loc>
+        <loc>http://tomphilip.me/bdd-talk/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//build-broken-greasemonkey-script-for-teamcity/</loc>
+        <loc>http://tomphilip.me/build-broken-greasemonkey-script-for-teamcity/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//personal-kanban/</loc>
+        <loc>http://tomphilip.me/personal-kanban/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//lean-startup-on-a-mobile-phone/</loc>
+        <loc>http://tomphilip.me/lean-startup-on-a-mobile-phone/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//essential-wordpress-setup/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://tomphilip.me//lessons-learnt-from-applying-lean-startup-on-a-mobile-phone/
-        </loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//gtd-app-review-introduction/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//gtd-app-review-due-today/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//gtd-app-review-todo-for-mac/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//gtd-app-review-toodledo/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//gtd-app-review-doit-im/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//gtd-app-review-wunderlist/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//gtd-app-review-astrid/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//gtd-app-review-producteev/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//business-model-canvas-slides-lean-liverpool/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//santander-login-translations/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//testing-backbone-with-jasmine-and-sinon/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//backbone-on-the-couch/</loc>
-        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tomphilip.me//introducing-xkcd-couch/</loc>
+        <loc>http://tomphilip.me/essential-wordpress-setup/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
         <loc>
-            http://tomphilip.me//cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net/
+            http://tomphilip.me/lessons-learnt-from-applying-lean-startup-on-a-mobile-phone/
         </loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//xkcd-couch-new-feature-remote-control/</loc>
+        <loc>http://tomphilip.me/gtd-app-review-introduction/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//gtd-app-review-nozbe/</loc>
+        <loc>http://tomphilip.me/gtd-app-review-due-today/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//gtd-app-review-conqu/</loc>
+        <loc>http://tomphilip.me/gtd-app-review-todo-for-mac/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//best-gtd-app/</loc>
+        <loc>http://tomphilip.me/gtd-app-review-toodledo/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//sociable-software-delivery-an-introduction-to-bdd/</loc>
+        <loc>http://tomphilip.me/gtd-app-review-doit-im/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//great-software-design-slides/</loc>
+        <loc>http://tomphilip.me/gtd-app-review-wunderlist/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//dependency-inversion-principle/</loc>
+        <loc>http://tomphilip.me/gtd-app-review-astrid/</loc>
         <lastmod>2013-12-07T19:47:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//about/</loc>
+        <loc>http://tomphilip.me/gtd-app-review-producteev/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/business-model-canvas-slides-lean-liverpool/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/santander-login-translations/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/testing-backbone-with-jasmine-and-sinon/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/backbone-on-the-couch/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/introducing-xkcd-couch/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://tomphilip.me/cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net/
+        </loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/xkcd-couch-new-feature-remote-control/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/gtd-app-review-nozbe/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/gtd-app-review-conqu/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/best-gtd-app/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/sociable-software-delivery-an-introduction-to-bdd/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/great-software-design-slides/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/dependency-inversion-principle/</loc>
+        <lastmod>2013-12-07T19:47:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tomphilip.me/about/</loc>
         <lastmod>2013-12-07T19:24:29+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//archive/</loc>
+        <loc>http://tomphilip.me/archive/</loc>
         <lastmod>2013-12-07T19:24:29+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//contact/</loc>
+        <loc>http://tomphilip.me/contact/</loc>
         <lastmod>2013-12-07T19:24:29+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//</loc>
+        <loc>http://tomphilip.me/</loc>
         <lastmod>2013-12-07T20:48:09+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//interests/</loc>
+        <loc>http://tomphilip.me/interests/</loc>
         <lastmod>2013-12-07T19:24:29+01:00</lastmod>
     </url>
     <url>
-        <loc>http://tomphilip.me//robots.txt</loc>
+        <loc>http://tomphilip.me/robots.txt</loc>
         <lastmod>2013-12-04T10:16:38+01:00</lastmod>
     </url>
 </urlset>

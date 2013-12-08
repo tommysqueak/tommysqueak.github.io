@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[lean startup | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
-  <link href="http://tomphilip.me//tag/lean-startup/atom.xml" rel="self"/>
-  <link href="http://tomphilip.me//"/>
-  <updated>2013-12-07T20:49:36+01:00</updated>
-  <id>http://tomphilip.me//</id>
+  <link href="http://tomphilip.me/tag/lean-startup/atom.xml" rel="self"/>
+  <link href="http://tomphilip.me/"/>
+  <updated>2013-12-08T18:19:54+01:00</updated>
+  <id>http://tomphilip.me/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
     
@@ -15,11 +15,11 @@
   
   <entry>
     <title type="html"><![CDATA[Lessons Learnt from Applying Lean Startup on a Mobile Phone]]></title>
-    <link href="http://tomphilip.me//lessons-learnt-from-applying-lean-startup-on-a-mobile-phone/"/>
+    <link href="http://tomphilip.me/lessons-learnt-from-applying-lean-startup-on-a-mobile-phone/"/>
     <updated>2011-09-20T00:00:00+02:00</updated>
-    <id>http://tomphilip.me//lessons-learnt-from-applying-lean-startup-on-a-mobile-phone</id>
+    <id>http://tomphilip.me/lessons-learnt-from-applying-lean-startup-on-a-mobile-phone</id>
     <content type="html"><![CDATA[<p>
-  <img class="post__image" src="http://tomphilip.me//images/uploads/2011/09/Blackboard.jpg" alt="Blackboard Photo by woodleywonderworks on flickr">
+  <img class="post__image" src="http://tomphilip.me/images/uploads/2011/09/Blackboard.jpg" alt="Blackboard Photo by woodleywonderworks on flickr">
 </p>
 
 
@@ -28,7 +28,7 @@
 <p>
   <a href="http://theleanstartup.com/">Lean Startup</a> is all about learning and that's certainly what I got out of this.
   This article is about what I learnt and to let you know about the future of Laters.
-  It leads on from the first article <a title="Lean Startup on a Mobile Phone" href="http://tomphilip.me//lean-startup-on-a-mobile-phone/">Lean Startup on a mobile phone</a>,
+  It leads on from the first article <a title="Lean Startup on a Mobile Phone" href="http://tomphilip.me/lean-startup-on-a-mobile-phone/">Lean Startup on a mobile phone</a>,
   where I explained my approach and outlined some of my fears.
 </p>
 
@@ -44,7 +44,7 @@
 
 
 <p>
-  <img alt="Not Yet Made - Share Article" src="http://tomphilip.me//images/uploads/Not-Yet-Made-Share-Article-200x300.png">
+  <img alt="Not Yet Made - Share Article" src="http://tomphilip.me/images/uploads/Not-Yet-Made-Share-Article-200x300.png">
 </p>
 
 
@@ -78,7 +78,7 @@
 
 
 <p>
-  <img alt="Feature Fake Stats" src="http://tomphilip.me//images/uploads/Feature-Fake-Stats.png">
+  <img alt="Feature Fake Stats" src="http://tomphilip.me/images/uploads/Feature-Fake-Stats.png">
 </p>
 
 
@@ -181,9 +181,9 @@
   
   <entry>
     <title type="html"><![CDATA[Lean Startup on a Mobile Phone]]></title>
-    <link href="http://tomphilip.me//lean-startup-on-a-mobile-phone/"/>
+    <link href="http://tomphilip.me/lean-startup-on-a-mobile-phone/"/>
     <updated>2011-03-03T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//lean-startup-on-a-mobile-phone</id>
+    <id>http://tomphilip.me/lean-startup-on-a-mobile-phone</id>
     <content type="html"><![CDATA[<h2>How I Got Started</h2>
 
 
@@ -224,7 +224,7 @@
 
 
 <p>
-  <img src="http://tomphilip.me//images/uploads/Build-Measure-Learn-245x300.png" alt="Build Measure Learn">
+  <img src="http://tomphilip.me/images/uploads/Build-Measure-Learn-245x300.png" alt="Build Measure Learn">
 </p>
 
 
@@ -243,8 +243,8 @@
 
 
 <p>
-  <img alt="Not Yet Made - Night Mode" src="http://tomphilip.me//images/uploads/Not-Yet-Made-Night-Mode-200x300.png">
-  <img alt="Not Yet Made - Share Article" src="http://tomphilip.me//images/uploads/Not-Yet-Made-Share-Article-200x300.png">
+  <img alt="Not Yet Made - Night Mode" src="http://tomphilip.me/images/uploads/Not-Yet-Made-Night-Mode-200x300.png">
+  <img alt="Not Yet Made - Share Article" src="http://tomphilip.me/images/uploads/Not-Yet-Made-Share-Article-200x300.png">
 </p>
 
 
@@ -313,7 +313,7 @@
 
 <p>
   <strong>UPDATE:</strong>
-  The <a title="Lessons Learnt from Applying Lean Startup on a Mobile Phone" href="http://tomphilip.me//lessons-learnt-from-applying-lean-startup-on-a-mobile-phone">second part of this article</a>
+  The <a title="Lessons Learnt from Applying Lean Startup on a Mobile Phone" href="http://tomphilip.me/lessons-learnt-from-applying-lean-startup-on-a-mobile-phone">second part of this article</a>
   is now available.
 </p>
 

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[css | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
-  <link href="http://tomphilip.me//tag/css/atom.xml" rel="self"/>
-  <link href="http://tomphilip.me//"/>
-  <updated>2013-12-07T20:49:36+01:00</updated>
-  <id>http://tomphilip.me//</id>
+  <link href="http://tomphilip.me/tag/css/atom.xml" rel="self"/>
+  <link href="http://tomphilip.me/"/>
+  <updated>2013-12-08T18:19:54+01:00</updated>
+  <id>http://tomphilip.me/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
     
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[Cassette. The Javascript CSS Minifying Combining Compressing Tool for ASP.NET]]></title>
-    <link href="http://tomphilip.me//cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net/"/>
+    <link href="http://tomphilip.me/cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net/"/>
     <updated>2012-02-02T00:00:00+01:00</updated>
-    <id>http://tomphilip.me//cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net</id>
-    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me//images/uploads/2012/02/cassette.jpg" alt="Cassette Tape"></p>
+    <id>http://tomphilip.me/cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net</id>
+    <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/02/cassette.jpg" alt="Cassette Tape"></p>
 
 
 
