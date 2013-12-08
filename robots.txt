@@ -5,5 +5,7 @@ Disallow: /archive/
 Disallow: /archive
 Disallow: /archives/
 Disallow: /tags/
+Disallow: /posts
+Disallow: /posts/
 
 Sitemap: http://tomphilip.me/sitemap.xml
