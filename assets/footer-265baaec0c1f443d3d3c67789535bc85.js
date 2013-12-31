@@ -962,8 +962,8 @@ function addCodeLineNumbers() {
     skrollr.init({forceHeight: false});
   }
   else{
-    $('.page-post .site-header__avatar').css('left', '10px'); 
-    $('.page-post .site-header__title').css('left', '84px');    
+    $('.site-header__avatar').css('left', '10px'); 
+    $('.site-header__title').css('left', '84px');    
   }
 })();
 
