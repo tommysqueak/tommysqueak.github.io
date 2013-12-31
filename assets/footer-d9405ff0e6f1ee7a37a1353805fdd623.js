@@ -876,8 +876,26 @@ function addCodeLineNumbers() {
 
 (function(){
 
-  $('.page-post .navbar').removeAttr('data-500-start data-540-start');
-  $('.page-post .site-header__footer').removeAttr('data-400-start data-500-start');
+  function stopSkrolling(selector){
+    
+    $(selector).each(function() {
+      $.each(this.attributes, function(i, attrib){
+        if(attrib.name.startsWith('data-')){
+          $(this).removeAttr(attrib.name);
+        }
+      });
+    });
+    
+  }
+
+  //  Leave bar open on pagees
+  stopSkrolling('.page-post .navbar');
+  stopSkrolling('.page-post .site-header__footer');
+  
+  //  Stop avatar curtaining on pages
+  stopSkrolling('.page-post .site-header .curtain');
+  stopSkrolling('.page-post .site-header .site-header__avatar');
+  stopSkrolling('.page-post .site-header .site-header__title');  
 
   $('.navbar-collapse').on('show.bs.collapse', function() {
     $('#navToggler').addClass('opened');
@@ -942,6 +960,10 @@ function addCodeLineNumbers() {
 
   if (!isTouchy()){
     skrollr.init({forceHeight: false});
+  }
+  else{
+    $('.page-post .site-header__avatar').css('left', '10px'); 
+    $('.page-post .site-header__title').css('left', '84px');    
   }
 })();
 

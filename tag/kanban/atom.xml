@@ -4,7 +4,7 @@
   <title><![CDATA[kanban | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tomphilip.me/tag/kanban/atom.xml" rel="self"/>
   <link href="http://tomphilip.me/"/>
-  <updated>2013-12-15T21:56:40+01:00</updated>
+  <updated>2013-12-31T16:23:26+00:00</updated>
   <id>http://tomphilip.me/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Personal Kanban]]></title>
     <link href="http://tomphilip.me/personal-kanban/"/>
-    <updated>2011-02-23T00:00:00+01:00</updated>
+    <updated>2011-02-23T00:00:00+00:00</updated>
     <id>http://tomphilip.me/personal-kanban</id>
     <content type="html"><![CDATA[<p><figure>
   <a href="http://tomphilip.me/images/uploads/2011/07/Personal-Kanban.jpg" title="Personal Kanban Board at Home" class="swipebox"></p>

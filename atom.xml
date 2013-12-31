@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tomphilip.me/atom.xml" rel="self"/>
   <link href="http://tomphilip.me/"/>
-  <updated>2013-12-15T21:56:40+01:00</updated>
+  <updated>2013-12-31T16:23:26+00:00</updated>
   <id>http://tomphilip.me/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Dependency Inversion Principle]]></title>
     <link href="http://tomphilip.me/dependency-inversion-principle/"/>
-    <updated>2012-08-16T00:00:00+02:00</updated>
+    <updated>2012-08-16T00:00:00+01:00</updated>
     <id>http://tomphilip.me/dependency-inversion-principle</id>
     <content type="html"><![CDATA[<p>Slides and <a href="https://github.com/tommysqueak/dependency-inversion-talk">code</a> from a talk I gave on the Dependency Inversion Principle. Covers Dependency Injection, Service Location, TDD &amp; Mocking (how they play together nicely), Auto-mocking, IOC tools and a little best practice.</p>
 
@@ -31,7 +31,7 @@
   <entry>
     <title type="html"><![CDATA[Great Software Design Slides]]></title>
     <link href="http://tomphilip.me/great-software-design-slides/"/>
-    <updated>2012-07-19T00:00:00+02:00</updated>
+    <updated>2012-07-19T00:00:00+01:00</updated>
     <id>http://tomphilip.me/great-software-design-slides</id>
     <content type="html"><![CDATA[<p>Another talk I gave today about not just good software design but Great Software Design.  Takes in SOLID, Design Patterns, Anti-Patterns and Tips.</p>
 
@@ -44,7 +44,7 @@
   <entry>
     <title type="html"><![CDATA[Sociable Software Delivery - An Introduction to BDD]]></title>
     <link href="http://tomphilip.me/sociable-software-delivery-an-introduction-to-bdd/"/>
-    <updated>2012-07-10T00:00:00+02:00</updated>
+    <updated>2012-07-10T00:00:00+01:00</updated>
     <id>http://tomphilip.me/sociable-software-delivery-an-introduction-to-bdd</id>
     <content type="html"><![CDATA[<p>
   Here&#8217;s the slides from a talk I gave to staff at my current client <a href="http://www.newmind.co.uk/">New Mind</a>. 
@@ -61,7 +61,7 @@
   <entry>
     <title type="html"><![CDATA[The Best GTD App]]></title>
     <link href="http://tomphilip.me/best-gtd-app/"/>
-    <updated>2012-06-19T00:00:00+02:00</updated>
+    <updated>2012-06-19T00:00:00+01:00</updated>
     <id>http://tomphilip.me/best-gtd-app</id>
     <content type="html"><![CDATA[<p>When I started this review process back in September 2011, eager to find the perfect GTD app for myself. I was looking forward to whizzing through the reviews, to find a winning app that would meet my needs set out in the <a title="GTD App Review – Who and What" href="http://tomphilip.me/gtd-app-review-introduction/">opening post</a>. I was writing the reviews, at times, twice a week. Then babies, work and disillusionment set in. The latter came about as it slowly dawned on me that there wouldn&#8217;t be a clear winner, a perfect GTD for me (and others).</p>
 
@@ -588,7 +588,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[GTD App Review - Conqu]]></title>
     <link href="http://tomphilip.me/gtd-app-review-conqu/"/>
-    <updated>2012-05-03T00:00:00+02:00</updated>
+    <updated>2012-05-03T00:00:00+01:00</updated>
     <id>http://tomphilip.me/gtd-app-review-conqu</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/04/Conqu.png" alt="Conqu"></p>
 
@@ -768,7 +768,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[GTD App Review - Nozbe]]></title>
     <link href="http://tomphilip.me/gtd-app-review-nozbe/"/>
-    <updated>2012-04-17T00:00:00+02:00</updated>
+    <updated>2012-04-17T00:00:00+01:00</updated>
     <id>http://tomphilip.me/gtd-app-review-nozbe</id>
     <content type="html"><![CDATA[<p><img class="post__image" alt="Nozbe" src="http://tomphilip.me/images/uploads/2012/04/Nozbe.png"></p>
 
@@ -948,7 +948,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[XKCD Couch New Feature - Remote Control]]></title>
     <link href="http://tomphilip.me/xkcd-couch-new-feature-remote-control/"/>
-    <updated>2012-03-18T00:00:00+01:00</updated>
+    <updated>2012-03-18T00:00:00+00:00</updated>
     <id>http://tomphilip.me/xkcd-couch-new-feature-remote-control</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/03/xkcd-remote-control.png" alt="xkcd remote control" ></p>
 
@@ -976,7 +976,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[Cassette. The Javascript CSS Minifying Combining Compressing Tool for ASP.NET]]></title>
     <link href="http://tomphilip.me/cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net/"/>
-    <updated>2012-02-02T00:00:00+01:00</updated>
+    <updated>2012-02-02T00:00:00+00:00</updated>
     <id>http://tomphilip.me/cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/02/cassette.jpg" alt="Cassette Tape"></p>
 
@@ -1092,7 +1092,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[Introducing XKCD Couch]]></title>
     <link href="http://tomphilip.me/introducing-xkcd-couch/"/>
-    <updated>2012-01-30T00:00:00+01:00</updated>
+    <updated>2012-01-30T00:00:00+00:00</updated>
     <id>http://tomphilip.me/introducing-xkcd-couch</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/01/xkcd-couch.png" alt="xkcd couch"></p>
 
@@ -1116,7 +1116,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[Backbone on the Couch]]></title>
     <link href="http://tomphilip.me/backbone-on-the-couch/"/>
-    <updated>2012-01-30T00:00:00+01:00</updated>
+    <updated>2012-01-30T00:00:00+00:00</updated>
     <id>http://tomphilip.me/backbone-on-the-couch</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/01/Backbone-on-the-Couch.png" alt="Backbone on the Couch"></p>
 
@@ -1206,7 +1206,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[Testing Backbone with Jasmine and Sinon]]></title>
     <link href="http://tomphilip.me/testing-backbone-with-jasmine-and-sinon/"/>
-    <updated>2011-12-23T00:00:00+01:00</updated>
+    <updated>2011-12-23T00:00:00+00:00</updated>
     <id>http://tomphilip.me/testing-backbone-with-jasmine-and-sinon</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon"></p>
 
@@ -1392,7 +1392,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[Santander Login Translations]]></title>
     <link href="http://tomphilip.me/santander-login-translations/"/>
-    <updated>2011-12-21T00:00:00+01:00</updated>
+    <updated>2011-12-21T00:00:00+00:00</updated>
     <id>http://tomphilip.me/santander-login-translations</id>
     <content type="html"><![CDATA[<p>From the immortal words of Steve Krugs usability book <a href="http://www.sensible.com/dmmt.html">Don&#8217;t Make me Think</a>, Santander makes me think every time I have to login to their <a title="Santander Online Banking" href="https://retail.santander.co.uk/LOGSUK_NS_ENS/BtoChannelDriver.ssobto?dse_operationName=LOGON">online banking site</a>. So here&#8217;s a handy translation guide to what they&#8217;re really asking you to enter to login.</p>
 
@@ -1417,7 +1417,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[Business Model Canvas Slides @ Lean Liverpool]]></title>
     <link href="http://tomphilip.me/business-model-canvas-slides-lean-liverpool/"/>
-    <updated>2011-12-09T00:00:00+01:00</updated>
+    <updated>2011-12-09T00:00:00+00:00</updated>
     <id>http://tomphilip.me/business-model-canvas-slides-lean-liverpool</id>
     <content type="html"><![CDATA[<p>Here&#8217;s the slides from a talk I gave at <a title="Lean Liverpool" href="http://leanliverpool.com">Lean Liverpool</a>, on 8th Dec 2011, about the <a href="http://www.businessmodelgeneration.com/canvas">Business Model Canvas</a>. What it is and how you can use it with Lean Startup and Customer Development. With my fear of public speaking and man flu on top of it, I bumbled through the talk. So I do recommend you read the book <a title="Business Model Generation Book" href="http://www.amazon.co.uk/Business-Model-Generation-Visionaries-Challengers/dp/0470876417/ref=sr_1_1?ie=UTF8&amp;qid=1323438500&amp;sr=8-1">Business Model Generation</a>, if my talk was incoherrent. If it wasn&#8217;t, still go out and get the book, it&#8217;s a fantastic read. Also included in the slides is the Business Model Canvas we created at the end, as part of an exercise. Breakfast Delivery for the Lazy!</p>
 
@@ -1428,7 +1428,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[GTD App Review - Producteev]]></title>
     <link href="http://tomphilip.me/gtd-app-review-producteev/"/>
-    <updated>2011-11-21T00:00:00+01:00</updated>
+    <updated>2011-11-21T00:00:00+00:00</updated>
     <id>http://tomphilip.me/gtd-app-review-producteev</id>
     <content type="html"><![CDATA[<p><img class="post__image" alt="Producteev" src="http://tomphilip.me/images/uploads/2011/11/Producteev.png"></p>
 
@@ -1584,7 +1584,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[GTD App Review - Astrid]]></title>
     <link href="http://tomphilip.me/gtd-app-review-astrid/"/>
-    <updated>2011-11-07T00:00:00+01:00</updated>
+    <updated>2011-11-07T00:00:00+00:00</updated>
     <id>http://tomphilip.me/gtd-app-review-astrid</id>
     <content type="html"><![CDATA[<p><img class="post__image" alt="Astrid" src="http://tomphilip.me/images/uploads/2011/11/Astrid.png"></p>
 
@@ -1722,7 +1722,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[GTD App Review - Wunderlist]]></title>
     <link href="http://tomphilip.me/gtd-app-review-wunderlist/"/>
-    <updated>2011-10-25T00:00:00+02:00</updated>
+    <updated>2011-10-25T00:00:00+01:00</updated>
     <id>http://tomphilip.me/gtd-app-review-wunderlist</id>
     <content type="html"><![CDATA[<p><img class="post__image" alt="Wunderlist" src="http://tomphilip.me/images/uploads/2011/10/Wunderlist.png" ></p>
 
@@ -1862,7 +1862,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[GTD App Review - Doit.im]]></title>
     <link href="http://tomphilip.me/gtd-app-review-doit-im/"/>
-    <updated>2011-10-13T00:00:00+02:00</updated>
+    <updated>2011-10-13T00:00:00+01:00</updated>
     <id>http://tomphilip.me/gtd-app-review-doit-im</id>
     <content type="html"><![CDATA[<p><img class="post__image" alt="Doit-im" src="http://tomphilip.me/images/uploads/2011/10/Doit-im.png"></p>
 
@@ -2031,7 +2031,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[GTD App Review - Toodledo]]></title>
     <link href="http://tomphilip.me/gtd-app-review-toodledo/"/>
-    <updated>2011-10-08T00:00:00+02:00</updated>
+    <updated>2011-10-08T00:00:00+01:00</updated>
     <id>http://tomphilip.me/gtd-app-review-toodledo</id>
     <content type="html"><![CDATA[<p><img class="post__image" alt="Toodledoo" src="http://tomphilip.me/images/uploads/2011/10/Toodledoo.png"></p>
 
@@ -2170,7 +2170,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[GTD App Review - TODO for Mac]]></title>
     <link href="http://tomphilip.me/gtd-app-review-todo-for-mac/"/>
-    <updated>2011-09-30T00:00:00+02:00</updated>
+    <updated>2011-09-30T00:00:00+01:00</updated>
     <id>http://tomphilip.me/gtd-app-review-todo-for-mac</id>
     <content type="html"><![CDATA[<p><img class="post__image" alt="TODO for Mac" src="http://tomphilip.me/images/uploads/2011/09/TODO-for-Mac.png"></p>
 
@@ -2304,7 +2304,7 @@ more&#8230;
   <entry>
     <title type="html"><![CDATA[GTD App Review - Due Today]]></title>
     <link href="http://tomphilip.me/gtd-app-review-due-today/"/>
-    <updated>2011-09-30T00:00:00+02:00</updated>
+    <updated>2011-09-30T00:00:00+01:00</updated>
     <id>http://tomphilip.me/gtd-app-review-due-today</id>
     <content type="html"><![CDATA[<p><img class="post__image" alt="Due Today" src="http://tomphilip.me/images/uploads/2011/09/Due-Today.jpg"></p>
 

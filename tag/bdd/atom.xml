@@ -4,7 +4,7 @@
   <title><![CDATA[bdd | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tomphilip.me/tag/bdd/atom.xml" rel="self"/>
   <link href="http://tomphilip.me/"/>
-  <updated>2013-12-15T21:56:40+01:00</updated>
+  <updated>2013-12-31T16:23:26+00:00</updated>
   <id>http://tomphilip.me/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Dependency Inversion Principle]]></title>
     <link href="http://tomphilip.me/dependency-inversion-principle/"/>
-    <updated>2012-08-16T00:00:00+02:00</updated>
+    <updated>2012-08-16T00:00:00+01:00</updated>
     <id>http://tomphilip.me/dependency-inversion-principle</id>
     <content type="html"><![CDATA[<p>Slides and <a href="https://github.com/tommysqueak/dependency-inversion-talk">code</a> from a talk I gave on the Dependency Inversion Principle. Covers Dependency Injection, Service Location, TDD &amp; Mocking (how they play together nicely), Auto-mocking, IOC tools and a little best practice.</p>
 
@@ -41,7 +41,7 @@
   <entry>
     <title type="html"><![CDATA[Great Software Design Slides]]></title>
     <link href="http://tomphilip.me/great-software-design-slides/"/>
-    <updated>2012-07-19T00:00:00+02:00</updated>
+    <updated>2012-07-19T00:00:00+01:00</updated>
     <id>http://tomphilip.me/great-software-design-slides</id>
     <content type="html"><![CDATA[<p>Another talk I gave today about not just good software design but Great Software Design.  Takes in SOLID, Design Patterns, Anti-Patterns and Tips.</p>
 
@@ -61,7 +61,7 @@
   <entry>
     <title type="html"><![CDATA[Sociable Software Delivery - An Introduction to BDD]]></title>
     <link href="http://tomphilip.me/sociable-software-delivery-an-introduction-to-bdd/"/>
-    <updated>2012-07-10T00:00:00+02:00</updated>
+    <updated>2012-07-10T00:00:00+01:00</updated>
     <id>http://tomphilip.me/sociable-software-delivery-an-introduction-to-bdd</id>
     <content type="html"><![CDATA[<p>
   Here's the slides from a talk I gave to staff at my current client <a href="http://www.newmind.co.uk/">New Mind</a>. 
@@ -86,7 +86,7 @@
   <entry>
     <title type="html"><![CDATA[Testing Backbone with Jasmine and Sinon]]></title>
     <link href="http://tomphilip.me/testing-backbone-with-jasmine-and-sinon/"/>
-    <updated>2011-12-23T00:00:00+01:00</updated>
+    <updated>2011-12-23T00:00:00+00:00</updated>
     <id>http://tomphilip.me/testing-backbone-with-jasmine-and-sinon</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon"></p>
 
@@ -263,7 +263,7 @@ return this.backbone_fetch(options);
   <entry>
     <title type="html"><![CDATA[BDD Talk]]></title>
     <link href="http://tomphilip.me/bdd-talk/"/>
-    <updated>2010-11-25T00:00:00+01:00</updated>
+    <updated>2010-11-25T00:00:00+00:00</updated>
     <id>http://tomphilip.me/bdd-talk</id>
     <content type="html"><![CDATA[<p>
   <iframe src="http://prezi.com/embed/4bklhiavc5qp/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" width="100%" height="400" frameBorder="0"></iframe>

@@ -4,7 +4,7 @@
   <title><![CDATA[ux | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tomphilip.me/tag/ux/atom.xml" rel="self"/>
   <link href="http://tomphilip.me/"/>
-  <updated>2013-12-15T21:56:40+01:00</updated>
+  <updated>2013-12-31T16:23:26+00:00</updated>
   <id>http://tomphilip.me/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[The Best GTD App]]></title>
     <link href="http://tomphilip.me/best-gtd-app/"/>
-    <updated>2012-06-19T00:00:00+02:00</updated>
+    <updated>2012-06-19T00:00:00+01:00</updated>
     <id>http://tomphilip.me/best-gtd-app</id>
     <content type="html"><![CDATA[<p>When I started this review process back in September 2011, eager to find the perfect GTD app for myself. I was looking forward to whizzing through the reviews, to find a winning app that would meet my needs set out in the <a title="GTD App Review – Who and What" href="http://tomphilip.me/gtd-app-review-introduction/">opening post</a>. I was writing the reviews, at times, twice a week. Then babies, work and disillusionment set in. The latter came about as it slowly dawned on me that there wouldn't be a clear winner, a perfect GTD for me (and others).</p>
 
@@ -736,7 +736,7 @@
   <entry>
     <title type="html"><![CDATA[Santander Login Translations]]></title>
     <link href="http://tomphilip.me/santander-login-translations/"/>
-    <updated>2011-12-21T00:00:00+01:00</updated>
+    <updated>2011-12-21T00:00:00+00:00</updated>
     <id>http://tomphilip.me/santander-login-translations</id>
     <content type="html"><![CDATA[<p>From the immortal words of Steve Krugs usability book <a href="http://www.sensible.com/dmmt.html">Don't Make me Think</a>, Santander makes me think every time I have to login to their <a title="Santander Online Banking" href="https://retail.santander.co.uk/LOGSUK_NS_ENS/BtoChannelDriver.ssobto?dse_operationName=LOGON">online banking site</a>. So here's a handy translation guide to what they're really asking you to enter to login.</p>
 
@@ -787,7 +787,7 @@
   <entry>
     <title type="html"><![CDATA[CouchDB. It's too easy]]></title>
     <link href="http://tomphilip.me/couchdb-its-too-easy/"/>
-    <updated>2010-10-29T00:00:00+02:00</updated>
+    <updated>2010-10-29T00:00:00+01:00</updated>
     <id>http://tomphilip.me/couchdb-its-too-easy</id>
     <content type="html"><![CDATA[<p>
   <img class="post__image" src="http://tomphilip.me/images/uploads/2011/09/couchdb.jpg" alt="CouchDB Logo">

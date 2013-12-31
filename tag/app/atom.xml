@@ -4,7 +4,7 @@
   <title><![CDATA[app | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tomphilip.me/tag/app/atom.xml" rel="self"/>
   <link href="http://tomphilip.me/"/>
-  <updated>2013-12-15T21:56:40+01:00</updated>
+  <updated>2013-12-31T16:23:26+00:00</updated>
   <id>http://tomphilip.me/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[XKCD Couch New Feature - Remote Control]]></title>
     <link href="http://tomphilip.me/xkcd-couch-new-feature-remote-control/"/>
-    <updated>2012-03-18T00:00:00+01:00</updated>
+    <updated>2012-03-18T00:00:00+00:00</updated>
     <id>http://tomphilip.me/xkcd-couch-new-feature-remote-control</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/03/xkcd-remote-control.png" alt="xkcd remote control" ></p>
 
@@ -65,7 +65,7 @@
   <entry>
     <title type="html"><![CDATA[Introducing XKCD Couch]]></title>
     <link href="http://tomphilip.me/introducing-xkcd-couch/"/>
-    <updated>2012-01-30T00:00:00+01:00</updated>
+    <updated>2012-01-30T00:00:00+00:00</updated>
     <id>http://tomphilip.me/introducing-xkcd-couch</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/01/xkcd-couch.png" alt="xkcd couch"></p>
 
