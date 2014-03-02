@@ -4,7 +4,7 @@
   <title><![CDATA[javascript | Tom Philip - Full Stack, Rails, .NET, Android and Boxee Developer]]></title>
   <link href="http://tomphilip.me/tag/javascript/atom.xml" rel="self"/>
   <link href="http://tomphilip.me/"/>
-  <updated>2013-12-31T16:26:43+00:00</updated>
+  <updated>2014-03-02T18:56:53+01:00</updated>
   <id>http://tomphilip.me/</id>
   <author>
     <name><![CDATA[Tom Philip]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Cassette. The Javascript CSS Minifying Combining Compressing Tool for ASP.NET]]></title>
     <link href="http://tomphilip.me/cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net/"/>
-    <updated>2012-02-02T00:00:00+00:00</updated>
+    <updated>2012-02-02T00:00:00+01:00</updated>
     <id>http://tomphilip.me/cassette-the-javascript-css-minifying-combining-compressing-tool-for-asp-net</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/02/cassette.jpg" alt="Cassette Tape"></p>
 
@@ -213,7 +213,7 @@ jquery.js</pre>
   <entry>
     <title type="html"><![CDATA[Introducing XKCD Couch]]></title>
     <link href="http://tomphilip.me/introducing-xkcd-couch/"/>
-    <updated>2012-01-30T00:00:00+00:00</updated>
+    <updated>2012-01-30T00:00:00+01:00</updated>
     <id>http://tomphilip.me/introducing-xkcd-couch</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/01/xkcd-couch.png" alt="xkcd couch"></p>
 
@@ -261,7 +261,7 @@ jquery.js</pre>
   <entry>
     <title type="html"><![CDATA[Backbone on the Couch]]></title>
     <link href="http://tomphilip.me/backbone-on-the-couch/"/>
-    <updated>2012-01-30T00:00:00+00:00</updated>
+    <updated>2012-01-30T00:00:00+01:00</updated>
     <id>http://tomphilip.me/backbone-on-the-couch</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2012/01/Backbone-on-the-Couch.png" alt="Backbone on the Couch"></p>
 
@@ -354,7 +354,7 @@ var keypad = new Backbone.OnTheCouch.KeyEvents({keyMaps: [
   <entry>
     <title type="html"><![CDATA[Testing Backbone with Jasmine and Sinon]]></title>
     <link href="http://tomphilip.me/testing-backbone-with-jasmine-and-sinon/"/>
-    <updated>2011-12-23T00:00:00+00:00</updated>
+    <updated>2011-12-23T00:00:00+01:00</updated>
     <id>http://tomphilip.me/testing-backbone-with-jasmine-and-sinon</id>
     <content type="html"><![CDATA[<p><img class="post__image" src="http://tomphilip.me/images/uploads/2011/12/Backbone_Jasmine_Sinon.png" alt="Backbone and Jasmine and Sinon"></p>
 

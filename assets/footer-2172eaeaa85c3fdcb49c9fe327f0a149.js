@@ -827,29 +827,34 @@ var slider = (function($){
       return bullet_holder.find('.slider-indicators__indicator');
     };
   
-    var init = function(slider_selector, indicators_selector){
+    var init = function(slider_selector){
 
-      var bullet_holder = $(indicators_selector);      
-      var slider_element = $(slider_selector).get(0);
-      
-      var slider_moved = function(pos){
-        bullets.attr('class', 'slider-indicators__indicator');
-        bullets.eq(pos).addClass('is-active');
-      };
-            
-      var slider = Swipe(slider_element, {
+      $(slider_selector).each(function(){
+        s  = $(this)
+        var bullet_holder = $(s.data('navigator'));
+        var slider_element = s.get(0);
+
+        var slider_moved = function(pos){
+          bullets.attr('class', 'slider-indicators__indicator');
+          bullets.eq(pos).addClass('is-active');
+        };
+
+        var slider = Swipe(slider_element, {
           continuous: true,
           callback: slider_moved
-      });
-      
-      bullet_holder.on('click', '.slider-indicators__indicator', function(ev){
-                    var index = bullet_holder.find('.slider-indicators__indicator').index(ev.target);
-                    slider.slide(index, 300)
-                  });
-      
+        });
 
-      var bullets = buildBullets(slider, bullet_holder);
-      bullets.eq(slider.getPos()).addClass('is-active');
+        bullet_holder.on('click', '.slider-indicators__indicator', function(ev){
+          var index = bullet_holder.find('.slider-indicators__indicator').index(ev.target);
+          slider.slide(index, 300)
+        });
+
+
+        var bullets = buildBullets(slider, bullet_holder);
+        bullets.eq(slider.getPos()).addClass('is-active');
+
+      });
+
     };
     
     return {
@@ -880,7 +885,7 @@ function addCodeLineNumbers() {
     
     $(selector).each(function() {
       $.each(this.attributes, function(i, attrib){
-        if(attrib.name.startsWith('data-')){
+        if(attrib.name.indexOf('data-') == 0){
           $(this).removeAttr(attrib.name);
         }
       });
@@ -888,7 +893,7 @@ function addCodeLineNumbers() {
     
   }
 
-  //  Leave bar open on pagees
+  //  Leave bar open on pages
   stopSkrolling('.page-post .navbar');
   stopSkrolling('.page-post .site-header__footer');
   
@@ -926,11 +931,7 @@ function addCodeLineNumbers() {
 })();
 
 (function(){
-
-  if($('#slider').length > 0){
-    slider.slidify('#slider', '#slider_nav');
-  }
-
+  slider.slidify('.slider');
 })();
 
 (function(){
